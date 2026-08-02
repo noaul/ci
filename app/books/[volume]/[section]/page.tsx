@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
+import { Numeral } from "@/app/_components/Numeral";
 import { RareText } from "@/app/_components/RareText";
 import {
   getBookVolumes,
@@ -52,8 +53,10 @@ export default async function BookSectionPage({ params }: { params: Promise<Para
         </Link>
       </nav>
 
-      <h1 className="mt-3 font-kai text-2xl">{section}</h1>
-      <p className="mt-1 text-sm text-ink-faint">{entries.length} 则</p>
+      <h1 className="ci-page-title mt-3">{section}</h1>
+      <p className="mt-1 text-sm text-ink-faint">
+        <Numeral value={entries.length} /> 则
+      </p>
 
       <div className="mt-10 space-y-8">
         {entries.map((entry) => (
@@ -76,7 +79,7 @@ export default async function BookSectionPage({ params }: { params: Promise<Para
             ))}
 
             {entry.quotes.map((quote, i) => (
-              <figure key={i} className="mt-4 border-l-2 border-rule py-1 pl-4">
+              <figure key={i} className="ci-quote mt-4 py-1">
                 <figcaption className="text-xs text-ink-faint">
                   {quote.poemId ? (
                     <Link href={`/poems/${quote.poemId}/`} className="hover:text-cinnabar">

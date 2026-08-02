@@ -46,10 +46,7 @@ export function CommentaryList({ commentary }: { commentary: Annotation[] }) {
       <SectionHeading>辑评</SectionHeading>
       <div className="mt-3 space-y-4">
         {commentary.map((c, i) => (
-          <figure
-            key={i}
-            className="border-l-2 border-rule pl-4 text-[0.9375rem] leading-7 text-ink-soft"
-          >
+          <figure key={i} className="ci-quote text-[0.9375rem] leading-7 text-ink-soft">
             <blockquote className="whitespace-pre-line">
               <RareText>{c.text}</RareText>
             </blockquote>
@@ -65,11 +62,10 @@ export function CommentaryList({ commentary }: { commentary: Annotation[] }) {
   );
 }
 
+/**
+ * A compact section mark — a cinnabar tick, the label, then a rule out to the
+ * margin. Sized to sit under a page title without competing with it.
+ */
 export function SectionHeading({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="flex items-center gap-3 text-sm text-ink-faint">
-      <span>{children}</span>
-      <span aria-hidden className="h-px flex-1 bg-rule" />
-    </h2>
-  );
+  return <h2 className="ci-eyebrow">{children}</h2>;
 }

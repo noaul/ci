@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
+import { Numeral } from "@/app/_components/Numeral";
 import { getTunes } from "@/lib/content";
 
 export const metadata: Metadata = { title: "词牌" };
@@ -10,10 +11,10 @@ export default function TunesPage() {
 
   return (
     <div>
-      <h1 className="text-2xl">词牌</h1>
-      <p className="mt-2 max-w-2xl text-sm leading-7 text-ink-faint">
-        共 {tunes.length} 调，其中 {withTemplate.length} 调可在《唐宋词格律》或《白香词谱》
-        查得格律谱。按本书收词多寡排列。
+      <h1 className="ci-page-title">词牌</h1>
+      <p className="ci-page-lede">
+        共 <Numeral value={tunes.length} /> 调，其中 <Numeral value={withTemplate.length} />{" "}
+        调可在《唐宋词格律》或《白香词谱》查得格律谱。按本书收词多寡排列。
       </p>
 
       <ul className="mt-8 divide-y divide-rule">
@@ -28,7 +29,9 @@ export default function TunesPage() {
                   {tune.name}
                 </span>
                 {tune.charCount && (
-                  <span className="ml-2 text-xs text-ink-faint">{tune.charCount}字</span>
+                  <span className="ml-2 text-xs text-ink-faint">
+                    <Numeral value={tune.charCount} />字
+                  </span>
                 )}
                 {tune.aliases.length > 0 && (
                   <span className="ml-2 truncate text-xs text-ink-faint">
@@ -45,7 +48,9 @@ export default function TunesPage() {
                     有谱
                   </span>
                 )}
-                <span>{tune.poemCount} 首</span>
+                <span>
+                  <Numeral value={tune.poemCount} tabular /> 首
+                </span>
               </span>
             </Link>
           </li>

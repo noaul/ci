@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
+import { Numeral } from "@/app/_components/Numeral";
 import { getFirstLineInitials, getFirstLines, getFirstLinesByInitial } from "@/lib/content";
 
 export const metadata: Metadata = { title: "首句索引" };
@@ -17,21 +18,21 @@ export default function FirstLinesPage() {
 
   return (
     <div>
-      <h1 className="text-2xl">首句索引</h1>
-      <p className="mt-2 text-sm text-ink-faint">
-        共 {total.toLocaleString()} 首，按首句首字拼音分部。
+      <h1 className="ci-page-title">首句索引</h1>
+      <p className="ci-page-lede">
+        共 <Numeral value={total} /> 首，按首句首字拼音分部。
       </p>
 
-      <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <ul className="mt-8 grid grid-cols-2 gap-x-8 sm:grid-cols-3 lg:grid-cols-4">
         {initials.map((initial) => (
           <li key={initial}>
             <Link
               href={`/first-lines/${initial === "#" ? "other" : initial.toLowerCase()}/`}
-              className="group flex items-baseline justify-between rounded border border-rule px-4 py-3 hover:border-cinnabar"
+              className="ci-cell group"
             >
               <span className="text-xl group-hover:text-cinnabar">{initial}</span>
               <span className="text-xs text-ink-faint">
-                {getFirstLinesByInitial(initial).length}
+                <Numeral value={getFirstLinesByInitial(initial).length} tabular />
               </span>
             </Link>
           </li>

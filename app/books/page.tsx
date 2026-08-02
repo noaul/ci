@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
+import { Numeral } from "@/app/_components/Numeral";
 import { getBookVolumes, getCihuaEntries, getCihuaSections } from "@/lib/content";
 
 export const metadata: Metadata = { title: "词话·词论" };
@@ -17,8 +18,8 @@ export default function BooksPage() {
   const volumes = getBookVolumes();
   return (
     <div>
-      <h1 className="text-2xl">词话·词论</h1>
-      <p className="mt-2 max-w-2xl text-sm leading-7 text-ink-faint">
+      <h1 className="ci-page-title">词话·词论</h1>
+      <p className="ci-page-lede">
         丛书所收五种词学论著。所引词作凡见于本书者，皆已系联至该首词页。
       </p>
 
@@ -31,7 +32,7 @@ export default function BooksPage() {
               <Link href={`/books/${volume.id}/`} className="group">
                 <span className="font-kai text-xl group-hover:text-cinnabar">{volume.title}</span>
                 <span className="ml-3 text-xs text-ink-faint">
-                  {sections.length} 卷 · {entries.length} 则
+                  <Numeral value={sections.length} /> 卷 · <Numeral value={entries.length} /> 则
                 </span>
               </Link>
               {BLURB[volume.id] && (

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
+import { Numeral } from "@/app/_components/Numeral";
 import { getPoet, getVolumes } from "@/lib/content";
 
 export const metadata: Metadata = { title: "丛书总目" };
@@ -14,8 +15,8 @@ export default function VolumesPage() {
   const volumes = getVolumes();
   return (
     <div>
-      <h1 className="text-2xl">丛书总目</h1>
-      <p className="mt-2 text-sm text-ink-faint">全二十二册，上海古籍出版社。</p>
+      <h1 className="ci-page-title">丛书总目</h1>
+      <p className="ci-page-lede">全二十二册，上海古籍出版社。词集十五种、词谱二种、词话词论五种。</p>
       <ol className="mt-8 divide-y divide-rule">
         {volumes.map((volume, i) => {
           const poets = volume.poetIds.map(getPoet).filter((p) => p !== undefined);
@@ -38,7 +39,7 @@ export default function VolumesPage() {
                         href={`/poets/${p.id}/`}
                         className="mr-3 hover:text-cinnabar"
                       >
-                        {p.name} {p.poemCount}首
+                        {p.name} <Numeral value={p.poemCount} />首
                       </Link>
                     ))}
                   </span>

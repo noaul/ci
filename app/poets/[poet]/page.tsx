@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { SectionHeading } from "@/app/_components/Annotations";
+import { Numeral } from "@/app/_components/Numeral";
 import { RareText, stripTokens } from "@/app/_components/RareText";
 import {
   firstLine,
@@ -47,10 +48,10 @@ export default async function PoetPage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl">{poet.name}</h1>
+        <h1 className="ci-page-title">{poet.name}</h1>
         <p className="mt-2 text-sm text-ink-faint">
           {poet.dynasty}
-          {poet.lifespan ? ` · ${poet.lifespan}` : ""} · 收词 {poet.poemCount} 首
+          {poet.lifespan ? ` · ${poet.lifespan}` : ""} · 收词 <Numeral value={poet.poemCount} /> 首
         </p>
       </header>
 

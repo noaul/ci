@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { SectionHeading } from "@/app/_components/Annotations";
+import { Numeral } from "@/app/_components/Numeral";
 import { RareText } from "@/app/_components/RareText";
 import { getPoet, getVolume, getVolumes, getProseForVolume } from "@/lib/content";
 
@@ -28,13 +29,18 @@ export default async function VolumePage({ params }: { params: Promise<Params> }
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl">{volume.title}</h1>
+        <h1 className="ci-page-title">{volume.title}</h1>
         {volume.label !== volume.title && (
           <p className="mt-1 text-sm text-ink-faint">{volume.label}</p>
         )}
         <p className="mt-2 text-sm text-ink-faint">
-          第 {volume.order + 1} 册
-          {volume.poemCount > 0 && <> · 收词 {volume.poemCount} 首</>}
+          第 <Numeral value={volume.order + 1} /> 册
+          {volume.poemCount > 0 && (
+            <>
+              {" "}
+              · 收词 <Numeral value={volume.poemCount} /> 首
+            </>
+          )}
         </p>
       </header>
 
@@ -44,7 +50,9 @@ export default async function VolumePage({ params }: { params: Promise<Params> }
             <li key={poet.id}>
               <Link href={`/poets/${poet.id}/`} className="group">
                 <span className="font-kai text-lg group-hover:text-cinnabar">{poet.name}</span>
-                <span className="ml-2 text-xs text-ink-faint">{poet.poemCount} 首</span>
+                <span className="ml-2 text-xs text-ink-faint">
+                  <Numeral value={poet.poemCount} /> 首
+                </span>
               </Link>
             </li>
           ))}

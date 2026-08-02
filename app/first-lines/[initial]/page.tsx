@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
+import { Numeral } from "@/app/_components/Numeral";
 import { getFirstLineInitials, getFirstLinesByInitial } from "@/lib/content";
 
 type Params = { initial: string };
@@ -33,9 +34,11 @@ export default async function FirstLineGroupPage({ params }: { params: Promise<P
         </Link>
       </nav>
 
-      <h1 className="mt-3 text-2xl">
+      <h1 className="ci-page-title mt-3">
         {initial}
-        <span className="ml-3 text-sm text-ink-faint">{entries.length} 首</span>
+        <span className="ml-3 text-sm text-ink-faint">
+          <Numeral value={entries.length} /> 首
+        </span>
       </h1>
 
       <nav className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-ink-soft">

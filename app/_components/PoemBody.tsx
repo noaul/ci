@@ -1,18 +1,5 @@
+import { displayLines } from "@/lib/poem-lines";
 import { RareText } from "./RareText";
-
-/**
- * Split a 片 printed as one continuous block into display lines.
- *
- * Most volumes set a whole 片 as a single paragraph; 李清照 and 李煜 preserve the
- * printed line breaks. Breaking the former after 。？！ gives every volume the
- * same reading rhythm without inventing breaks the source does not imply.
- */
-function displayLines(stanza: string[]): string[] {
-  if (stanza.length > 1) return stanza;
-  const line = stanza[0] ?? "";
-  const parts = line.split(/(?<=[。？！])/).filter((s) => s.trim());
-  return parts.length > 0 ? parts : [line];
-}
 
 export function PoemBody({ stanzas, vertical = false }: { stanzas: string[][]; vertical?: boolean }) {
   return (

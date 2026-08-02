@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { SectionHeading } from "@/app/_components/Annotations";
+import { Numeral } from "@/app/_components/Numeral";
 import { RareText, stripTokens } from "@/app/_components/RareText";
 import { ToneLegend, ToneTemplate } from "@/app/_components/ToneTemplate";
 import { firstLine, getPoemById, getTune, getTunes, poemHref } from "@/lib/content";
@@ -32,10 +33,14 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl">{tune.name}</h1>
+        <h1 className="ci-page-title">{tune.name}</h1>
         <p className="mt-2 text-sm text-ink-faint">
-          {tune.charCount && <>{tune.charCount}字 · </>}
-          本书收录 {tune.poemCount} 首
+          {tune.charCount && (
+            <>
+              <Numeral value={tune.charCount} />字 ·{" "}
+            </>
+          )}
+          本书收录 <Numeral value={tune.poemCount} /> 首
           {tune.category && <> · {tune.category}</>}
         </p>
         {tune.aliases.length > 0 && (
@@ -69,7 +74,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
                   {pattern.tones}
                 </p>
                 {pattern.examples.map((ex, j) => (
-                  <figure key={j} className="mt-4 border-l-2 border-rule pl-4">
+                  <figure key={j} className="ci-quote mt-4">
                     <figcaption className="text-xs text-ink-faint">{ex.label}</figcaption>
                     <p className="mt-1 font-kai text-lg leading-9">
                       {[...ex.text].map((ch, k) => (
@@ -87,9 +92,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
                         </span>
                       ))}
                     </p>
-                    {ex.author && (
-                      <p className="mt-1 text-xs text-ink-faint">—— {ex.author}</p>
-                    )}
+                    {ex.author && <p className="mt-1 text-xs text-ink-faint">—— {ex.author}</p>}
                   </figure>
                 ))}
               </div>
@@ -153,7 +156,10 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
 
       {poems.length > 0 && (
         <section className="mt-14">
-          <SectionHeading>本书所收（{poems.length} 首）</SectionHeading>
+          <SectionHeading>
+            本书所收（
+            <Numeral value={poems.length} /> 首）
+          </SectionHeading>
           <ul className="mt-4 divide-y divide-rule">
             {poems.map((poem) => (
               <li key={poem.id} className="deferred-list-item">

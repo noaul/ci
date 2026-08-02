@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { CommentaryList, NoteList } from "@/app/_components/Annotations";
+import { Numeral } from "@/app/_components/Numeral";
 import { PoemBody } from "@/app/_components/PoemBody";
 import { RareText, stripTokens } from "@/app/_components/RareText";
 import {
@@ -87,7 +88,7 @@ export default async function PoemPage({ params }: { params: Promise<Params> }) 
           <span className="mx-2" aria-hidden>
             ·
           </span>
-          {charCount(poem)}字
+          <Numeral value={charCount(poem)} />字
           {poem.tuneRepeated && (
             <>
               <span className="mx-2" aria-hidden>
@@ -100,7 +101,7 @@ export default async function PoemPage({ params }: { params: Promise<Params> }) 
       </header>
 
       {poem.preface && (
-        <p className="mt-6 border-l-2 border-rule pl-4 font-kai text-[0.9375rem] leading-8 text-ink-soft">
+        <p className="ci-quote mt-6 font-kai text-[0.9375rem] leading-8 text-ink-soft">
           <RareText>{poem.preface}</RareText>
         </p>
       )}
@@ -110,16 +111,22 @@ export default async function PoemPage({ params }: { params: Promise<Params> }) 
       </div>
 
       {tune && (tune.sourceBooks.length > 0 || tune.poemCount > 1) && (
-        <section className="mt-10 rounded border border-rule bg-paper-raised px-4 py-3 text-sm text-ink-soft">
+        <section className="ci-panel mt-10 text-sm leading-7 text-ink-soft">
           <Link href={`/tunes/${tune.id}/`} className="text-cinnabar hover:underline">
             词牌「{tune.name}」
           </Link>
-          {tune.charCount && <span className="ml-2">{tune.charCount}字</span>}
-          {tune.poemCount > 1 && <span className="ml-2">本书收录 {tune.poemCount} 首</span>}
-          {tune.sourceBooks.length > 0 && (
-            <span className="ml-2 text-ink-faint">
-              格律见《{tune.sourceBooks.join("》《")}》
+          {tune.charCount && (
+            <span className="ml-3">
+              <Numeral value={tune.charCount} />字
             </span>
+          )}
+          {tune.poemCount > 1 && (
+            <span className="ml-3">
+              本书收录 <Numeral value={tune.poemCount} /> 首
+            </span>
+          )}
+          {tune.sourceBooks.length > 0 && (
+            <span className="ml-3 text-ink-faint">格律见《{tune.sourceBooks.join("》《")}》</span>
           )}
         </section>
       )}

@@ -110,6 +110,42 @@ export const getPoets = (): Poet[] => corpus.poets;
 export const getAllPoems = (): Poem[] => corpus.poems;
 export const getTunes = (): Tune[] => corpus.tunes;
 
+export type SiteStats = {
+  /** 词作 */
+  poems: number;
+  /** 词人 */
+  poets: number;
+  /** 词牌 — tunes the book actually sets poems to. */
+  tunes: number;
+  /** 分册 */
+  volumes: number;
+  /** ◎ 注释 + ◆ 辑评. */
+  annotations: number;
+  /** Tunes carrying a 词谱 template. */
+  tunesWithTemplate: number;
+  /** 词话/词论 volumes. */
+  bookVolumes: number;
+};
+
+/**
+ * The site's counts, derived once from the loaded corpus.
+ *
+ * Every surface that prints a total reads this — the home statistics, the
+ * about page, the footer — so the four columns on the home page and the prose
+ * beside them can never disagree, and no page can go stale against the data.
+ */
+const siteStats: SiteStats = {
+  poems: corpus.poems.length,
+  poets: corpus.poets.length,
+  tunes: corpus.tunes.filter((t) => t.poemCount > 0).length,
+  volumes: corpus.volumes.length,
+  annotations: corpus.poems.reduce((n, p) => n + p.notes.length + p.commentary.length, 0),
+  tunesWithTemplate: corpus.tunes.filter((t) => t.sourceBooks.length > 0).length,
+  bookVolumes: corpus.volumes.filter((v) => cihua.has(v.id)).length,
+};
+
+export const getSiteStats = (): SiteStats => siteStats;
+
 export const getPoet = (id: string): Poet | undefined => corpus.poetById.get(id);
 export const getVolume = (id: string): Volume | undefined => corpus.volumeById.get(id);
 export const getTune = (id: string): Tune | undefined => corpus.tuneById.get(id);

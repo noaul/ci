@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { SectionHeading } from "@/app/_components/Annotations";
+import { Numeral } from "@/app/_components/Numeral";
 import { RareText } from "@/app/_components/RareText";
 import {
   getBookVolumes,
@@ -35,10 +36,13 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl">{volume.title}</h1>
+        <h1 className="ci-page-title">{volume.title}</h1>
         <p className="mt-2 text-sm text-ink-faint">
-          {sections.length} 卷 ·{" "}
-          {sections.reduce((n, s) => n + getCihuaEntriesBySection(volume.id, s).length, 0)} 则
+          <Numeral value={sections.length} /> 卷 ·{" "}
+          <Numeral
+            value={sections.reduce((n, s) => n + getCihuaEntriesBySection(volume.id, s).length, 0)}
+          />{" "}
+          则
         </p>
       </header>
 
@@ -51,7 +55,7 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
             >
               <span className="font-kai text-lg group-hover:text-cinnabar">{section}</span>
               <span className="shrink-0 text-sm text-ink-soft">
-                {getCihuaEntriesBySection(volume.id, section).length} 则
+                <Numeral value={getCihuaEntriesBySection(volume.id, section).length} tabular /> 则
               </span>
             </Link>
           </li>
