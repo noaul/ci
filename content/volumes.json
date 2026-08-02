@@ -1,0 +1,234 @@
+[
+ {
+  "id": "wen-wei",
+  "label": "温庭筠词集·韦庄词集",
+  "title": "温庭筠词集·韦庄词集",
+  "kind": "anthology",
+  "order": 0,
+  "poetIds": [
+   "wen-tingyun",
+   "wei-zhuang"
+  ],
+  "poemCount": 126
+ },
+ {
+  "id": "li-yu",
+  "label": "李煜词集（附：李璟词集 冯延巳词集）",
+  "title": "李煜词集",
+  "kind": "anthology",
+  "order": 1,
+  "poetIds": [
+   "li-yu",
+   "li-jing",
+   "feng-yansi"
+  ],
+  "poemCount": 155
+ },
+ {
+  "id": "liu-yong",
+  "label": "柳永词集",
+  "title": "柳永词集",
+  "kind": "anthology",
+  "order": 2,
+  "poetIds": [
+   "liu-yong"
+  ],
+  "poemCount": 217
+ },
+ {
+  "id": "er-yan",
+  "label": "晏殊词集·晏幾道词集",
+  "title": "晏殊词集·晏幾道词集",
+  "kind": "anthology",
+  "order": 3,
+  "poetIds": [
+   "yan-shu",
+   "yan-jidao"
+  ],
+  "poemCount": 398
+ },
+ {
+  "id": "ouyang-xiu",
+  "label": "欧阳修词集",
+  "title": "欧阳修词集",
+  "kind": "anthology",
+  "order": 4,
+  "poetIds": [
+   "ouyang-xiu"
+  ],
+  "poemCount": 241
+ },
+ {
+  "id": "su-shi",
+  "label": "苏轼词集",
+  "title": "苏轼词集",
+  "kind": "anthology",
+  "order": 5,
+  "poetIds": [
+   "su-shi"
+  ],
+  "poemCount": 344
+ },
+ {
+  "id": "huang-tingjian",
+  "label": "黄庭坚词集",
+  "title": "黄庭坚词集",
+  "kind": "anthology",
+  "order": 6,
+  "poetIds": [
+   "huang-tingjian"
+  ],
+  "poemCount": 188
+ },
+ {
+  "id": "qin-guan",
+  "label": "秦观词集",
+  "title": "秦观词集",
+  "kind": "anthology",
+  "order": 7,
+  "poetIds": [
+   "qin-guan"
+  ],
+  "poemCount": 96
+ },
+ {
+  "id": "he-zhu",
+  "label": "贺铸词集",
+  "title": "贺铸词集",
+  "kind": "anthology",
+  "order": 8,
+  "poetIds": [
+   "he-zhu"
+  ],
+  "poemCount": 284
+ },
+ {
+  "id": "zhou-bangyan",
+  "label": "周邦彦词集",
+  "title": "周邦彦词集",
+  "kind": "anthology",
+  "order": 9,
+  "poetIds": [
+   "zhou-bangyan"
+  ],
+  "poemCount": 187
+ },
+ {
+  "id": "li-qingzhao",
+  "label": "李清照词集",
+  "title": "李清照词集",
+  "kind": "anthology",
+  "order": 10,
+  "poetIds": [
+   "li-qingzhao"
+  ],
+  "poemCount": 66
+ },
+ {
+  "id": "lu-you",
+  "label": "陆游词集",
+  "title": "陆游词集",
+  "kind": "anthology",
+  "order": 11,
+  "poetIds": [
+   "lu-you"
+  ],
+  "poemCount": 145
+ },
+ {
+  "id": "jiang-kui",
+  "label": "姜夔词集",
+  "title": "姜夔词集",
+  "kind": "anthology",
+  "order": 12,
+  "poetIds": [
+   "jiang-kui"
+  ],
+  "poemCount": 84
+ },
+ {
+  "id": "xin-qiji",
+  "label": "辛弃疾词集",
+  "title": "辛弃疾词集",
+  "kind": "anthology",
+  "order": 13,
+  "poetIds": [
+   "xin-qiji"
+  ],
+  "poemCount": 629
+ },
+ {
+  "id": "ci-pin",
+  "label": "词品",
+  "title": "词品",
+  "kind": "cihua",
+  "order": 14,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "nalan",
+  "label": "纳兰词集",
+  "title": "纳兰词集",
+  "kind": "anthology",
+  "order": 15,
+  "poetIds": [
+   "nalan-xingde"
+  ],
+  "poemCount": 348
+ },
+ {
+  "id": "bai-xiang-ci-pu",
+  "label": "白香词谱",
+  "title": "白香词谱",
+  "kind": "cipu",
+  "order": 16,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "ci-xue-tong-lun",
+  "label": "词学通论",
+  "title": "词学通论",
+  "kind": "cihua",
+  "order": 17,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "bai-yu-zhai-ci-hua",
+  "label": "白雨斋词话",
+  "title": "白雨斋词话",
+  "kind": "cihua",
+  "order": 18,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "ci-shi",
+  "label": "词史",
+  "title": "词史",
+  "kind": "cihua",
+  "order": 19,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "tang-song-ci-ge-lv",
+  "label": "唐宋词格律",
+  "title": "唐宋词格律",
+  "kind": "cipu",
+  "order": 20,
+  "poetIds": [],
+  "poemCount": 0
+ },
+ {
+  "id": "ren-jian-ci-hua",
+  "label": "人间词话",
+  "title": "人间词话",
+  "kind": "cihua",
+  "order": 21,
+  "poetIds": [],
+  "poemCount": 0
+ }
+]

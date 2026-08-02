@@ -1,0 +1,36 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { getPoets } from "@/lib/content";
+
+export const metadata: Metadata = { title: "词人" };
+
+export default function PoetsPage() {
+  const poets = getPoets();
+  return (
+    <div>
+      <h1 className="text-2xl tracking-wide">词人</h1>
+      <p className="mt-2 text-sm text-ink-faint">按丛书次第排列，自晚唐迄清。</p>
+      <ul className="mt-8 divide-y divide-rule">
+        {poets.map((poet) => (
+          <li key={poet.id}>
+            <Link
+              href={`/poets/${poet.id}/`}
+              className="group flex items-baseline justify-between gap-4 py-3.5"
+            >
+              <span>
+                <span className="font-kai text-xl group-hover:text-cinnabar">
+                  {poet.name}
+                </span>
+                <span className="ml-3 text-xs text-ink-faint">
+                  {poet.dynasty}
+                  {poet.lifespan ? ` ${poet.lifespan}` : ""}
+                </span>
+              </span>
+              <span className="shrink-0 text-sm text-ink-soft">{poet.poemCount} 首</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

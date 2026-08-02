@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm paper and ink, with cinnabar for the 朱批 accents editors print in red. */
+  --color-paper: #f7f2e8;
+  --color-paper-raised: #fffdf8;
+  --color-ink: #1c1917;
+  --color-ink-soft: #57534e;
+  --color-ink-faint: #8a8178;
+  --color-rule: #e0d8c8;
+  --color-cinnabar: #9d2933;
+  --color-cinnabar-soft: #c0574f;
+  --color-seal: #b45309;
+
+  /* 宋体 for prose, 楷体 for poem bodies — the pairing the source book uses. */
+  --font-song: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", "SimSun",
+    ui-serif, Georgia, serif;
+  --font-kai: "Kaiti SC", "STKaiti", "KaiTi", "Noto Serif CJK SC", ui-serif, serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-song);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    /* Faint laid-paper texture; two crossing gradients, no image request. */
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        rgb(0 0 0 / 0.012) 0px,
+        rgb(0 0 0 / 0.012) 1px,
+        transparent 1px,
+        transparent 3px
+      );
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-cinnabar) 18%, transparent);
+  }
+
+  a {
+    text-underline-offset: 0.2em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @layer base {
+    :root {
+      color-scheme: dark;
+      --color-paper: #16130f;
+      --color-paper-raised: #201b16;
+      --color-ink: #ece5d8;
+      --color-ink-soft: #b8ada0;
+      --color-ink-faint: #8a8178;
+      --color-rule: #3a322a;
+      --color-cinnabar: #e0716a;
+      --color-cinnabar-soft: #c96a63;
+      --color-seal: #d9a441;
+    }
+
+    body {
+      background-image: none;
+    }
+  }
+}
+
+/* 竖排: vertical right-to-left, the traditional setting for 词. */
+.vertical-poem {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  max-height: 70vh;
+}

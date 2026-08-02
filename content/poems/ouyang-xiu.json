@@ -1,0 +1,8035 @@
+[
+ {
+  "id": "ouyang-xiu/0001-xi-hu-nian-yu",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 1,
+  "tune": "西湖念语",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "昔者王子猷之爱竹，造门不问于主人；陶渊明之卧舆，遇酒便留于道上。况西湖之胜概，擅东颍之佳名。虽美景良辰，固多于高会；而清风明月，幸属于闲人。并游或结于良朋，乘兴有时而独往。鸣蛙暂听，安问属官而属私；曲水临流，自可一觞而一咏。至欢然而会意，亦旁若于无人。乃知偶来常胜于特来，前言可信；所有虽非于己有，其得已多。因翻旧阕之辞，写以新声之调，敢陈薄伎，聊佐清欢。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "西湖：指颍州西湖（今安徽阜阳西北）。",
+    "source": null,
+    "headword": "西湖"
+   },
+   {
+    "text": "念语：北宋流行的一种颂歌形式。",
+    "source": null,
+    "headword": "念语"
+   },
+   {
+    "text": "（王）徽之字子猷。……时吴中一士大夫家有好竹，欲观之，便出坐舆造竹下，讽啸良久。主人洒扫请坐，徽之不顾。将出，主人乃闭门，徽之便以此赏之，尽叹而去。尝寄居空宅中，便令种竹。或问其故，徽之但啸咏，指竹曰：“何可一日无此君邪！”",
+    "source": "《晋书·王徽之传》",
+    "headword": null
+   },
+   {
+    "text": "刺史王弘以元熙中临州，甚钦迟之，后自造焉。潜称疾不见。……弘每令人候之，密知当往庐山，乃遣其故人庞通之等赍酒，先于半道要之。潜既遇酒，便引酌野亭，欣然忘进。弘乃出与相见，遂欢宴穷日。潜无履，弘顾左右为之造履。左右请履度，潜便于坐申脚令度焉。弘要之还州，问其所乘，答云：“素有脚疾，向乘蓝舆，亦足自反。”乃令一门生二儿共舆之至州，而言笑赏适，不觉其有羡于华轩也。弘后欲见，辄于林泽间候之。至于酒米乏绝，亦时相赡。",
+    "source": "《晋书·陶渊明传》",
+    "headword": null
+   },
+   {
+    "text": "帝文尝在华林园，闻虾蟆声，谓左右曰：“此鸣者为官乎，私乎？”或对曰：“在官地为官，在私地为私。”",
+    "source": "《晋书·惠帝纪》",
+    "headword": null
+   },
+   {
+    "text": "此地有崇山峻岭，茂林修竹，又有清流激湍，映带左右，引以为流觞曲水，列坐其次。虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。",
+    "source": "晋王羲之《兰亭集序》",
+    "headword": null
+   },
+   {
+    "text": "桓温入关，（王）猛被褐而诣之，一面谈当世之事，扪虱而言，旁若无人。",
+    "source": "《晋书·王猛传》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "宋人宴集，无不歌以侑觞，然大率徒歌而不舞，其歌亦以一阕为率。其有连续歌此一曲者，为欧阳公之《采桑子》凡十一首；赵德麟《商调蝶恋花》，凡十首，一述西湖之胜，一述会真之事，皆徒歌而不舞，其所以异于普通之词者，不过重叠此曲，以咏一事而已。",
+    "source": "王国维《宋元戏曲史·宋之乐曲》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_000.html"
+ },
+ {
+  "id": "ouyang-xiu/0002-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 2,
+  "tune": "采桑子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "轻舟短棹西湖好，绿水逶迤。芳草长堤。隐隐笙歌处处随。"
+   ],
+   [
+    "无风水面琉璃滑，不觉船移。微动涟漪。惊起沙禽掠岸飞。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "碧琉璃水净无风。",
+    "source": "唐白居易《泛太湖书事》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "闲雅处自不可及。",
+    "source": "清许霄昂《词综偶评》",
+    "headword": null
+   },
+   {
+    "text": "下阕四句，极肖湖上行舟，波平如镜之状，“不觉船移”四字，下语尤妙。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_001.html"
+ },
+ {
+  "id": "ouyang-xiu/0003-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 3,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "春深雨过西湖好，百卉争妍。蝶乱蜂喧。晴日催花暖欲然。"
+   ],
+   [
+    "兰桡画舸悠悠去，疑是神仙。返照波间。水阔风高飏管弦。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "山青花欲然。",
+    "source": "唐杜甫《绝句》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_002.html"
+ },
+ {
+  "id": "ouyang-xiu/0004-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 4,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "画船载酒西湖好，急管繁弦。玉盏催传。稳泛平波任醉眠。"
+   ],
+   [
+    "行云却在行舟下，空水澄鲜。俯仰留连。疑是湖中别有天。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "急管繁弦催一醉，颓阳不驻引征鏣。",
+    "source": "唐钱起《送孙十尉温县》",
+    "headword": null
+   },
+   {
+    "text": "空水共澄鲜。",
+    "source": "南朝谢灵运《登江中孤屿》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "湖水澄澈时，如在镜中，云影天光，上下一色，“行云”数语，能道出之。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_003.html"
+ },
+ {
+  "id": "ouyang-xiu/0005-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 5,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "群芳过后西湖好，狼藉残红。飞絮濛濛。垂柳阑干尽日风。"
+   ],
+   [
+    "笙歌散尽游人去，始觉春空。垂下帘栊。双燕归来细雨中。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "双燕归来始下帘。",
+    "source": "唐陆龟蒙《病中秋怀寄袭美》",
+    "headword": null
+   },
+   {
+    "text": "双燕归栖画阁中。",
+    "source": "南唐冯延巳《采桑子》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "“始觉春空”，语拙，宋人每以“春”字，替人与事，用极不妥。",
+    "source": "清先著、程洪《词洁》",
+    "headword": null
+   },
+   {
+    "text": "（“群芳过后”二句）埽处即生。（“笙歌散尽”二句）悟语是恋语。",
+    "source": "清潭献《谭评词辨》",
+    "headword": null
+   },
+   {
+    "text": "（“始觉春空”）四字猛省。",
+    "source": "清陈廷焯《别调集》",
+    "headword": null
+   },
+   {
+    "text": "西湖在宋时，极游观之盛。此词独写静境，别有意味。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   },
+   {
+    "text": "此首，上片言游冶之盛，下片言人去之静。通篇于景中见情，文字极疏隽。风光之好，太守之适，并可想象而知也。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   },
+   {
+    "text": "此词虽意在写暮春景物，而作者胸怀恬适之趣，同时表达出之。作者此词，皆从世俗繁华生活之中，渗透一层着眼。盖世俗之人，多在群芳正盛之时游观西湖；作者却于飞花、飞絮之外，得出寂静之境。世俗之游人皆随笙歌散去；作者却于人散、春空之后，领略自然之趣。其后苏轼作词，皆直写胸怀，因而将词体提升与诗同等。此种风气，欧阳修已开其端。特至东坡方大加发展，遂令词风为之一变。盖风气之成，必有其渐，非可突然而至也。",
+    "source": "刘永济《唐五代两宋词简析》",
+    "headword": null
+   },
+   {
+    "text": "诗人写景赋物，虽每如钟嵘《诗品》所谓本诸“即目”，然复往往踪文而非践实，阳若目击今事而阴若乃心摹前构。匹似欧阳修《采桑子》“垂下帘栊，双燕归来细雨中”，名句传诵。其为真景直寻耶？抑以谢朓《和王主簿怨情》有“风帘入双燕”，陆龟蒙《病中秋怀寄袭美》有“双燕归来始下帘”，冯延巳《采桑子》有“日暮疏钟，双燕归栖画阁中”，而遂华词补假，以与古为新也？修之词中洵有燕归，修之目中殆不保实见燕归乎？史传载笔，尚有准古饰今，因模拟而成捏造，况词章哉？不特此也。",
+    "source": "钱锺书《管锥编》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_004.html"
+ },
+ {
+  "id": "ouyang-xiu/0006-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 6,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "何人解赏西湖好，佳景无时。飞盖相追。贪向花间醉玉卮。"
+   ],
+   [
+    "谁知闲凭阑干处，芳草斜晖。水远烟微。一点沧洲白鹭飞。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "清夜游西园，飞盖相追随。",
+    "source": "三国魏曹植《公宴诗》",
+    "headword": null
+   },
+   {
+    "text": "既欢怀禄情，复协沧洲趣。",
+    "source": "南朝谢朓《之宣城郡出新林浦向板桥》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_005.html"
+ },
+ {
+  "id": "ouyang-xiu/0007-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 7,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "清明上巳西湖好，满目繁华。争道谁家。绿柳朱轮走钿车。"
+   ],
+   [
+    "游人日暮相将去，醒醉喧哗。路转堤斜。直到城头总是花。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "上巳：古代农历三月三日为上巳节。",
+    "source": null,
+    "headword": "上巳"
+   },
+   {
+    "text": "银秋騕袅嘶宛马，绣鞅璁珑走钿车。",
+    "source": "唐杜牧《街西长句》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_006.html"
+ },
+ {
+  "id": "ouyang-xiu/0008-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 8,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "荷花开后西湖好，载酒来时。不用旌旗。前后红幢绿盖随。"
+   ],
+   [
+    "画船撑入花深处，香泛金卮。烟雨微微。一片笙歌醉里归。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "方筵罗玉俎，激水泛金卮。",
+    "source": "北朝邢绍《三日华林园公宴》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_007.html"
+ },
+ {
+  "id": "ouyang-xiu/0009-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 9,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "天容水色西湖好，云物俱鲜。鸥鹭闲眠。应惯寻常听管弦。"
+   ],
+   [
+    "风清月白偏宜夜，一片琼田。谁羡骖鸾。人在舟中便是仙。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "云物凄凄拂曙流。",
+    "source": "唐赵嘏《长安秋望》",
+    "headword": null
+   },
+   {
+    "text": "驾鹤上汉，骖鸾腾天。",
+    "source": "南朝江淹《别赋》",
+    "headword": null
+   },
+   {
+    "text": "郭太字林宗……始见河南尹李膺，膺大奇之，遂相友善，于是名震京师。后归乡里，衣冠诸儒送至河上，车数千两。林宗唯与李膺同舟共济，众宾望之，以为神仙焉。",
+    "source": "《后汉书·郭太传》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_008.html"
+ },
+ {
+  "id": "ouyang-xiu/0010-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 10,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "残霞夕照西湖好，花坞蘋汀，十顷波平，野岸无人舟自横。"
+   ],
+   [
+    "西南月上浮云散，轩槛凉生。莲芰香清。水面风来酒面醒。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "花坞夕阳迟。",
+    "source": "唐严维《酬刘员外》",
+    "headword": null
+   },
+   {
+    "text": "春潮带雨晚来急，野渡无人舟自横。",
+    "source": "唐韦应物《滁州西涧》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_009.html"
+ },
+ {
+  "id": "ouyang-xiu/0011-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 11,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "平生为爱西湖好，来拥朱轮。富贵浮云。俯仰流年二十春。"
+   ],
+   [
+    "归来恰似辽东鹤，城郭人民。触目皆新。谁识当年旧主人。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "朱轮：古代王侯显贵所乘的车子。因用朱红漆轮，故称。",
+    "source": null,
+    "headword": "朱轮"
+   },
+   {
+    "text": "丁令威，本辽东人，学道于灵虚山。后化鹤归辽，集城门华表柱。时有少年，举弓欲射之。鹤乃飞，徘徊空中而言曰：“有鸟有鸟丁令威，去家千年今始归。城郭如故人民非，何不学仙冢垒垒。”遂高上冲天。",
+    "source": "《搜神后记》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "作者自皇祐二年（1050）秋离颍州知州改知应天府（今河南商丘），到熙宁四年（1071）退休归颍，恰好二十个春天。",
+    "source": "黄畬《欧阳修词笺注》",
+    "headword": null
+   },
+   {
+    "text": "欧阳文忠公，庐陵人，仁宗擢为参知政事，事英宗、神宗，坚求退，除观文殿学士，出典亳、青二州，擢宣徽使，判太原，遣内侍赐告，谕赴阙，欲留共政，力辞，乞守蔡。在亳六请致仕，至蔡复请，乃许。公年未及谢，天下高之，旧号醉翁，晚又号六一居士。昔守颍上，乐其风土，因卜居焉。郡有西湖，公尤爱之，作《念语》及十词歌之。",
+    "source": "宋施元之《注东坡先生诗》卷三《陪欧阳公燕西湖》注",
+    "headword": null
+   },
+   {
+    "text": "碧潭浮影蘸红旗，日初迟，漾晴漪。我欲寻芳，先遣报春知。尽放百花连夜发，休更待，晓风吹。　满携尊酒弄繁枝，与佳期，伴群嬉。犹有邦人，争唱醉翁词。应笑今年狂太守，能痛饮，似当时。",
+    "source": "宋叶梦得《江城子》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_010.html"
+ },
+ {
+  "id": "ouyang-xiu/0012-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 12,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "画楼钟动君休唱，往事无踪。聚散匆匆。今日欢娱几客同。"
+   ],
+   [
+    "去年绿鬓今年白，不觉衰容。明月清风。把酒何人忆谢公？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "感时为欢欢，白发绿鬓生。",
+    "source": "古乐府《冬歌》",
+    "headword": null
+   },
+   {
+    "text": "谁念北楼上，临风怀谢公。",
+    "source": "唐李白《秋登宣城谢眺北楼》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_011.html"
+ },
+ {
+  "id": "ouyang-xiu/0013-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 13,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十年一别流光速，白首相逢。莫话衰翁。但斗尊前语笑同。"
+   ],
+   [
+    "劝君满酌君须醉，尽日从容。画鹢牵风。即去朝天沃舜聪。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "朝天：朝见天子。",
+    "source": null,
+    "headword": "朝天"
+   },
+   {
+    "text": "平戎一弄沃舜聪，貂璫壁立亦动容。",
+    "source": "宋苏舜钦《演化琴德素高昔尝供奉先帝闻予所藏宝琴求而挥弄不忍去因为作歌以写其意云》。沃舜聪：向君主进言。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_012.html"
+ },
+ {
+  "id": "ouyang-xiu/0014-cai-sang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 14,
+  "tune": "采桑子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十年前是尊前客，月白风清，忧患凋零。老去光阴速可惊。"
+   ],
+   [
+    "鬓华虽改心无改，试把金觥。旧曲重听。犹似当年醉里声。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_013.html"
+ },
+ {
+  "id": "ouyang-xiu/0015-chao-zhong-cuo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 15,
+  "tune": "朝中措",
+  "tuneRepeated": false,
+  "title": "送刘仲原甫出守维扬",
+  "preface": null,
+  "stanzas": [
+   [
+    "平山阑槛倚晴空，山色有无中。手种堂前垂柳，别来几度春风。"
+   ],
+   [
+    "文章太守，挥毫万字，一饮千钟。行乐直须年少，尊前看取衰翁。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "平山：即平山堂，在今江苏扬州，为欧阳修所建。",
+    "source": null,
+    "headword": "平山"
+   },
+   {
+    "text": "江流天地外，山色有无中。",
+    "source": "唐王维《汉江临泛》",
+    "headword": null
+   },
+   {
+    "text": "扬州蜀冈上大明寺平山堂前，欧阳文忠公手植柳一株，谓之“欧公柳”。公词所谓“手种堂前杨柳，别来几度春风”者。薛嗣昌作守，相对亦种一株，自榜曰“薛公柳”，人莫不嗤之。嗣昌既去，为人伐之。不度德有如此者！",
+    "source": "宋张邦基《墨庄漫录》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧阳文忠公在扬州作平山堂，壮丽为淮南第一，上据蜀冈，下临江南数百里，真、润、金陵三州，隐隐若可见。公每暑时，辄凌晨携客往游，遣人走邵伯，取荷花千馀朵，插百许盆，与客相间。遇酒行，即遣妓取一花传客，以次摘其叶尽处以饮酒，往往侵夜，戴月而归。余绍圣初始登第，尝以六七月之间馆于此堂。是岁大暑，环堂左右，老木参天，后有竹千馀竿，大如椽，不复见日色。寺有一僧，年八十馀，及见公，犹能道公时事甚详。",
+    "source": "宋叶梦得《避暑录话》",
+    "headword": null
+   },
+   {
+    "text": "芜城此地远人寰，尽借江南万叠山。水气横泻飞鸟外，岚光平堕酒杯间。主人寄赏来何暮，游子销忧醉不还。无限秋风桂枝老，淮王先去可能攀。",
+    "source": "宋刘敞《游平山堂寄欧阳永叔内翰》",
+    "headword": null
+   },
+   {
+    "text": "督府繁华久已阑，至今形胜可跻攀。山横天地苍茫外，花发池台草莽间。万井笙歌遗俗在，一樽风月属君闲。遥知为我留真赏，恨不相随暂解颜。",
+    "source": "宋欧阳修《和刘原甫平山堂见寄》",
+    "headword": null
+   },
+   {
+    "text": "龙门不见鬓垂丝，莫唱平山杨柳辞。纵使前声君忍听，后声恼杀木肠儿。",
+    "source": "宋晁说之《席上有唱欧公送刘原父辞者次日又有唱东坡三过平山堂词者今联续唱之感怀作绝句》",
+    "headword": null
+   },
+   {
+    "text": "送刘贡父守维扬作长短句云：“平山栏槛倚晴空，山色有无中。”平山堂望江左诸山甚近，或以为永叔短视，故云“山色有无中”。东坡笑之，因赋快哉亭道其事云：“长记平山堂上，欹枕江南烟雨，杳杳没孤鸿，认取醉翁语，山色有无中。”盖山色有无中，非烟雨不能然也。",
+    "source": "宋胡仔《苕溪渔隐丛话》后集引《艺苑雌黄》",
+    "headword": null
+   },
+   {
+    "text": "“水流天地外，山色有无中”，王维诗也。权德舆《晚渡扬子江》诗云：“远岫有无中，片帆烟水上。”已是用维语。欧阳公长短句云：“平山阑槛倚晴空，山色有无中。”诗人至是，盖三用矣。然公但以此句施于平山堂为宜，初不自谓工也。东坡先生乃云：“记取醉翁语，山色有无中。”则似谓欧阳公创为此句，何哉？",
+    "source": "宋陆游《老学庵笔记》",
+    "headword": null
+   },
+   {
+    "text": "然永叔起句是“平山栏槛倚晴空”，安得烟雨？恐苏终不能为欧解矣。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "只“山色”一句，此堂已足千古。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   },
+   {
+    "text": "“山色有无中”，写景绝。",
+    "source": "《新刻注释草堂诗馀评林》引李廷机",
+    "headword": null
+   },
+   {
+    "text": "按君子进德修业，欲及时也。无事不须在少年努力者，现身说法，神采奕奕动人。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   },
+   {
+    "text": "戊申（1668）重九，偶滞广陵，策杖过红桥，登法海寺，遥望平山堂，可二里许。欲造而观焉，而小雨微茫，路湿秋草，辄兴尽而返，因窃叹曰：欧、苏二公，千古之伟人也，其文章事业，炳耀天壤，而此地独以两公之词传，至今读《朝中措》、《西江月》诸什，如见两公之须眉生动，偕游于千载之上也。世乃目词为雕虫小技者，抑独何欤？以词学为小技，谓欧、苏非伟人乎？",
+    "source": "清曹尔堪《汪懋麟锦瑟词序》",
+    "headword": null
+   },
+   {
+    "text": "词有尚风，有尚骨，欧公《朝中措》云：“手种堂前杨柳，别来几度春风。”东坡《雨中花慢》云：“高会聊追短景，清商不假馀妍。”孰风孰骨可辨。",
+    "source": "清刘熙载《艺概》",
+    "headword": null
+   },
+   {
+    "text": "用成语，贵浑成，脱化如出诸己。……欧阳永叔“平山栏槛倚晴空，山色有无中”，用王摩诘句，均妙。",
+    "source": "清沈祥龙《论词随笔》",
+    "headword": null
+   },
+   {
+    "text": "平山堂，一坯土耳，亦无片石可语，然以欧、苏词，遂令地重。",
+    "source": "清王士禛《花草蒙拾》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_014.html"
+ },
+ {
+  "id": "ouyang-xiu/0016-zhang-xiang-si",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 16,
+  "tune": "长相思",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "蘋满溪，柳绕堤，相送行人溪水西。回时陇月低。"
+   ],
+   [
+    "烟霏霏，风凄凄，重倚朱门听马嘶。寒鸥相对飞。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "此词一作张先词。",
+    "source": null,
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_015.html"
+ },
+ {
+  "id": "ouyang-xiu/0017-zhang-xiang-si",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 17,
+  "tune": "长相思",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "花似伊，柳似伊，花柳青春人别离。低头双泪垂。"
+   ],
+   [
+    "长江东，长江西，两岸鸳鸯两处飞。相逢知几时。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_016.html"
+ },
+ {
+  "id": "ouyang-xiu/0018-zhang-xiang-si",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 18,
+  "tune": "长相思",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "深花枝，浅花枝，深浅花枝相并时。花枝难似伊。"
+   ],
+   [
+    "玉如肌，柳如眉，爱着鹅黄金缕衣。啼妆更为谁。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "芙蓉如面柳如眉。",
+    "source": "唐白居易《长恨歌》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "连用四“花枝”，二“深浅”字，姿态甚足。后半殊逊。",
+    "source": "清陈廷焯《闲情集》",
+    "headword": null
+   },
+   {
+    "text": "“深花枝，浅花枝。（略）”欧阳公《长相思》词也。可谓鄙俚极矣。而圣叹以前半连用四“花枝”两“深浅”字，叹为绝技。真乡里小儿之见。",
+    "source": "清陈廷焯《白雨斋词话》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_017.html"
+ },
+ {
+  "id": "ouyang-xiu/0019-su-zhong-qing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 19,
+  "tune": "诉衷情",
+  "tuneRepeated": false,
+  "title": "眉意",
+  "preface": null,
+  "stanzas": [
+   [
+    "清晨帘幕卷轻霜，呵手试梅妆。都缘自有离恨，故画作远山长。"
+   ],
+   [
+    "思往事，惜流芳，易成伤。拟歌先敛，欲笑还颦，最断人肠。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "武帝女寿阳公主人日卧于含章檐下，梅花落公主额上，成五出之华，拂之不去，皇后留之。自后有梅花妆，后人多效之。",
+    "source": "《太平御览》引《宋书》",
+    "headword": null
+   },
+   {
+    "text": "文君姣好，眉色如望远山，脸际常若芙蓉。",
+    "source": "《西京杂记》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "纵画长眉，能解离恨否？笔妙，能于无理中传出痴女子心肠。",
+    "source": "清陈廷焯《闲情集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_018.html"
+ },
+ {
+  "id": "ouyang-xiu/0020-ta-sha-xing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 20,
+  "tune": "踏莎行",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "候馆梅残，溪桥柳细。草薰风暖摇征辔。离愁渐远渐无穷，迢迢不断如春水。"
+   ],
+   [
+    "寸寸柔肠，盈盈粉泪。楼高莫近危阑倚。平芜尽处是春山，行人更在春山外。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "候馆：旅馆。",
+    "source": null,
+    "headword": "候馆"
+   },
+   {
+    "text": "市桥官柳细，江路野梅香。",
+    "source": "唐杜甫《西郊》",
+    "headword": null
+   },
+   {
+    "text": "柔情不断春如水。",
+    "source": "宋寇準《夜度娘》",
+    "headword": null
+   },
+   {
+    "text": "一曲离肠寸寸断。",
+    "source": "唐韦庄《上行杯》",
+    "headword": null
+   },
+   {
+    "text": "出门何所见，春色满平芜。",
+    "source": "唐高适《田家春望》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "杜子美流离兵革中，其咏内子云：“香雾云鬟湿，清辉玉臂寒。何时倚虚幌，双照泪痕干。”欧阳文忠、范文正，矫饰风节，而欧公词云：“寸寸柔肠，盈盈粉泪，楼高莫近危阑倚。”又：“薄幸辜人终不愤，何时枕上分明问。”范文正词：“都来此事，眉间心上，无计相回避。”又：“明月楼高休独倚。酒入愁肠，化作相思泪。”林和靖《梅》诗及“春水静于僧眼碧，晚山浓似佛头青”之句，可想见其清雅。而《长相思》词云：“君泪盈，妾泪盈，罗带同心结未成。江头潮已平。”情之所钟，虽贤者不能免，岂少年所作耶？惟荆公诗词未尝作脂粉语。",
+    "source": "宋俞文豹《吹剑录》外集",
+    "headword": null
+   },
+   {
+    "text": "句意最工。",
+    "source": "明黄昇《唐宋诸贤绝妙词选》",
+    "headword": null
+   },
+   {
+    "text": "佛经云：“奇草芳花能逆风闻薰。”江淹《别赋》：“闺中风暖，陌上草薰。”正用佛经语。《六一词》云“草薰风暖摇征辔”，又用江淹语。今《草堂词》改“薰”作“芳”，盖未见《文选》者也。",
+    "source": "明杨慎《词品》",
+    "headword": "佛经云"
+   },
+   {
+    "text": "欧阳公词：“平芜尽处是春山，行人更在春山外。”石曼卿诗：“水尽天不尽，人在天尽头。”欧与石同时，且为文字友，其偶同乎？抑相取乎？",
+    "source": "同上",
+    "headword": "欧阳公词"
+   },
+   {
+    "text": "别调有云：“便做一江春水都是泪，流不尽许多情。”意同。",
+    "source": "明董其昌《便读草堂诗馀》",
+    "headword": "别调有云"
+   },
+   {
+    "text": "“芳草更在斜阳外”、“行人更在春山外”两句，不厌百回读。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "春水春山走对妙。望断江南山色，远人不见草连空，一望无际矣。尽处是春山，更在春山外，转望转远矣。当取以合看。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "春水写愁，春山骋望，极切极婉。",
+    "source": "明李攀龙《草堂诗馀隽》",
+    "headword": null
+   },
+   {
+    "text": "“平芜尽处是春山，行人更在春山外。”此淡语之有情者也。",
+    "source": "明王世贞《艺苑卮言》",
+    "headword": null
+   },
+   {
+    "text": "欧公有句云：“平芜尽处是春山，行人更在春山外。”陈大声体之，作《蝶恋花》，落句云：“千里青山劳望眼，行人更比青山远。”虽面稍更，而意句仍昔。然则偷句之钝，何可避也。",
+    "source": "明陈霆《渚山堂词话》",
+    "headword": "欧公有句云"
+   },
+   {
+    "text": "此词特为赠别作耳。首阕言时物喧妍，征辔之去，自是得意。其如我之离愁不断何？次阕言不敢远望，愈望愈远也。语语倩丽，韶光情文斐亹。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   },
+   {
+    "text": "“平芜尽处是春山，行人更在春山外。”升庵以拟石曼卿“水尽天不尽，人在天尽头”，未免河汉。盖意近而工拙悬殊，不啻霄壤。且此等入词为本色，入诗即失古雅，可与知者道耳。",
+    "source": "清王士禛《花草蒙拾》",
+    "headword": null
+   },
+   {
+    "text": "结语韵致更远。",
+    "source": "清茅暎《词的》",
+    "headword": null
+   },
+   {
+    "text": "“春山”疑当作“青山”，否则，既用“春水”，又用两“春山”字，未免稍复矣。",
+    "source": "清许昂霄《词综偶评》",
+    "headword": null
+   },
+   {
+    "text": "（离愁二句）后主“离恨恰如芳草”二语，更绵远有致。",
+    "source": "清陈廷焯《大雅集》",
+    "headword": null
+   },
+   {
+    "text": "余按公词以此为最婉转，以《少年游》咏草为最工切超脱。当亦百世之公论也。",
+    "source": "吴梅《词学通论》",
+    "headword": null
+   },
+   {
+    "text": "唐宋人诗词中，送别怀人者，或从居者着想，或从行者着想，能言情婉挚，便称佳构。此词则两面兼写。前半首言征人驻马回头，愈行愈远，如春水迢迢，却望长亭，已隔万重云树。后半首为送行者设想，倚栏凝睇，心倒肠回，望青山无际，遥想斜日鞭丝，当已出青山之外，如鸳鸯之烟岛分飞，互相回首也。以章法论，“候馆”、“溪桥”言行人所经历；“柔肠”、“粉泪”言思妇之伤怀，情同而境判，前后阕之章法井然。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   },
+   {
+    "text": "此首，上片写行人忆家，下片写闺人忆外。起三句，写郊景如画，于梅残柳细、草薰风暖之时，信马徐行，一何自在。“离愁”两句，因见春水之不断，遂忆及离愁之无穷。下片，言闺人之怅望。“楼高”一句唤起，“平芜”两句拍合。平芜已远，春山则更远矣，而行人又在春山之外，则人去之远，不能目睹，惟存想象而已。写来极柔极厚。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   },
+   {
+    "text": "此亦托为闺人别情，实乃自抒己情也，与晏殊《踏莎行》二词同。上半阕行者自道离情；下半阕则居者怀念行者。此词之行者，当即作者本人。欧阳修因作书责高若讷不谏吕夷简排斥孔道辅、范仲淹诸人，被高将其书呈之政府，因而被贬为夷陵令。",
+    "source": "刘永济《唐五代两宋词简析》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_019.html"
+ },
+ {
+  "id": "ouyang-xiu/0021-ta-sha-xing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 21,
+  "tune": "踏莎行",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "雨霁风光，春分天气，千花百卉争明媚。画梁新燕一双双，玉笼鹦鹉愁孤睡。"
+   ],
+   [
+    "薜荔依墙，莓苔满地，青楼几处歌声丽。蓦然旧事上心来，无言敛皱眉山翠。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "文君姣好，眉色如望远山，脸际常若芙蓉。",
+    "source": "《西京杂记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_020.html"
+ },
+ {
+  "id": "ouyang-xiu/0022-wang-jiang-nan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 22,
+  "tune": "望江南",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "江南蝶，斜日一双双。身似何郎全傅粉，心如韩寿爱偷香。天赋与轻狂。"
+   ],
+   [
+    "微雨后，薄翅腻烟光。才伴游蜂来小院，又随飞絮过东墙。长是为花忙。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "何平叔（晏）美姿仪，面至白。魏明帝疑其傅粉，正夏月，与热汤饼。既啖，大汗出，以朱衣自拭，色转皎然。",
+    "source": "南朝刘义庆《世说新语·容止》",
+    "headword": null
+   },
+   {
+    "text": "韩寿美姿容，贾充辟以为掾。充每聚会，贾女于青琐中看，见寿，说之，恒怀存想，发于吟咏。后婢往寿家，具述如此，并言女光丽。寿闻之心动，遂请婢潜修音问；及期往宿。寿蹻捷绝人，逾墙而入，家中莫知。自是充觉女盛自拂拭，说畅有异于常。后会诸吏，闻寿有奇香之气，是外国所贡，一着人，则历月不歇。充计武帝唯赐己及陈骞，馀家无此香，疑寿与女通，而垣墙重密，门阁急峻，何由得尔！乃托言有盗，令人修墙。使反曰：“其馀无异，唯东北角如有人迹，而墙高，非人所逾。”充乃取女左右婢考问，即以状对。充秘之，以女妻寿。",
+    "source": "南朝刘义庆《世说新语·惑溺》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_021.html"
+ },
+ {
+  "id": "ouyang-xiu/0023-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 23,
+  "tune": "减字木兰花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "留春不住，燕老莺慵无觅处。说似残春，一老应无却少人。"
+   ],
+   [
+    "风和月好，办得黄金须买笑。爱惜芳时，莫待无花空折枝。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "汉武与丽娟看花，蔷薇始开，态若含笑。帝曰：“此花绝胜佳人笑也。”丽娟戏曰：“笑可买乎？”帝曰：“可。”丽娟奉金百斤，为买笑钱。",
+    "source": "《贾氏说林》",
+    "headword": null
+   },
+   {
+    "text": "劝君莫惜金缕衣，劝君惜取少年时。花开堪折直须折，莫待无花空折枝。",
+    "source": "唐杜秋娘《金缕衣》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_022.html"
+ },
+ {
+  "id": "ouyang-xiu/0024-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 24,
+  "tune": "减字木兰花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "伤怀离抱，天若有情天亦老。此意如何，细似轻丝渺似波。"
+   ],
+   [
+    "扁舟岸侧，枫叶荻花秋索索。细想前欢，须着人间比梦间。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "衰兰送客咸阳道，天若有情天亦老。",
+    "source": "唐李贺《金铜仙人辞汉歌》",
+    "headword": null
+   },
+   {
+    "text": "浔阳江头夜送客，枫叶荻花秋瑟瑟。",
+    "source": "唐白居易《琵琶行》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_023.html"
+ },
+ {
+  "id": "ouyang-xiu/0025-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 25,
+  "tune": "减字木兰花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "楼台向晓，淡月低云天气好。翠幕风微，宛转《梁州》入破时。"
+   ],
+   [
+    "香生舞袂，楚女腰肢天与细。汗粉重匀，酒后轻寒不着人。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "朦胧闲梦初成后，宛转柔声入破时。（唐白居易《卧听法曲霓裳》。入破：唐宋大曲的专用语。大曲每套都有十馀遍，归入散序、中序、破三大段。入破即为破这一段的第一遍。）",
+    "source": null,
+    "headword": null
+   },
+   {
+    "text": "楚灵王好细腰。",
+    "source": "《韩非子·二柄》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_024.html"
+ },
+ {
+  "id": "ouyang-xiu/0026-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 26,
+  "tune": "减字木兰花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "画堂雅宴，一抹朱弦初入遍。慢捻轻拢，玉指纤纤嫩剥葱。"
+   ],
+   [
+    "拨头憁利，怨月愁花无限意。红粉轻盈，倚暖香檀曲未成。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "红妆齐抱紫檀槽，一抹朱弦四十条。",
+    "source": "后周王仁裕《荆南席上咏胡琴妓二首》",
+    "headword": null
+   },
+   {
+    "text": "遍：唐宋大曲系按一定顺序连结若干小曲而成，又称大遍。其中各小曲亦有称“遍”的。",
+    "source": null,
+    "headword": "遍"
+   },
+   {
+    "text": "轻拢慢捻抹复挑，初为《霓裳》后《六幺》。",
+    "source": "唐白居易《琵琶行》",
+    "headword": null
+   },
+   {
+    "text": "娥娥红粉妆，纤纤出素手。",
+    "source": "《古诗十九首》",
+    "headword": null
+   },
+   {
+    "text": "指剥春葱腕似雪。",
+    "source": "唐方干《采莲》",
+    "headword": null
+   },
+   {
+    "text": "拨头，出西域，胡人为猛兽所噬，其子求兽杀之，为此舞以象也。",
+    "source": "宋马端临《文献通考·乐二十》",
+    "headword": null
+   },
+   {
+    "text": "天香留凤尾，馀暖在檀槽。",
+    "source": "南唐李煜《书琵琶背》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_025.html"
+ },
+ {
+  "id": "ouyang-xiu/0027-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 27,
+  "tune": "减字木兰花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "歌檀敛袂，缭绕雕梁尘暗起。柔润清圆，百琲明珠一线穿。"
+   ],
+   [
+    "樱唇玉齿，天上仙音心下事。留往行云，满坐迷魂酒半醺。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "昔韩娥东之齐，匮粮，过雍门，鬻歌假食。既去，而馀音绕梁欐，三日不绝。",
+    "source": "《列子·汤问》",
+    "headword": null
+   },
+   {
+    "text": "薛谭学讴于秦青，未穷青之技，自谓尽之，遂辞归。秦青弗止。饯于郊衢，抚节悲歌，声振林木，响遏行云。薛谭乃谢求反，终身不敢言归。",
+    "source": "《列子·汤问》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_026.html"
+ },
+ {
+  "id": "ouyang-xiu/0028-sheng-cha-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 28,
+  "tune": "生查子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "去年元夜时，花市灯如昼。月上柳梢头，人约黄昏后。"
+   ],
+   [
+    "今年元夜时，月与灯依旧。不见去年人，泪满春衫袖。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "三四句佳句也（指“春风来海上，明月在江头”），如李易安“月上柳梢头”，则词意邪僻矣。纪昀曰：“月上柳梢头”一阕，乃欧公小词。后人窜入朱淑真，已为冤抑。此更移之李易安，尤非。此词邪僻，在下句“人约黄昏后”五字。若“月上柳梢头”，乃是常景，有何邪僻？此论未是。",
+    "source": "元方回《瀛奎律髓》卷十六白居易《正月十五夜月》评",
+    "headword": null
+   },
+   {
+    "text": "元曲之称绝者，不过得此法。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "今世所传女郎朱淑真“去年元夜时，花市灯如昼”《生查子》词，见《欧阳文忠公集》一百三十一卷，不知何以讹为朱氏之作。世遂因此词，疑淑真失妇德，记载不可不慎也。",
+    "source": "清王士禛《池北偶谈》",
+    "headword": null
+   },
+   {
+    "text": "杨慎升庵《词品》载其《生查子》一阕，有“月上柳梢头，人约黄昏后”语，（毛）晋跋遂称为“白璧微瑕”。然此词今载欧阳修《庐陵集》第一百三十一卷中，不知何以窜入淑真集内，诬以桑濮之行。慎收入《词品》，既为不考，而晋刻《宋名家词》六十一种，《六一词》即在其内，乃于《六一词》漏注，互见《断肠词》，已自乱其例，此集更不一置辨，且证实为“白璧微瑕”，益卤莽之甚。",
+    "source": "《四库总目提要·断肠词》",
+    "headword": null
+   },
+   {
+    "text": "“去年元夜”一词，本欧阳公作，后人误编入《断肠集》，遂疑朱淑真为泆女，皆不可不辨。按“去年元夜”一词，当是永叔少年笔墨。渔洋辨之于前，云伯辨之于后，俱有挽扶风教之心。余谓古人托兴言情，无端寄慨，非必实有其事。此词即为朱淑真作，亦不见是泆女，辨不辨皆可也。",
+    "source": "清陈廷焯《词坛丛话》引陈文述",
+    "headword": null
+   },
+   {
+    "text": "辛稼轩“去年燕子来”词，仿欧阳永叔“去年元夜时”词格。",
+    "source": "清张德瀛《词徵》",
+    "headword": null
+   },
+   {
+    "text": "淑真《生查子》词，《钦定四库全书提要》辨之甚详，宋曾慥《乐府雅词》、明陈耀文《花草粹编》并作永叔。慥录欧词特慎，《雅词》序云：“当时或作艳曲，谬为公词，今悉删除。”此阕适在选中，其为欧词明甚。毛刻《断肠词》校雠不精，跋尾又袭升庵臆说，青蝇玷璧，不足以传贤媛。",
+    "source": "清况周颐《断肠词跋》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_027.html"
+ },
+ {
+  "id": "ouyang-xiu/0029-sheng-cha-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 29,
+  "tune": "生查子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "含羞整翠鬟，得意频相顾。雁柱十三弦，一一春莺语。"
+   ],
+   [
+    "娇云容易飞，梦断知何处。深院锁黄昏，阵阵芭蕉雨。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "十三弦柱雁行斜。",
+    "source": "唐李商隐《昨日》。雁柱：乐器筝上整齐排列的弦柱。",
+    "headword": null
+   },
+   {
+    "text": "琵琶金翠羽，弦上黄莺语。",
+    "source": "唐韦庄《菩萨蛮》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "“雁柱”二语，摹弹筝之神。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "“一一”字从“频”字生来，“春莺语”从“得意”字生来。前一阕写得意时情怀，无限旖旎；次一阕写别后情怀，无限凄苦；胥于筝寓之。凡遇合无常，思妇中年，英雄末路，读之皆堪下泪。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_028.html"
+ },
+ {
+  "id": "ouyang-xiu/0030-qing-shang-yuan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 30,
+  "tune": "清商怨",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "关河愁思望处满，渐素秋向晚。雁过南云，行人回泪眼。"
+   ],
+   [
+    "双鸾衾裯悔展，夜又永、枕孤人远。梦未成归，《梅花》闻塞管。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "绍兴庚午岁，余为临安秋赋考试官，同舍有举欧阳公长短句词曰：“雁过南云，行人回泪眼。”因问曰：“南云其义安在？”余答曰：“尝见江总诗云：‘心逐南云去，身随北雁来。故园篱下菊，今日几花开？’恐出于此耳。”",
+    "source": "宋陈岩肖《庚溪诗话》",
+    "headword": null
+   },
+   {
+    "text": "音节之间，如有所咽而不得舒。陆云赋：“眷南云以兴悲，蒙东雨而涕零。”江总诗：“心逐南云去，身随北雁来。”",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_029.html"
+ },
+ {
+  "id": "ouyang-xiu/0031-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 31,
+  "tune": "阮郎归",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "刘郎何日是来时，无心云胜伊。行云犹解傍山飞，郎行去不归。"
+   ],
+   [
+    "强匀画，又芳菲，春深轻薄衣。桃花无语伴相思，阴阴月上时。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "汉明帝永平五年，剡县刘晨、阮肇共入天台山取谷皮，迷不得返，经十三日，粮食乏尽，饥馁殆死。遥望山上有一桃树，大有子实，而绝岩邃涧，永无登路。攀援藤葛，乃得至上。各啖数枚，而饥止体充。复下山，持杯取水，欲盥漱，见芜菁叶从山腹流出，甚鲜新，复一杯流出，有胡麻饭糁，相谓曰：“此知去人径不远。”便共没水，逆流二三里，得度山出一大溪，溪边有二女子，姿质妙绝，见二人持杯出，便笑曰：“刘、阮二郎，捉向所失流杯来。”晨、肇既不识之，缘二女便呼其姓，如似有旧，乃相见忻喜。问：“来何晚邪？”因邀还家。其家筒瓦屋，南壁及东壁下各有一大床，皆施绛罗帐，帐角悬铃，金银交错。床头各有十侍婢，敕云：“刘、阮二郎，经涉山岨，向虽得琼实，犹尚虚弊，可速作食。”食胡麻饭、山羊脯、牛肉甚甘美。食毕行酒，有一群女来，各持五三桃子，笑而言：“贺汝婿来。”酒酣作乐，刘、阮忻怖交并。至暮，令各就一帐宿，女往就之，言声清婉，令人忘忧。十日后，欲求还去，女云：“君已来是，宿福所牵，何复欲还邪？”遂停半年。气候草木是春时，百鸟啼鸣，更怀悲思，求归甚苦。女曰：“罪牵君，当可如何？”遂呼前来女子有三四十人，集会奏乐，共送刘、阮，指示还路。既出，亲旧零落，邑屋改异，无复相识。问讯得七世孙，传闻上世入山，迷不得归。至晋太元八年，忽复去，不知何所。",
+    "source": "南朝刘义庆《幽明录》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "云无定踪，犹胜伊人，不得比之陌上尘矣。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": "云无定踪"
+   }
+  ],
+  "sourceFile": "text/part0197_split_030.html"
+ },
+ {
+  "id": "ouyang-xiu/0032-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 32,
+  "tune": "阮郎归",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "落花浮水树临池，年前心眼期。见来无事去还思，而今花又飞。"
+   ],
+   [
+    "浅螺黛，淡燕脂，闲妆取次宜。隔帘风雨闭门时，此情风月知。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "波折婉约。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_031.html"
+ },
+ {
+  "id": "ouyang-xiu/0033-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 33,
+  "tune": "蝶恋花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "帘幕东风寒料峭，雪里香梅，先报春来早。红蜡枝头双燕小，金刀剪彩呈纤巧。"
+   ],
+   [
+    "旋暖金炉薰蕙藻，酒入横波，困不禁烦恼。绣被五更春睡好，罗帏不觉纱窗晓。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_032.html"
+ },
+ {
+  "id": "ouyang-xiu/0034-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 34,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "南雁依稀回侧阵，雪霁墙阴，遍觉兰芽嫩。中夜梦馀消酒困，炉香卷穗灯生晕。"
+   ],
+   [
+    "急景流年都一瞬，往事前欢，未免萦方寸。腊后花期知渐近，东风已作寒梅信。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "梦觉灯生晕，宵残雨送凉。",
+    "source": "唐韩愈《宿龙宫滩》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "境、趣、情皆在内，而皆指不出，妙。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_033.html"
+ },
+ {
+  "id": "ouyang-xiu/0035-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 35,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "腊雪初销梅蕊绽，梅雪相和，喜鹊穿花转。睡起夕阳迷醉眼，新愁长向东风乱。"
+   ],
+   [
+    "瘦觉玉肌罗带缓，红杏梢头，二月春犹浅。望极不来芳信断，音书纵有争如见。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "相去日已远，衣带日已缓。",
+    "source": "《古诗十九首》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_034.html"
+ },
+ {
+  "id": "ouyang-xiu/0036-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 36,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "海燕双来归画栋，帘影无风，花影频移动。半醉腾腾春睡重，绿鬟堆枕香云拥。"
+   ],
+   [
+    "翠被双盘金缕凤，忆得前春，有个人人共。花里黄莺时一弄，日斜惊起相思梦。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "卢家少妇郁金堂，海燕双栖玳瑁梁。",
+    "source": "唐沈佺期《独不见》",
+    "headword": null
+   },
+   {
+    "text": "忆眠时，春梦困腾腾。",
+    "source": "唐韩偓《三忆》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "前以惊梦起，以伤春转。后以伤春起，惊梦转，大概一机局，而笔性远过之。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   },
+   {
+    "text": "此亦有感而言，辞气流利，足爽人口。",
+    "source": "《新刻注释草堂诗馀评林》引李廷机",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_035.html"
+ },
+ {
+  "id": "ouyang-xiu/0037-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 37,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "面旋落花风荡漾，柳重烟深，雪絮飞来往。雨后轻寒犹未放，春愁酒病成惆怅。"
+   ],
+   [
+    "枕畔屏山围碧浪，翠被华灯，夜夜空相向。寂寞起来褰绣幌，月明正在梨花上。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "无言匀睡脸，枕上屏山掩。",
+    "source": "唐温庭筠《菩萨蛮》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧公《蝶恋花》“面旋落花”云云，字字沉响，殊不可及。",
+    "source": "王国维《人间词话》附录",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_036.html"
+ },
+ {
+  "id": "ouyang-xiu/0038-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 38,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "帘幕风轻双语燕，午后醒来，柳絮飞撩乱。心事一春犹未见，红英落尽青苔院。"
+   ],
+   [
+    "百尺朱楼闲倚遍，薄雨浓云，抵死遮人面。羌管不须吹别怨，无肠更为新声断。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_037.html"
+ },
+ {
+  "id": "ouyang-xiu/0039-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 39,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "庭院深深深几许？杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。"
+   ],
+   [
+    "雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "此词一作南唐冯延巳词。",
+    "source": null,
+    "headword": null
+   },
+   {
+    "text": "朱彝尊云：“庭院深深”一阕，载冯延巳《阳春录》，刻作欧九，误也。",
+    "source": "徐釚《词苑丛谈》引",
+    "headword": "朱彝尊云"
+   },
+   {
+    "text": "按此阕入《六一集》，诸选本遂俱指为欧词，张氏《词选》尤言之凿凿……余谓此误始于易安。盖易安仅见欧集，未见《阳春录》。不知欧公小词，多与《阳春》、《花间》混，鄙亵之语，仇人羼厕，昔人论之已详，集本殊不足据。且欧公平生浸馈冯词，或录杰作为研摩，后人遂误传欧作。朱竹垞曾辨正之，谓“见《阳春录》刻作欧九者误”。惠言殆未深考欤！",
+    "source": "陈秋帆《阳春集笺》",
+    "headword": null
+   },
+   {
+    "text": "末句参之“点点飞红雨”句，一若关情，一若不关情，而情思俱荡漾无边。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "凄如送别。",
+    "source": "清茅暎《词的》",
+    "headword": null
+   },
+   {
+    "text": "首句叠用三个“深”字最新奇，后段形容春暮光景殆尽。",
+    "source": "《草堂诗馀评林》引李廷机",
+    "headword": null
+   },
+   {
+    "text": "词家意欲层深，语欲浑成；作词者大抵意层深者，语便刻画；语浑成者，意便肤浅，两难兼也。或欲举其似，偶拈永叔词云：“泪眼问花花不语，乱红飞过秋千去。”此可谓层深而浑成。何也？因花而有泪，此一层意也；因泪而问花，此一层意也；花竟不语，此一层意也；不但不语，且又乱落，飞过秋千，此一层意也。人愈伤心，花愈恼人，语愈浅，而意愈入，又绝无刻画费力之迹，谓非层深而浑成耶！然作者初非措意，直如化工生物，笋末出而苞节已具，非寸寸为之也。若先措意便刻画，愈深愈堕恶境矣。此等一经拈出，便当扫去。",
+    "source": "清沈雄《古今词话·词品》引毛先舒",
+    "headword": null
+   },
+   {
+    "text": "“庭院深深”，闺中既以邃远也；“楼高不见”，哲王又不悟也；“章台”“游冶”，小人之径；“雨横风狂”，政令暴急也；“乱红飞去”，斥逐者非一人而已，殆为韩、范作乎？又此词亦见冯延巳集中。李易安《词序》云：“欧阳公作《蝶恋花》，有‘庭院深深深几许’之句，余酷爱之，用其语，作‘庭院深深’数阕，其声即旧《临江仙》也。”易安去欧公未远，其言必非无据。",
+    "source": "清张惠言《词选》",
+    "headword": null
+   },
+   {
+    "text": "首阕因杨柳烟多，若幕之重重者，庭院之深以此，即下句章台不见，亦以此。总以见柳絮之迷人，加之雨横风狂，即拟闭门，而春已去矣。不见乱红之尽飞乎？语意如此，通首诋斥，看来必有所指。第词旨浓丽，即不明所指，自是一首好词。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   },
+   {
+    "text": "宋刻玉玩，双层浮起，笔墨至此，能事几尽。",
+    "source": "清谭献《谭评词辨》",
+    "headword": null
+   },
+   {
+    "text": "冯正中词，极沉郁之致，穷顿挫之妙，缠绵忠厚，与温、韦相伯仲也。《蝶恋花》四章，古今绝构。《词选》本李易安《词序》，指“庭院深深”一章为欧阳公作，他本亦多作永叔词，惟《词综》独云冯延巳作，竹垞博极群书，必有所据。且细昧此阕，与上三章笔墨，的是一色，欧公无此手笔。",
+    "source": "清陈廷焯《白雨斋词话》",
+    "headword": null
+   },
+   {
+    "text": "正中《蝶恋花》四阕，情词悱恻，可群可怨。《词选》云：“忠爱缠绵，宛然《骚》、《辨》之义。延巳为人，专蔽嫉妒，又敢为大言，此词盖以排间异己者，其君之所以信而不疑也。”数言确当。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "“泪眼问花花不语，乱红飞过秋千去。”词意殊怨，然怨之深，亦厚之至。盖三章犹望其离而复合，四章则绝望矣。作词解如此用笔，一切叫嚣纤冶之失，自无从犯其笔端。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "冯正中《蝶恋花》四章，忠爱缠绵，已臻绝顶，然其人亦殊无足取，尚何疑于史梅溪耶？诗词不尽能定人品，信矣。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "连用三“深”字，妙甚。偏是楼高不见，试想千古有情人读至结处，无不泪下。绝世至文。",
+    "source": "清陈廷焯《云韶集》",
+    "headword": null
+   },
+   {
+    "text": "词有与风诗意义相近者，自唐迄宋，前人巨制，多寓微旨。如李太白“汉家陵阙”，《兔爰》伤时也。张子同“西塞山前”，《考槃》乐志也。王仲初“昭阳路断”，《小星》安命也。温飞卿“小山重叠”，《柏舟》寄意也。李后主“花明月暗”，《行露》思也。韦端己“红楼别夜”，《匪风》怨也。张子澄“浣花溪上”，《绸缪》之缔好也。冯正中“庭院深深”，《苌楚》之悯乱也。",
+    "source": "清张德瀛《词徵》",
+    "headword": null
+   },
+   {
+    "text": "此词帘深楼迥、及“乱红飞过”等句，殆有寄托，不仅送春也。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   },
+   {
+    "text": "有有我之境，有无我之境。“泪眼问花花不语，乱红飞过秋千去。”“可堪孤馆闭春寒，杜鹃声里斜阳暮。”有我之境也。“采菊东篱下，悠然见南山。”“寒波淡淡起，白鸟悠悠下。”无我之境也。有我之境，以我物观。故物皆着我之色彩。无我之境，以物观物，故不知何者为我，何者为物。古人为词，写有我之境者为多，然未始不能写无我之境，此在豪杰之士能自树立耳。",
+    "source": "王国维《人间词话》",
+    "headword": null
+   },
+   {
+    "text": "此首写闺情，层深而浑成。首三句，但写一华丽之深院，而人之矜贵可知。“玉勒”两句，写行人游冶不归，一则庭院凝愁，一则章台驰骋，两句射照，哀乐毕见。换头，因风雨交加，更起伤春怀人之情。“泪眼”两句，毛稚黄释之曰：“因‘花’而有‘泪’，此一层意也。因‘泪’而问‘花’，此一层意也。‘花’竟‘不语’，此一层意也。不但‘不语’且又‘乱’落‘飞过秋千’，此一层意也。人愈伤心，‘花’愈恼人，语愈浅而意愈入，又绝无刻画费力之迹，谓非层深而浑成耶。”观毛氏此言，可悟其妙。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_038.html"
+ },
+ {
+  "id": "ouyang-xiu/0040-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 40,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "永日环堤乘彩舫，烟草萧疏，恰似晴江上。水浸碧天风皱浪，菱花荇蔓随双桨。"
+   ],
+   [
+    "红粉佳人翻丽唱，惊起鸳鸯，两两飞相向。且把金尊倾美酿，休思往事成惆怅。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_039.html"
+ },
+ {
+  "id": "ouyang-xiu/0041-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 41,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "越女采莲秋水畔，窄袖轻罗，暗露双金钏。照影摘花花似面，芳心只共丝争乱。"
+   ],
+   [
+    "鸂鶒滩头风浪晚，雾重烟轻，不见来时伴。隐隐歌声归棹远，离愁引着江南岸。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "（“窄袖”句）言小人常态。（“雾重”句）言君子道消。",
+    "source": "清谭献《谭评词辨》",
+    "headword": null
+   },
+   {
+    "text": "与元献作。同一缠绵，语更婉雅。",
+    "source": "清陈廷焯《闲情集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_040.html"
+ },
+ {
+  "id": "ouyang-xiu/0042-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 42,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "水浸秋天风皱浪，缥缈仙舟，只似秋江上。和露采莲愁一饷，看花却是啼妆样。"
+   ],
+   [
+    "折得莲茎丝未放，莲断丝牵，特地成惆怅。归棹莫随花荡漾，江头有个人想望。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "啼妆者，薄拭目下若啼处……始自大将军梁冀家所为，京都歙然，诸夏皆放效。",
+    "source": "《后汉书·五行志一》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_041.html"
+ },
+ {
+  "id": "ouyang-xiu/0043-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 43,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "梨叶初红蝉韵歇，银汉风高，玉管声凄切。枕簟乍凉铜漏彻，谁教社燕轻离别。"
+   ],
+   [
+    "草际虫吟秋露结，宿酒醒来，不记归时节。多少衷肠犹未说，珠帘夜夜朦胧月。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_042.html"
+ },
+ {
+  "id": "ouyang-xiu/0044-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 44,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "独倚危楼风细细，望极春愁，黯黯生天际。草色烟光残照里，无言谁会凭阑意。"
+   ],
+   [
+    "拟把疏狂图一醉，对酒当歌，强乐还无味。衣带渐宽终不悔，为伊消得人憔悴。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "相去日已远，衣带日已缓。",
+    "source": "《古诗十九首》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "此词一作柳永词，词牌作《凤栖梧》。",
+    "source": null,
+    "headword": null
+   },
+   {
+    "text": "长守尾生抱柱之信，拼减沈郎腰带之围，真情至语。此词或作六一词，汲古阁本则列入《乐章集》。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   },
+   {
+    "text": "此首，上片写境，下片抒情。“独倚”三句，写远望愁生。“草色”两句，实写所见冷落景象与伤高念远之意。换头深婉。“拟把”句，与“对酒”两句呼应。“强乐无味”，语极沉痛。“衣带”两句，更柔厚。与“不辞镜里朱颜瘦”语，同合风人之旨。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_043.html"
+ },
+ {
+  "id": "ouyang-xiu/0045-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 45,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "帘内清歌帘外宴，虽爱新声，不见如花面。牙板数敲珠一串，梁尘暗落琉璃盏。"
+   ],
+   [
+    "桐树花声孤凤怨，渐遏遥天，不放行云散。坐上少年听不惯，玉山未倒肠先断。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "何郎小妓歌喉好，严老呼为一串珠。",
+    "source": "唐白居易《寄明州于驸马使君》",
+    "headword": null
+   },
+   {
+    "text": "嵇叔夜（康）之为人也，岩岩若孤松之独立；其醉也，傀俄若玉山之将崩。",
+    "source": "南朝刘义庆《世说新语·容止》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "此词一作柳永词，词牌作《凤栖梧》。",
+    "source": null,
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_044.html"
+ },
+ {
+  "id": "ouyang-xiu/0046-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 46,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "翠苑红芳晴满目，绮席流莺，上下长相逐。紫陌闲随金轣辘，马蹄踏遍春郊绿。"
+   ],
+   [
+    "一觉年华春梦促，往事悠悠，百种寻思足。烟雨满楼山断续，人闲倚遍阑干曲。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "紫陌：指京师郊野的道路。",
+    "source": null,
+    "headword": "紫陌"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_045.html"
+ },
+ {
+  "id": "ouyang-xiu/0047-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 47,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "小院深深门掩亚，寂寞珠帘，画阁重重下。欲近禁烟微雨罢，绿杨深处秋千挂。"
+   ],
+   [
+    "傅粉狂游犹未舍，不念芳时，眉黛无人画。薄倖未归春去也，杏花零落香红谢。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "欧公旧有春日词云：“绿杨楼外出秋千。”前辈叹赏，谓止一“出”字，是人着力道不到处。他日咏秋千，作《浣溪沙》云：“云曳香绵彩柱高。绛旗风飐出花梢。”予谓虽同用“出”字，然视前句，其风致大段不侔。",
+    "source": "明陈霆《渚山堂词话》",
+    "headword": "欧公旧有春日词云"
+   },
+   {
+    "text": "李世英《蝶恋花》句云：“朦胧淡月云来去。”欧公《蝶恋花》句云：“珠帘夜夜朦胧月。”二语一律，不知者疑欧出李下。予细较之，状夜景则李为高妙，道幽怨则欧为蕴藉。盖各适其趣，各擅其极，殆未易优劣也。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "清雅芊丽，正中之匹也。",
+    "source": "清陈廷焯《大雅集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_046.html"
+ },
+ {
+  "id": "ouyang-xiu/0048-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 48,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "欲过清明烟雨细，小槛临窗，点点残花坠。梁燕语多惊晓睡，银屏一半堆香被。"
+   ],
+   [
+    "新岁风光如旧岁。所恨征轮，渐渐程迢递。纵有远情难写寄。何妨解有相思泪。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "挥涕逐前侣，含凄动征轮。",
+    "source": "唐王维《观别者》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_047.html"
+ },
+ {
+  "id": "ouyang-xiu/0049-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 49,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "画阁归来春又晚。燕子双飞，柳软桃花浅。细雨满天风满院，愁眉敛尽无人见。"
+   ],
+   [
+    "独倚阑干心绪乱，芳草芊绵，尚忆江南岸。风月无情人暗换，旧游如梦空肠断。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "暖风芳草竟芊绵。",
+    "source": "宋张泌《春日旅泊桂州》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_048.html"
+ },
+ {
+  "id": "ouyang-xiu/0050-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 50,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "尝爱西湖春色早，腊雪方销，已见桃开小。顷刻光阴都过了，如今绿暗红英少。"
+   ],
+   [
+    "且趁馀花谋一笑，况有笙歌，艳态相萦绕。老去风情应不到，凭君剩把芳尊倒。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_049.html"
+ },
+ {
+  "id": "ouyang-xiu/0051-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 51,
+  "tune": "渔家傲",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "一派潺湲流碧涨，新亭四面山相向。翠竹岭头明月上。迷俯仰，月轮正在泉中漾。"
+   ],
+   [
+    "更待高秋天气爽，菊花香里开新酿。酒美宾嘉真胜赏。红粉唱，山深分外歌声响。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "良辰美景，宾僚并集，泛长江而置酒，亦一时之胜赏也。",
+    "source": "《陈书·孙瑒传》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_050.html"
+ },
+ {
+  "id": "ouyang-xiu/0052-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 52,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": "与赵康靖公",
+  "preface": null,
+  "stanzas": [
+   [
+    "四纪才名天下重，三朝构厦为梁栋。定册功成身退勇。辞荣宠，归来白首笙歌拥。"
+   ],
+   [
+    "顾我薄才无可用，君恩近许归田垅。今日一觞难得共。聊对捧，官奴为我高歌送。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "熙宁壬子，赵康靖公自南京访公于颍，时吕正献公为守。",
+    "source": "宋欧阳修《会老堂致语》。熙宁壬子即熙宁五年，公元1072。词即本年作。",
+    "headword": null
+   },
+   {
+    "text": "初，欧阳文忠公与赵少师概，同在中书，尝约还政后再相会。及告老，赵自南京访文忠公于颍上，文忠公所居之西堂曰“会老”。仍赋诗以志一时盛事。时翰林吕学士公著方牧颍，职兼侍读及龙图，特置酒于堂，宴二公。文忠公亲作口号，有“金马玉堂三学士，清风明月两闲人”之句，天下传之。",
+    "source": "宋王闢之《渑水燕谈录》",
+    "headword": null
+   },
+   {
+    "text": "某到东阳累月，不闻中朝士大夫新作，颇有孤陋之叹。忽得颍上故人书，录公会老堂唱和诗词为示。远方见之，不胜企耸，辄遍和以寄献。未几，闻公讣音，且思昨寓书时，乃公梦谢之月。因怆前事，作哀辞二篇，以述感旧怀德之思焉。",
+    "source": "宋苏颂《欧阳文忠公挽辞二首序》",
+    "headword": null
+   },
+   {
+    "text": "少师赵公概，字叔平，天圣初王尧臣下第三人及第。为人宽厚长者，留滞内相十馀年，晚始大用，参贰大政。治平中，退老睢阳，素与欧阳文忠公友善，时文忠退居东颍，公即自睢阳乘兴拏舟访之，文忠喜公之来，特为展宴，而颍守翰林吕公亦预会。文忠乃自为口号一联云：“金马玉堂三学士，清风明月两闲人。”两闲人，谓公与文忠也。",
+    "source": "宋吴处厚《青箱杂记》",
+    "headword": null
+   },
+   {
+    "text": "文忠与赵康靖公同在政府，相得欢甚，康靖先告老归睢阳，文忠相继谢事归汝阴。康靖一日单车特往过之，时年几八十矣。留剧饮逾月日，于汝阴纵游而后返。前辈挂冠后能从容自适，未有若此者。文忠尝赋诗云“古来交道愧难终，此会今时岂易逢。出处三相皆白首，凋零万木见青松。公能不远来千里，我病犹堪醉一钟。已胜山阴空兴尽，且留归驾为从容。”因榜其游从之地为“会老堂”。明年文忠欲往睢阳招之，未果行而薨。两公名节固师表天下，而风流襟义又如此，诚可以激薄俗也。",
+    "source": "宋胡仔《苕溪渔隐丛话·后集》引《蔡宽夫诗话》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_051.html"
+ },
+ {
+  "id": "ouyang-xiu/0053-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 53,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "暖日迟迟花袅袅，人将红粉争花好。花不能言惟解笑。金壶倒，花开未老人年少。"
+   ],
+   [
+    "车马九门来扰扰，行人莫羡长安道。丹禁漏声衢鼓报。催昏晓，长安城里人先老。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春日迟迟。",
+    "source": "《诗经·豳风·七月》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_052.html"
+ },
+ {
+  "id": "ouyang-xiu/0054-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 54,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红粉墙头花几树，落花片片和惊絮。墙外有楼花有主。寻花去，隔墙遥见秋千侣。"
+   ],
+   [
+    "绿索红旗双彩柱，行人只得偷回顾。肠断楼南金锁户。天欲暮，流莺飞到秋千处。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_053.html"
+ },
+ {
+  "id": "ouyang-xiu/0055-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 55,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "妾本钱塘苏小妹，芙蓉花共门相对。昨日为逢青伞盖。慵不采，今朝斗觉凋零{{IMG:00218.jpeg}}。"
+   ],
+   [
+    "愁倚画楼无计奈，乱红飘过秋塘外。料得明年秋色在。香可爱，其如镜里花颜改。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "《乐府广题》曰：“苏小小，钱塘名倡也。盖南齐时人。”",
+    "source": "《乐府诗集·杂歌谣辞三·〈苏小小歌〉序》",
+    "headword": "《乐府广题》曰"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_054.html"
+ },
+ {
+  "id": "ouyang-xiu/0056-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 56,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "花底忽闻敲两桨，逡巡女伴来寻访。酒盏旋将荷叶当。莲舟荡，时时盏里生红浪。"
+   ],
+   [
+    "花气酒香清厮酿，花腮酒面红相向。醉倚绿阴眠一饷。惊起望，船头阁在沙滩上。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_055.html"
+ },
+ {
+  "id": "ouyang-xiu/0057-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 57,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "叶有清风花有露，叶笼花罩鸳鸯侣。白锦顶丝红锦羽。莲女妒，惊飞不许长相聚。"
+   ],
+   [
+    "日脚沉红天色暮，青凉伞上微微雨。早是水寒无宿处。须回步，枉教雨里分飞去。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_056.html"
+ },
+ {
+  "id": "ouyang-xiu/0058-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 58,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "荷叶田田青照水，孤舟挽在花阴底。昨夜萧萧疏雨坠。愁不寐，朝来又觉西风起。"
+   ],
+   [
+    "雨摆风摇金蕊碎，合欢枝上香房翠。莲子与人长厮类。无好意，年年苦在中心里。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "江南可采莲，莲叶何田田。",
+    "source": "古乐府",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_057.html"
+ },
+ {
+  "id": "ouyang-xiu/0059-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 59,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "叶重如将青玉亚，花轻疑是红绡挂。颜色清新香脱洒。堪长价，牡丹怎得称王者？"
+   ],
+   [
+    "雨笔露笺匀彩画，日炉风炭薰兰麝。天与多情丝一把。谁厮惹，千条万缕萦心下。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "落锦残红始吐芳，佳名唤作百花王。",
+    "source": "唐皮日休《牡丹》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "此首工致，次首情思两极，古今莲词第一手。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "奇丽谛详，莲词久推永叔。",
+    "source": "明沈际飞《草堂诗馀别集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_058.html"
+ },
+ {
+  "id": "ouyang-xiu/0060-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 60,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "粉蕊丹青描不得，金针线线功难敌。谁傍暗香轻采摘？风淅淅，船头触散双鸂鶒。"
+   ],
+   [
+    "夜雨染成天水碧，朝阳借出胭脂色。欲落又开人共惜。秋气逼，盘中已见新荷的。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "天水碧，因（李）煜之内人染碧，夕露于中庭，为露所染，其色特好，遂名之。",
+    "source": "五代无名氏《五国故事》。天水碧：浅青色。",
+    "headword": null
+   },
+   {
+    "text": "荷，其实莲，其中的。",
+    "source": "《尔雅·释草》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_059.html"
+ },
+ {
+  "id": "ouyang-xiu/0061-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 61,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "幽鹭谩来窥品格，双鱼岂解传消息。绿柄嫩香频采摘。心似织，条条不断谁牵役。"
+   ],
+   [
+    "珠泪暗和清露滴，罗衣染尽秋江色。对面不言情脉脉。烟水隔，无人说似长相忆。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "客从远方来，遗我双鲤鱼。呼童烹鲤鱼，中有尺素书。",
+    "source": "古乐府《饮马长城窟行》",
+    "headword": null
+   },
+   {
+    "text": "藕丝秋色浅。",
+    "source": "唐温庭筠《菩萨蛮》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_060.html"
+ },
+ {
+  "id": "ouyang-xiu/0062-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 62,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "楚国细腰元自瘦，文君腻脸谁描就？日夜鼓声催箭漏。昏复昼，红颜岂得长如旧？"
+   ],
+   [
+    "醉折嫩房和蕊嗅，天丝不断清香透。却傍小阑凝望久。风满袖，西池月上人归后。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "小苑有门红扇开，天丝舞蝶俱徘回。",
+    "source": "唐温庭筠《吴苑行》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "自“妾本钱塘”至“楚腰细解”八首，皆咏荷，实为一套《渔家傲》鼓子词。欧阳修集中，已有二套《渔家傲》十二月鼓子词，得此而三。卷首复有《采桑子》一套十首，北宋大曲于此可睹其盛。晏殊前有《渔家傲》十二首，为荷花曲鼓子词，内“幽鹭窥来”、“楚围细腰”、“粉笔丹青”三首，与欧阳修此套互见。盖因皆咏荷花，宋时乐家演奏时易于组合而致互混也。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_061.html"
+ },
+ {
+  "id": "ouyang-xiu/0063-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 63,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": "七夕",
+  "preface": null,
+  "stanzas": [
+   [
+    "喜鹊填河仙浪浅，云軿早在星桥畔。街鼓黄昏霞尾暗。炎光敛，金钩侧倒天西面。"
+   ],
+   [
+    "一别经年今始见，新欢往恨知何限。天上佳期贪眷恋。良宵短，人间不合催银箭。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "织女七夕当渡河，使鹊为桥。",
+    "source": "《风俗通》",
+    "headword": null
+   },
+   {
+    "text": "王母欲过刘彻家，飞琼夜入云軿车。",
+    "source": "唐顾况《梁广画花歌》",
+    "headword": null
+   },
+   {
+    "text": "星桥：神话中的鹊桥。",
+    "source": null,
+    "headword": "星桥"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_062.html"
+ },
+ {
+  "id": "ouyang-xiu/0064-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 64,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "乞巧楼头云幔卷，浮花催洗严妆面。花上蛛丝寻得遍。颦笑浅，双眸望月牵红线。"
+   ],
+   [
+    "奕奕天河光不断，有人正在长生殿。暗付金钗清夜半。千秋愿，年年此会长相见。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "七月七日为牵牛织女聚会之夜。是夕，人家妇女结彩缕，穿七孔针，或以金银鍮石为针，陈瓜果于庭中以乞巧，有喜子网于瓜上则以为符应。",
+    "source": "南朝宗懔《荆楚岁时记》",
+    "headword": null
+   },
+   {
+    "text": "帝（唐玄宗）与（杨）贵妃，每至七月七日夜，在华清宫游宴。时宫女辈陈瓜花酒馔，列于庭中，求恩于牵牛、织女星也。又各捉蜘蛛于小合中，至晓开视，蛛网稀密，以为得巧之候。密者言巧多，稀者言巧少。民间亦效之。",
+    "source": "后周王仁裕《开元天宝遗事》",
+    "headword": null
+   },
+   {
+    "text": "七月七日长生殿，夜半无人私语时。",
+    "source": "唐白居易《长恨歌》",
+    "headword": null
+   },
+   {
+    "text": "唯将旧物表深情，钿合金钗寄将去。但教心似金钿坚，天上人间会相见。",
+    "source": "唐白居易《长恨歌》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_063.html"
+ },
+ {
+  "id": "ouyang-xiu/0065-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 65,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "别恨长长欢计短，疏钟促漏真堪怨。此会此情都未半。星初转，鸾琴凤乐匆匆卷。"
+   ],
+   [
+    "河鼓无言西北盼，香蛾有恨东南远。脉脉横波珠泪满。归心乱，离肠便逐星桥断。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "河鼓谓之牵牛。",
+    "source": "《太平御览》引《尔雅》",
+    "headword": null
+   },
+   {
+    "text": "盈盈一水间，脉脉不得语。",
+    "source": "《古诗十九首》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_064.html"
+ },
+ {
+  "id": "ouyang-xiu/0066-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 66,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "九日欢游何处好，黄花万蕊雕阑绕。通体清香无俗调。天气好，烟滋露结功多少。"
+   ],
+   [
+    "日脚清寒高下照，宝钉密缀圆斜小。落叶西园风袅袅。催秋老，丛边莫厌金尊倒。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "圆花钉菊丛。",
+    "source": "唐李世民《翠微宫》",
+    "headword": null
+   },
+   {
+    "text": "袅袅兮秋风，洞庭波兮木叶下。",
+    "source": "战国屈原《九歌·湘夫人》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_065.html"
+ },
+ {
+  "id": "ouyang-xiu/0067-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 67,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "青女霜前催得绽，金钿乱散枝头遍。落帽台高开雅宴。芳尊满，挼花吹在流霞面。"
+   ],
+   [
+    "桃李三春虽可羡，莺来蝶去芳心乱。争似仙潭秋水岸。香不断，年年自作茱萸伴。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "至秋三月……青女乃出，以降霜雪。",
+    "source": "《淮南子·天文训》。高诱注：“青女，天神，青霄玉女，主霜雪也。”",
+    "headword": null
+   },
+   {
+    "text": "（孟嘉）后为征西桓温参军，温甚重之。九月九日，温燕龙山，寮佐毕集。时佐吏并着戎服，有风至，吹嘉帽堕落，嘉不之觉。温使左右勿言，欲观其举止。嘉良久如厕，温令取还之，命孙盛作文嘲嘉，着嘉坐处。嘉还见，即答之，其文甚美，四坐嗟叹。",
+    "source": "《晋书·孟嘉传》",
+    "headword": null
+   },
+   {
+    "text": "流霞面：醉颜。",
+    "source": null,
+    "headword": "流霞面"
+   },
+   {
+    "text": "汝南桓景随费长房游学累年，长房谓曰：“九月九日，汝家中当有灾。宜急去，令家人各作绛囊，盛茱萸，以系臂，登高饮菊花酒，此祸可除。”景如言，齐家登山。夕还，见鸡犬牛羊一时暴死。长房闻之曰：“此可代也。”今世人九日登高饮酒，妇人带茱萸囊，盖始于此。",
+    "source": "南朝吴均《续齐谐记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_066.html"
+ },
+ {
+  "id": "ouyang-xiu/0068-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 68,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "露裛娇黄风摆翠，人间晚秀非无意。仙格淡妆天与丽。谁可比？女真装束真相似。"
+   ],
+   [
+    "筵上佳人牵翠袂，纤纤玉手挼新蕊。美酒一杯花影腻。邀客醉，红琼共作熏熏媚。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "秋菊有佳色，裛露掇其英。",
+    "source": "晋陶渊明《饮酒》之七",
+    "headword": null
+   },
+   {
+    "text": "秋菊晚秀，无悼繁霜。",
+    "source": "南朝谢惠连《连珠》",
+    "headword": null
+   },
+   {
+    "text": "女真：女道士。",
+    "source": null,
+    "headword": "女真"
+   },
+   {
+    "text": "手挼红杏蕊。",
+    "source": "南唐冯延巳《谒金门》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_067.html"
+ },
+ {
+  "id": "ouyang-xiu/0069-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 69,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "对酒当歌劳客劝，惜花只惜年华晚。寒艳冷香秋不管。情眷眷，凭栏尽日愁无限。"
+   ],
+   [
+    "思抱芳期随寒雁，悔无深意传双燕。怅望一枝难寄远。人不见，楼头望断相思眼。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "对酒当歌，人生几何？",
+    "source": "东汉曹操《短歌行》",
+    "headword": null
+   },
+   {
+    "text": "晚艳出荒篱，冷香着秋水。",
+    "source": "唐王建《野菊》",
+    "headword": null
+   },
+   {
+    "text": "长安豪民郭行先，有女子绍兰。适巨商任宗，为贾于湘中，数年不归，复音书不达。绍兰目睹堂中有双燕戏于梁间，兰长吁而语于燕曰：“我闻燕子自海东来，往复必径由于湘中。我婿离家不归数岁，蔑有音耗，生死存亡弗可知也。欲凭尔附书，投于我婿。”言讫泪下。燕子飞鸣上下，似有所诺。兰复问曰：“尔若相允，常当我怀中。”燕遂飞于膝上。兰遂吟诗一首云：“我婿去重湖，临窗泣血书。殷勤凭燕翼，寄与薄情夫。”兰遂小书其字，系于足上，燕遂飞鸣而去。任宗时在荆州，忽见一燕飞鸣于头上。宗讶视之，燕遂泊于肩上，见有一小封书，系在足上。宗解而视之，乃妻所寄之诗。宗感而泣下，燕复飞鸣而去。宗次年归首，出诗示兰。",
+    "source": "后周王仁裕《开元天宝遗事》",
+    "headword": null
+   },
+   {
+    "text": "折花逢驿使，寄与陇头人。江南无所有，聊寄一枝春。",
+    "source": "南北朝陆凯《赠范晔》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_068.html"
+ },
+ {
+  "id": "ouyang-xiu/0070-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 70,
+  "tune": "玉楼春",
+  "tuneRepeated": false,
+  "title": "题上林后亭",
+  "preface": null,
+  "stanzas": [
+   [
+    "风迟日媚烟光好，绿树依依芳意早。年华容易即凋零，春色只宜长恨少。"
+   ],
+   [
+    "池塘隐隐惊雷晓，柳眼未开梅萼小。尊前贪爱物华新，不道物新人渐老。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "飒飒东风细雨来，芙蓉塘外有轻雷。",
+    "source": "唐李商隐《无题》",
+    "headword": null
+   },
+   {
+    "text": "何处生春早？春生柳眼中。",
+    "source": "唐元稹《生春》之九",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "西汉有上林苑，本为秦旧苑，在今陕西西安。东汉亦有上林苑，在今河南洛阳。欧阳修天圣八年及第后，授将仕郎、试秘书省校书郎，充西京留守推官。九年（1031）三月，抵西京洛阳任。景祐元年（1034）三月，秩满归襄城。见胡柯《庐陵欧阳文忠公年谱》。词为欧阳修在洛阳题上林亭作。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_069.html"
+ },
+ {
+  "id": "ouyang-xiu/0071-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 71,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "西亭饮散清歌阕，花外迟迟宫漏发。涂金烛引紫骝嘶，柳曲西头归路别。"
+   ],
+   [
+    "佳辰只恐幽期阔，密赠殷勤衣上结。翠屏魂梦莫相寻，禁断六街清夜月。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "“衣上结”，尽密赠之况。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_070.html"
+ },
+ {
+  "id": "ouyang-xiu/0072-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 72,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "春山敛黛低歌扇，暂解吴钩登祖宴。画楼钟动已魂销，何况马嘶芳草岸。"
+   ],
+   [
+    "青门柳色随人远，望欲断时肠已断。洛城春色待君来，莫到落花飞似霰。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春山：春日山色黛青，因喻指妇人姣好的眉毛。",
+    "source": null,
+    "headword": "春山"
+   },
+   {
+    "text": "芳草生未积，春花落如霰。",
+    "source": "南朝柳恽《独不见》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "“画楼钟动”为谢绛《夜行船》词句，此词当为明道二年（1033）春送谢绛离洛阳之作。“河城春色待君来”，君盖指谢绛。欧阳修另有《送谢学士归阙》诗：“供帐拂朝烟，征鞍去莫攀。人醒风外酒，马度雪中关。旧府谁同在？新年独未还。遥应行路者，偏识彩衣斑。”",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   },
+   {
+    "text": "昨夜佳期初共，鬓云低、翠翘金凤。尊前和笑不成歌，意偷转、眼波微送。　草草不容成楚梦，渐寒深、翠帘霜重。相看送到断肠时，月西斜、画楼钟动。",
+    "source": "宋谢绛《夜行船》",
+    "headword": null
+   },
+   {
+    "text": "“随人远”，妙景。本自屈曲，而但见庄浑。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_071.html"
+ },
+ {
+  "id": "ouyang-xiu/0073-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 73,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "尊前拟把归期说，未语春容先惨咽。人生自是有情痴，此恨不关风与月。"
+   ],
+   [
+    "离歌且莫翻新阕，一曲能教肠寸结。直须看尽洛城花，始共春风容易别。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "一寸离肠千万结。",
+    "source": "唐韦庄《应天长》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "景祐元年（1034）三月，欧阳修西京留守推官秩满，离别洛阳时作《玉楼春》词多首，此首当作于离筵上。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   },
+   {
+    "text": "“风月”，特寄情，而非即情，语超然。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   },
+   {
+    "text": "永叔“人间自是有情痴，此恨不关风与月”，“直须看尽洛城花，始与春风容易别”，于豪放之中有沉着之致，所以尤高。",
+    "source": "王国维《人间词话》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_072.html"
+ },
+ {
+  "id": "ouyang-xiu/0074-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 74,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "洛阳正值芳菲节，秾艳清香相间发。游丝有意苦相萦，垂柳无端争赠别。"
+   ],
+   [
+    "杏花红处青山缺，山畔行人山下歇。今宵谁肯远相随，惟有寂寥孤馆月。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "万丈游丝是妾心，惹蝶萦花乱相续。",
+    "source": "唐皎然《效古诗》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧公词云“杏花红处青山缺”，本乐天“花枝缺处青楼开”。",
+    "source": "宋曾季狸《艇斋诗话》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_073.html"
+ },
+ {
+  "id": "ouyang-xiu/0075-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 75,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "残春一夜狂风雨，断送红飞花落树。人心花意待留春，春色无情容易去。"
+   ],
+   [
+    "高楼把酒愁独语，借问春归何处所。暮云空阔不知音，惟有绿杨芳草路。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_074.html"
+ },
+ {
+  "id": "ouyang-xiu/0076-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 76,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "常忆洛阳风景媚，烟暖风和添酒味。莺啼宴席似留人，花出墙头如有意。"
+   ],
+   [
+    "别来已隔千山翠，望断危楼斜日坠。关心只为牡丹红，一片春愁来梦里。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_075.html"
+ },
+ {
+  "id": "ouyang-xiu/0077-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 77,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "两翁相遇逢佳节，正值柳绵飞似雪。便须豪饮敌青春，莫对新花羞白发。"
+   ],
+   [
+    "人生聚散如弦筈，老去风情尤惜别。大家金盏倒垂莲，一任西楼低晓月。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "离合非有常，譬彼弦与筈。",
+    "source": "晋陆机《为顾彦先赠妇诗》之二",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "熙宁五年（1072）春在汝阴作。“逢佳节”，正值清明也。两翁指赵概与欧阳修。时赵概七十五岁，欧阳修六十五岁。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_076.html"
+ },
+ {
+  "id": "ouyang-xiu/0078-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 78,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "西湖南北烟波阔，风里丝簧声韵咽。舞馀裙带绿双垂，酒入香腮红一抹。"
+   ],
+   [
+    "杯深不觉琉璃滑，贪看六幺花十八。明朝车马各西东，惆怅画桥风与月。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "丝，琴瑟也；簧，笙也。",
+    "source": "《文选·马融〈长笛赋〉》“漂凌丝簧，覆冒鼓钟”吕向注",
+    "headword": null
+   },
+   {
+    "text": "六幺：唐教坊曲名，后用为词牌。又名《六幺》、《绿腰》。幺是小的意思，因此调羽弦最小，节奏繁急，故名。",
+    "source": null,
+    "headword": "六幺"
+   },
+   {
+    "text": "欧阳永叔云：“贪看《六么》《花十八》。”此曲内一叠名《花十八》，前后十八拍，又四花拍，共二十二拍，乐家者流所谓花拍，盖非其正也。曲节抑扬可喜，舞亦随之，而舞《筑球》、《六么》，至《花十八》益奇。",
+    "source": "宋王灼《碧鸡漫志·六么》",
+    "headword": "欧阳永叔云"
+   }
+  ],
+  "commentary": [
+   {
+    "text": "“双垂”，舞馀之态。“一抹”，酒入之神，秀令复工。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_077.html"
+ },
+ {
+  "id": "ouyang-xiu/0079-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 79,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "燕鸿过后春归去，细算浮生千万绪。来如春梦几多时，去似朝云无觅处。"
+   ],
+   [
+    "闻琴解佩神仙侣，挽断罗衣留不住。劝君莫作独醒人，烂醉花间应有数。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "燕鸿：燕地的雁。泛指北雁。",
+    "source": null,
+    "headword": "燕鸿"
+   },
+   {
+    "text": "江妃二女者，不知何所人也，出游于江汉之湄，逢郑交甫，见而悦之，不知其神人也，谓其仆曰：“我欲下请其佩。”……遂手解佩与交甫。",
+    "source": "汉刘向《列仙传·江妃二女》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_078.html"
+ },
+ {
+  "id": "ouyang-xiu/0080-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 80,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "蝶飞芳草花飞路，把酒已嗟春色暮。当时枝上落残花，今日水流何处去。"
+   ],
+   [
+    "楼前独绕鸣蝉树，忆把芳条吹暖絮。红莲绿芰亦芳菲，不奈金风兼玉露。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "由来碧落银河畔，可要金风玉露时。",
+    "source": "唐李商隐《辛未七夕》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_079.html"
+ },
+ {
+  "id": "ouyang-xiu/0081-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 81,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "别后不知君远近，触目凄凉多少闷。渐行渐远渐无书，水阔鱼沉何处问？"
+   ],
+   [
+    "夜深风竹敲秋韵，万叶千声皆是恨。故欹单枕梦中寻，梦又不成灯又烬。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "此首写别恨，两句一意，次第显然。分别是一恨，无书是一恨；夜间风竹，又搅起一番离恨；而梦中难寻，恨更深矣。层层深入，句句沉着。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_080.html"
+ },
+ {
+  "id": "ouyang-xiu/0082-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 82,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红绦约束琼肌稳，拍碎香檀催急衮。陇头鸣咽水声繁，叶下间关莺语近。"
+   ],
+   [
+    "美人才子传芳信，明月清风伤别恨。未知何处有知音？常为此情留此恨。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "间关莺语花底滑，幽咽流泉水下滩。",
+    "source": "唐白居易《琵琶行》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_081.html"
+ },
+ {
+  "id": "ouyang-xiu/0083-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 83,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "檀槽碎响金丝拨，露湿浔阳江上月。不知商妇为谁愁，一曲行人留夜发。"
+   ],
+   [
+    "画堂花月新声别，红蕊调长弹未彻。暗将深意祝胶弦，唯愿弦弦无断绝。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "浔阳江头夜送客，枫叶荻花秋瑟瑟。……忽闻水上琵琶声，主人忘归客不发。……弟走从军阿姨死，暮去朝来颜色故。门前冷落车马稀，老大嫁作商人妇。商人重利轻别离，前月浮梁买茶去。",
+    "source": "唐白居易《琵琶行》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_082.html"
+ },
+ {
+  "id": "ouyang-xiu/0084-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 84,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "春葱指甲轻拢捻，五彩垂絛双袖卷。雪香浓透紫檀槽，胡语急随红玉腕。"
+   ],
+   [
+    "当头一曲情何限，入破铮鏦金凤战。百分芳酒祝长春，再拜敛容抬粉面。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "蜀弦铮摐指如玉，皇帝弟子韦家曲。",
+    "source": "唐刘禹锡《伤秦姝行》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_083.html"
+ },
+ {
+  "id": "ouyang-xiu/0085-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 85,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "金花盏面红烟透，舞急香茵随步皱。青春才子有新词，红粉佳人重劝酒。"
+   ],
+   [
+    "也知自为伤春瘦，归骑休交银烛候。拟将沉醉为清欢，无奈醒来还感旧。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "红锦地衣随步皱。",
+    "source": "南唐李煜《浣溪沙》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_084.html"
+ },
+ {
+  "id": "ouyang-xiu/0086-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 86,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "雪云乍变春云簇，渐觉年华堪送目。北枝梅蕊犯寒开，南浦波纹如酒绿。"
+   ],
+   [
+    "芳菲次第还相续，不奈情多无处足。尊前百计得春归，莫为伤春歌黛蹙。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "大庾岭上梅，南枝落，北枝开。",
+    "source": "唐白居易《白孔六帖》",
+    "headword": null
+   },
+   {
+    "text": "春草碧色，春水渌波，送君南浦，伤如之何。",
+    "source": "南朝江淹《别赋》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_085.html"
+ },
+ {
+  "id": "ouyang-xiu/0087-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 87,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "黄金弄色轻于粉，濯濯春条如水嫩。为缘力薄未禁风，不奈多娇长似困。"
+   ],
+   [
+    "腰柔乍怯人相近，眉小未知春有恨。劝君着意惜芳菲，莫待行人攀折尽。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "柳条金嫩不胜鸦。",
+    "source": "唐无名氏《乐府歌》",
+    "headword": null
+   },
+   {
+    "text": "可怜濯濯春杨柳，攀折将来就纤手。",
+    "source": "唐乔知之《折杨柳》",
+    "headword": null
+   },
+   {
+    "text": "我是曲江临池柳，这人折了那人攀。",
+    "source": "《敦煌曲子词》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_086.html"
+ },
+ {
+  "id": "ouyang-xiu/0088-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 88,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "珠帘半下香销印，二月东风催柳信。琵琶傍畔且寻思，鹦鹉前头休借问。"
+   ],
+   [
+    "惊鸿过后生离恨，红日长时添酒困。未知心在阿谁边，满眼泪珠言不尽。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "不知细叶谁裁出，二月春风似剪刀。",
+    "source": "唐贺知章《咏柳》",
+    "headword": null
+   },
+   {
+    "text": "鹦鹉前头不敢言。",
+    "source": "唐朱庆馀《宫词》",
+    "headword": null
+   },
+   {
+    "text": "翩若惊鸿，婉若游龙。",
+    "source": "三国魏曹植《洛神赋》",
+    "headword": null
+   },
+   {
+    "text": "独掩画屏愁不语，斜欹瑶枕髻鬟偏。此时心在阿谁边？",
+    "source": "五代欧阳炯《浣溪沙》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_087.html"
+ },
+ {
+  "id": "ouyang-xiu/0089-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 89,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "沉沉庭院莺吟弄，日暖烟和春气重。绿杨娇眼为谁回？芳草深心空自动。"
+   ],
+   [
+    "倚阑无语伤离凤，一片风情无处用。寻思还有旧家心，蝴蝶时时来役梦。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "离鸾别凤梧桐中，巫云蜀雨遥相通。",
+    "source": "唐李贺《湘妃》",
+    "headword": null
+   },
+   {
+    "text": "昔者庄周梦为蝴蝶，栩栩然蝴蝶也；自喻适志与，不知周也；俄然觉，则蘧蘧然周也。",
+    "source": "《庄子·齐物论》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_088.html"
+ },
+ {
+  "id": "ouyang-xiu/0090-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 90,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "去时梅萼初凝粉，不觉小桃风力损。梨花最晚又凋零，何事归期无定准。"
+   ],
+   [
+    "阑干倚遍重来凭，泪粉偷将红袖印。蜘蛛喜鹊误人多，似此无凭安足信。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "干鹊噪而行人至，蜘蛛集而百事喜。",
+    "source": "《西京杂记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_089.html"
+ },
+ {
+  "id": "ouyang-xiu/0091-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 91,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "酒美春浓花世界，得意人人千万态。莫教辜负艳阳天，过了堆金何处买？"
+   ],
+   [
+    "已去少年无计奈，且愿芳心长恁在。闲愁一点上心来，算得东风吹不解。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_090.html"
+ },
+ {
+  "id": "ouyang-xiu/0092-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 92,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "湖边柳外楼高处，望断云山多少路。阑干倚遍使人愁，又是天涯初日暮。"
+   ],
+   [
+    "轻无管系狂无数，水畔花飞风里絮。算伊浑似薄情郎，去便不来来便去。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "问人何似游冶郎，疑信总妙。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_091.html"
+ },
+ {
+  "id": "ouyang-xiu/0093-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 93,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "南园粉蝶能无数，度翠穿红来复去。倡条冶叶恣留连，飘荡轻于花上絮。"
+   ],
+   [
+    "朱阑夜夜风兼露，宿粉栖香无定所。多情翻却似无情，赢得百花无限妒。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "蜜房羽客类芳心，冶叶倡条遍相识。",
+    "source": "唐李商隐《燕台春》。冶叶倡条：形容杨柳枝叶婀娜多姿，亦借指妓女。",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "词最隽，可作咏蝶。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   },
+   {
+    "text": "蝶于花为无情，曰“多情却似”，则世上滥好人有出脱矣，一笑。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_092.html"
+ },
+ {
+  "id": "ouyang-xiu/0094-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 94,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": "子规",
+  "preface": null,
+  "stanzas": [
+   [
+    "江南三月春光老，月落禽啼天未晓。露和啼血染花红，恨过千家烟树杪。"
+   ],
+   [
+    "云垂玉枕屏山小，梦欲成时惊觉了。人心应不似伊心，若解思归归合早。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "杜鹃啼血猿哀鸣。",
+    "source": "唐白居易《琵琶行》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "末语比拟精当，且矫健。",
+    "source": "潘游龙《古今诗馀醉》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_093.html"
+ },
+ {
+  "id": "ouyang-xiu/0095-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 95,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "东风本是开花信，信至花时风更紧。吹开吹谢苦匆匆，春意到头无处问。"
+   ],
+   [
+    "把酒临风千万恨，欲扫残红犹未忍。夜来风雨转离披，满眼凄凉愁不尽。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "二十四番花信风……小寒三信：梅花、山茶、水仙。大寒三信：瑞香、兰花、山矾。立春三信：迎春、樱桃、望春。雨水三信：菜花、杏花、李花。惊蛰三信：桃花、棣棠、蔷薇。春分三信：海棠、梨花、木兰。清明三信：桐花、麦花、柳花。谷雨三信：牡丹、酴醾、楝花。",
+    "source": "南朝宗懔《荆楚岁时记》",
+    "headword": null
+   },
+   {
+    "text": "白露既下百草兮，奄离披此梧楸。",
+    "source": "《楚辞·九辩》。朱熹集注：“离披，分散貌。”",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_094.html"
+ },
+ {
+  "id": "ouyang-xiu/0096-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 96,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "阴阴树色笼晴昼，清淡园林春过后。杏腮轻粉日催红，池面绿罗风卷皱。"
+   ],
+   [
+    "佳人向晚新妆就，圆腻歌喉珠欲溜。当筵莫放酒杯迟，乐事良辰难入手。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "风乍起，吹皱一池春水。",
+    "source": "南唐冯延巳《谒金门》",
+    "headword": null
+   },
+   {
+    "text": "天下良辰、美景、赏心、乐事，四者难并。",
+    "source": "南朝谢灵运《拟魏太子邺中集诗序》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_095.html"
+ },
+ {
+  "id": "ouyang-xiu/0097-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 97,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "芙蓉斗晕燕支浅，留着晚花开小宴。画船红日晚风清，柳色溪光晴照暖。"
+   ],
+   [
+    "美人争劝梨花盏，舞困玉腰裙缕慢。莫交银烛促归期，已祝斜阳休更晚。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_096.html"
+ },
+ {
+  "id": "ouyang-xiu/0098-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 98,
+  "tune": "渔家傲",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "正月斗杓初转势，金刀剪彩功夫异。称庆高堂欢幼稚。看柳意，偏从东面春风至。"
+   ],
+   [
+    "十四新蟾圆尚未，楼前乍看红灯试。冰散绿池泉细细。鱼欲戏，园林已是花天气。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "斗杓：即斗柄。指北斗的第五至第七星，即衡、开泰、摇光。北斗，第一至第四星象斗，第五至第七星象柄。",
+    "source": null,
+    "headword": "斗杓"
+   },
+   {
+    "text": "正月七日为人日。以七种菜为羹，剪彩为人或镂金箔为人，以贴屏风，亦戴之头鬓。又造华胜以相遗，登高赋诗。",
+    "source": "《太平御览》引南朝宗懔《荆楚岁时记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_097.html"
+ },
+ {
+  "id": "ouyang-xiu/0099-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 99,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "二月春耕昌杏密，百花次第争先出。惟有海棠梨第一。深浅拂，天生红粉真无匹。"
+   ],
+   [
+    "画栋归来巢未失，双双款语怜飞乙。留客醉花迎晓日。金盏溢，却忧风雨飘零疾。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "冬至后五旬七日，菖始生。菖者，百草之先，于是始耕。",
+    "source": "《吕氏春秋·士容论》",
+    "headword": null
+   },
+   {
+    "text": "飞乙：飞燕。",
+    "source": null,
+    "headword": "飞乙"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_098.html"
+ },
+ {
+  "id": "ouyang-xiu/0100-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 100,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "三月清明天婉娩，晴川祓禊归来晚。况是踏青来处远。犹不倦，秋千别闭深庭院。"
+   ],
+   [
+    "更值牡丹开欲遍，酴醾压架清香散。花底一尊谁解劝？增眷恋，东风回晚无情绊。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "年光正婉娩，春树转丰茸。",
+    "source": "南朝庾肩吾《奉使北徐州参丞御》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_099.html"
+ },
+ {
+  "id": "ouyang-xiu/0101-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 101,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "四月园林春去后，深深密幄阴初茂。折得花枝犹在手。香满袖，叶间梅子青如豆。"
+   ],
+   [
+    "风雨时时添气候，成行新笋霜筠厚。题就送春诗几首。聊对酒，樱桃色照银盘溜。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "空看翠幄成阴日。",
+    "source": "唐温庭筠《自有扈至京师已后朱樱之期》",
+    "headword": null
+   },
+   {
+    "text": "香随翠笼擎初到，色映银盘写未停。",
+    "source": "唐韩愈《和水部张员外宣政衙赐百官樱桃》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_100.html"
+ },
+ {
+  "id": "ouyang-xiu/0102-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 102,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "五月榴花妖艳烘，绿杨带雨垂垂重。五色新丝缠角粽。金盘送，生绡画扇盘双凤。"
+   ],
+   [
+    "正是浴兰时节动，菖蒲酒美清尊共。叶里黄鹂时一弄。犹瞢忪，等闲惊破纱窗梦。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_101.html"
+ },
+ {
+  "id": "ouyang-xiu/0103-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 103,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "六月炎天时霎雨，行云涌出奇峰露。沼上嫩莲腰束素。风兼露，梁王宫阙无烦暑。"
+   ],
+   [
+    "畏日亭亭残蕙炷，傍帘乳燕双飞去。碧碗敲冰倾玉处。朝与暮，故人风快凉轻度。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "夏云多奇峰。",
+    "source": "晋陶渊明《四时》",
+    "headword": null
+   },
+   {
+    "text": "蕙炷：指香。",
+    "source": null,
+    "headword": "蕙炷"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_102.html"
+ },
+ {
+  "id": "ouyang-xiu/0104-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 104,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "七月新秋风露早，渚莲尚拆庭梧老。是处瓜华时节好。金尊倒，人间彩缕争祈巧。"
+   ],
+   [
+    "万叶敲声凉乍到，百虫啼晚烟如扫。箭漏初长天杳杳。人语悄，那堪夜雨催清晓。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "秦人风俗，是夜张锦绣，陈饮食，树瓜华，焚香于庭，号为乞巧。",
+    "source": "唐陈鸿《长恨歌传》",
+    "headword": null
+   },
+   {
+    "text": "戚夫人七夕以五色缕相羁，谓为相连爱。",
+    "source": "《西京杂记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_103.html"
+ },
+ {
+  "id": "ouyang-xiu/0105-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 105,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "八月秋高风历乱，衰兰败芷红莲岸。皓月十分光正满。清光畔，年年常愿琼筵看。"
+   ],
+   [
+    "社近愁看归去燕，江天空阔云容漫。宋玉当时情不浅。成幽怨，乡关千里危肠断。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "悲哉！秋之为气也。萧瑟兮，草木摇落而变衰。",
+    "source": "战国宋玉《九辩》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_104.html"
+ },
+ {
+  "id": "ouyang-xiu/0106-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 106,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "九月霜秋秋已尽，烘林败叶红相映。惟有东篱黄菊盛。遗金粉，人家帘幕重阳近。"
+   ],
+   [
+    "晓日阴阴晴未定，授衣时节轻寒嫩。新雁一声风又劲。云欲凝，雁来应有吾乡信。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "采菊东篱下，悠然见南山。",
+    "source": "晋陶渊明《饮酒》其五",
+    "headword": null
+   },
+   {
+    "text": "九月授衣。",
+    "source": "《诗经·豳风·七月》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_105.html"
+ },
+ {
+  "id": "ouyang-xiu/0107-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 107,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十月小春梅蕊绽，红炉画阁新装遍。鸳帐美人贪睡暖。梳洗懒，玉壶一夜轻澌满。"
+   ],
+   [
+    "楼上四垂帘不卷，天寒山色偏宜远。风急雁行吹字断。红日晚，江天雪意云撩乱。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "（十月）天气和暖似春，故曰小春。",
+    "source": "南朝宗懔《荆楚岁时记》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "某邑宰因预借违旨，遭按而归，某郡郡将乃宰公之故旧，因留连。有妓慧黠，得宰罢郡之由，时方仲秋，忽讴《渔家傲》“十月小春梅蕊破”。宰云：“何太早邪？”答云：“乃预借也。”宰公大惭。",
+    "source": "《说郛》卷二十引杨和甫《行都纪事》",
+    "headword": null
+   },
+   {
+    "text": "山不近而远，而风致犹可掬，作诗词者那能舍却山水。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "后阕状江山寒色，足为“清远”二字。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_106.html"
+ },
+ {
+  "id": "ouyang-xiu/0108-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 108,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十一月新阳排寿宴，黄钟应管添宫线。猎猎寒威云不卷。风头转，时看雪霰吹人面。"
+   ],
+   [
+    "南至迎长知漏箭，书云纪候冰生研。腊近探春春尚远。闲庭院，梅花落尽千千片。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "仲冬之月……律中黄钟。",
+    "source": "《礼记·月令》",
+    "headword": null
+   },
+   {
+    "text": "今人以冬至日为书云，至用之于表启中。虽前辈或不细考，然皆非也……汉明帝永平二年春正月辛未，宗祀光武毕，登灵台观云物，尤为可证。",
+    "source": "宋洪迈《容斋四笔·用书云之误》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_107.html"
+ },
+ {
+  "id": "ouyang-xiu/0109-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 109,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十二月严凝天地闭，莫嫌台榭无花卉。惟有酒能欺雪意。增豪气，直教耳热笙歌沸。"
+   ],
+   [
+    "陇上雕鞍惟数骑，猎围半合新霜里。霜重鼓声寒不起。千人指，马前一雁寒空坠。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "天气上腾，地气下降，天地不通，闭塞而成冬。",
+    "source": "《礼记·月令》",
+    "headword": null
+   },
+   {
+    "text": "酒酣耳热，仰而赋诗。",
+    "source": "三国魏曹丕《与吴质书》",
+    "headword": null
+   },
+   {
+    "text": "半卷红旗临易水，霜重鼓寒声不起。",
+    "source": "唐李贺《雁门太守行》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "荆公（王安石）尝对客咏永叔小阕云：“五彩新丝缠角粽。金盘送，生绡画扇盘双凤。”曰三十年前见其全篇，今才记三句，乃永叔在李太尉端愿席上所作十二月鼓子词。数问人求之，不可得。呜呼！荆公之没二纪，余自永平幕召还，过武陵，始得于州将李君谊，追恨荆公之不获见也。谊，太尉犹子也。",
+    "source": "《欧阳文忠公近体乐府》佚名跋",
+    "headword": null
+   },
+   {
+    "text": "政和丙申冬，余还自京师，过歙州太守濠梁许君颂之席上，见许君举荆公所记三句，且云此词才情有馀，他人不能道也。后十二年建炎戊申，偶得此本于长乐同官方君。后四年辛亥绍兴二月朔，自尤溪避盗，宿龙爬以待二弟，适无事，漫录于此。吏部员外郎朱松乔年。",
+    "source": "《欧阳文忠公近体乐府》朱松跋",
+    "headword": null
+   },
+   {
+    "text": "余读欧公李太尉席上作十二月《渔家傲》鼓子词，王荆公亟称赏之。心服其盛丽，生平思仿佛，一言不可得。近年窃官于朝，久客辇下，每欲仿此作十二阕，以道京师两城人物之富，四时节令之华，他日归农，或可资闲暇也。至顺壬申二月，玄修大典既毕，经营南归，属春雪连日，无事出门，晚寒附火，私念及此，夜漏数刻，腹稿具成，枕上不寐，稍谐叶之。明日，笔之于简，虽乏工致，然数岁之中，耳目之所闻见，性情之所感发者，无不隐括概见于斯。至于国家之典故，乘舆之兴居，与夫盛代之服食器用，神京之风俗方言，以及四方宾客宦游之况味，山林之士未尝至京师者，欲有所考焉，此亦可见其大略矣。",
+    "source": "元欧阳玄《渔家傲》词序",
+    "headword": null
+   },
+   {
+    "text": "读《六一词》十二月鼓子词，嫌其过于富丽，吾辈为之，不妨作酸馅语耳。闲中试笔，即以故乡风物语之。",
+    "source": "清曹贞吉《蝶恋花》词序",
+    "headword": null
+   },
+   {
+    "text": "王荆公尝对客诵永叔小阕云：“五彩新丝缠角粽。金盘送，生绡画扇盘双凤。”曰三十年前见其全篇，今才记三句，乃永叔在李太尉端愿席上所作十二月鼓子词，数向人求之不可得。按公此词名《渔家傲》，按十二月作，如其数，皆工腻熨帖，不独“五彩丝”佳也。",
+    "source": "清李调元《雨村词话》",
+    "headword": null
+   },
+   {
+    "text": "朱晦翁示黄铢以欧阳永叔鼓子词，盖所以讽之也。",
+    "source": "清冯金伯辑《词苑萃编》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_108.html"
+ },
+ {
+  "id": "ouyang-xiu/0110-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 110,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "正月新阳生翠琯，花苞柳线春犹浅。帘幕千重方半卷。池冰泮，东风吹水琉璃软。"
+   ],
+   [
+    "渐好凭阑醒醉眼，陇梅暗落芳英断。初日已知长一线。清宵短，梦魂怎奈珠宫远。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_109.html"
+ },
+ {
+  "id": "ouyang-xiu/0111-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 111,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "二月春期看已半，江边春色青犹短。天气养花红日暖。深深院，真珠帘额初飞燕。"
+   ],
+   [
+    "渐觉衔杯心绪懒，酒侵花脸娇波慢。一捻闲愁无处遣。牵不断，游丝百尺随风远。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "越中牡丹开时，赏者不问疏亲，谓之看花局。泽国此月多有轻阴微雨，谓之养花天。",
+    "source": "《花木谱》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_110.html"
+ },
+ {
+  "id": "ouyang-xiu/0112-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 112,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "三月芳菲看欲暮，胭脂泪洒梨花雨。宝马绣轩南陌路。笙歌举，踏青斗草人无数。"
+   ],
+   [
+    "强欲留春春不住，东皇肯信韶容故。安得此身如柳絮。随风去，穿帘透幕寻朱户。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "东皇去后韶华在，老圃寒香别有秋。",
+    "source": "唐戴叔伦《暮春感怀》。东皇：指司春之神。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_111.html"
+ },
+ {
+  "id": "ouyang-xiu/0113-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 113,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "四月芳林何悄悄，绿阴满地青梅小。南陌采桑何窈窕。争语笑，乱丝满腹吴蚕老。"
+   ],
+   [
+    "宿酒半醒新睡觉，雏莺相语匆匆晓。惹得此情萦寸抱。休临眺，楼头一望皆芳草。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春曰青阳……木曰华木、华树、芳林、芳树。",
+    "source": "《初学记》引南朝梁元帝《纂要》",
+    "headword": null
+   },
+   {
+    "text": "吴地桑叶绿，吴蚕已三眠。",
+    "source": "唐李白《寄东鲁二稚子》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_112.html"
+ },
+ {
+  "id": "ouyang-xiu/0114-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 114,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "五月薰风才一信，初荷出水清香嫩。乳燕学飞帘额峻。谁借问？东邻期约尝佳酝。"
+   ],
+   [
+    "漏短日长人乍困，裙腰减尽柔肌损。一撮眉尖千叠恨。慵整顿，黄梅雨细多闲闷。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "东南曰薰风。",
+    "source": "《吕氏春秋·有始》。薰风：指初夏时的东南风。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_113.html"
+ },
+ {
+  "id": "ouyang-xiu/0115-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 115,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "六月炎蒸何太盛，海榴灼灼红相映。天外奇峰千掌迥。风影定，汉宫圆扇初成咏。"
+   ],
+   [
+    "珠箔初褰深院静，绛绡衣窄冰肤莹。睡起日高堆酒兴。厌厌病，宿酲和梦何时醒？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "岸绿开河柳，池红照海榴。",
+    "source": "隋江总《山庭春日》",
+    "headword": null
+   },
+   {
+    "text": "新裂齐纨素，鲜洁如霜雪。裁为合欢扇，团团似明月。",
+    "source": "汉班婕妤《怨歌行》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_114.html"
+ },
+ {
+  "id": "ouyang-xiu/0116-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 116,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "七月芙蓉生翠水，明霞拂脸新妆媚。疑是楚宫歌舞妓。争宠丽，临风起舞夸腰细。"
+   ],
+   [
+    "乌鹊桥边新雨霁，长河清水冰无地。此夕有人千里外。经年岁，犹嗟不及牵牛会。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_115.html"
+ },
+ {
+  "id": "ouyang-xiu/0117-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 117,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "八月微凉生枕簟，金盘露洗秋光淡。池上月华开宝鉴。波潋滟，故人千里应凭槛。"
+   ],
+   [
+    "蝉树无情风苒苒，燕归碧海珠帘掩。沈臂冒霜潘鬓减。愁黯黯，年年此夕多悲感。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "（沈）约与徐勉素善，遂以书陈情于勉曰：“……百日数旬，革带常应移孔，以手握臂，率计月小半分。以此推算，岂能支久？……”",
+    "source": "《梁书·沈约传》",
+    "headword": null
+   },
+   {
+    "text": "余春秋三十有二，始见二毛。",
+    "source": "晋潘岳《秋兴赋》序",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_116.html"
+ },
+ {
+  "id": "ouyang-xiu/0118-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 118,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "九月重阳还又到，东篱菊放金钱小。月下风前愁不少。谁语笑，吴娘捣练腰肢袅。"
+   ],
+   [
+    "槁叶半轩慵更扫，凭阑岂是闲临眺？欲向南云新雁道。休草草，来时觅取伊消耗。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_117.html"
+ },
+ {
+  "id": "ouyang-xiu/0119-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 119,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十月轻寒生晚暮，霜华暗卷楼南树。十二阑干堪倚处。聊一顾，乱山衰草还家路。"
+   ],
+   [
+    "悔别情怀多感慕，胡笳不管离心苦。犹喜清宵长数鼓。双绣户，梦魂尽远还须去。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_118.html"
+ },
+ {
+  "id": "ouyang-xiu/0120-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 120,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "律应黄钟寒气苦，冰生玉水云如絮。千里乡关空倚慕。无尺素，双鱼不食南鸿渡。"
+   ],
+   [
+    "把酒遣愁愁已去，风摧酒力愁还聚。却忆兽炉追旧处。头懒举，炉灰剔尽痕无数。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "仲冬之月……律中黄钟。",
+    "source": "《礼记·月令》",
+    "headword": null
+   },
+   {
+    "text": "晴云似絮惹低空，紫陌微微弄袖风。",
+    "source": "唐杜牧《长安杂题长句》",
+    "headword": null
+   },
+   {
+    "text": "客从远方来，遗我双鲤鱼。呼童烹鲤鱼，中有尺素书。",
+    "source": "古乐府《饮马长城窟行》",
+    "headword": null
+   },
+   {
+    "text": "昭帝即位。数年，匈奴与汉和亲。汉求（苏）武等，匈奴诡言武死。后汉使复至匈奴，常惠请其守者与俱，得夜见汉使，具自陈道。教使者谓单于，言天子射上林中，得雁，足有系帛书，言武等在某泽中。使者大喜，如惠语以让单于。单于视左右而惊，谢汉使曰：“武等实在。”",
+    "source": "《汉书·苏武传》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_119.html"
+ },
+ {
+  "id": "ouyang-xiu/0121-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 121,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "腊月年光如激浪，冻云欲折寒根向。谢女雪诗真绝唱。无比况，长堤柳絮飞来往。"
+   ],
+   [
+    "便好开尊夸酒量，酒阑莫遣笙歌放。此去青春都一饷。休怅望，瑶林即日堪寻访。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "谢太傅（安）寒雪日内集，与儿女讲论文义。俄而雪骤，公欣然曰：“白雪纷纷何所似？”兄子胡儿曰：“撒盐空中差可拟。”兄女（谢道韫）曰：“未若柳絮因风起。”公大笑乐。",
+    "source": "南朝刘义庆《世说新语·贤媛》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧阳文忠公，文章之宗师也。其于小词，尤脍炙人口。有十二月词，寄渔家傲调中，本集亦未尝载，今列之于此。前已有十二篇鼓子词，此未知果公作否。",
+    "source": "京本《时贤本事曲子后集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_120.html"
+ },
+ {
+  "id": "ouyang-xiu/0122-nan-ge-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 122,
+  "tune": "南歌子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "凤髻金泥带，龙纹玉掌梳。走来窗下笑相扶，爱道画眉深浅入时无。"
+   ],
+   [
+    "弄笔偎人久，描花试手初。等闲妨了绣功夫，笑问双鸳鸯字怎生书？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "妆罢低声问夫婿，画眉深浅入时无。",
+    "source": "唐朱庆馀《近试上张水部》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "“爱道画眉深浅入时无”句，“娥眉不肯让人”即在“入时”句中。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "首写态，后描情，各尽其妙。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   },
+   {
+    "text": "词家须使读者如身履其地，亲见其人，方为蓬山顶上。如和鲁公“几度试香纤手暖，一回尝酒绛唇光”，欧阳公“弄笔偎人久，描花试手初”，真觉俨然如在目前，疑于化工之笔。",
+    "source": "清贺裳《皱水轩词筌》",
+    "headword": null
+   },
+   {
+    "text": "公老成名德，而小词当行乃尔。",
+    "source": "清先著、程洪《词洁》",
+    "headword": null
+   },
+   {
+    "text": "真觉娉娉袅袅。",
+    "source": "清许昂霄《词综偶评》",
+    "headword": null
+   },
+   {
+    "text": "情语则热血所钟，缠绵恻悱，而即近知远，即微知著，其人一生大节，可于此得其端倪。“笑问双鸳鸯字怎生书”，出自欧阳文忠。“残灯明灭枕头敧，谙尽孤眠滋味”，出自范文正。是皆一代名德，慎勿谓曲子相公皆轻薄者。",
+    "source": "清谢章铤《赌棋山庄词话》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_121.html"
+ },
+ {
+  "id": "ouyang-xiu/0123-yu-jie-xing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 123,
+  "tune": "御街行",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "夭非华艳轻非雾。来夜半、天明去。来如春梦不多时，去似朝云何处。乳鸡酒燕，落星沉月，紞紞城头鼓。"
+   ],
+   [
+    "参差渐辨西池树。朱阁斜欹户。绿苔深径少人行，苔上屐痕无数。遗香馀粉，剩衾闲枕，天把多情赋。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "“来如春梦不多时，去似朝云无觅处。”此二语欧阳永叔用之，张子野《御街行》、毛平仲《玉楼春》亦用之。",
+    "source": "清张德瀛《词徵》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_122.html"
+ },
+ {
+  "id": "ouyang-xiu/0124-tao-yuan-yi-gu-ren",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 124,
+  "tune": "桃源忆故人",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "梅梢弄粉香犹嫩。欲寄江南春信。别后寸肠萦损。说与伊争稳。"
+   ],
+   [
+    "小炉独守寒灰烬。忍泪低头画尽。眉上万重新恨。竟日无人问。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_123.html"
+ },
+ {
+  "id": "ouyang-xiu/0125-tao-yuan-yi-gu-ren",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 125,
+  "tune": "桃源忆故人",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "莺愁燕苦春归去。寂寂花飘红雨。碧草绿杨岐路。况是长亭暮。"
+   ],
+   [
+    "少年行客情难诉。泣对东风无语。目断两三烟树。翠隔江淹浦。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_124.html"
+ },
+ {
+  "id": "ouyang-xiu/0126-lin-jiang-xian",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 126,
+  "tune": "临江仙",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "柳外轻雷池上雨，雨声滴碎荷声。小楼西角断虹明。阑干倚处，待得月华生。"
+   ],
+   [
+    "燕子飞来窥画栋，玉钩垂下帘旌。凉波不动簟纹平。水精双枕，傍有堕钗横。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "芙蓉塘外有轻雷。",
+    "source": "唐李商隐《无题》",
+    "headword": null
+   },
+   {
+    "text": "水纹簟上琥珀枕，旁有堕钗双翠翘。",
+    "source": "唐李商隐《偶题》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧阳文忠公任河南推官，亲一妓。时先文僖（钱惟演）罢政，为西京留守，梅圣俞、谢希深、尹师鲁同在幕下，惜欧有才无行，共白于公，屡微讽而不之恤。一日，宴于后圃，客集而欧与妓俱不至，移时方来，在坐相视以目。公责妓云：“未至何也？”妓云：“中暑，往凉堂睡着，觉失金钗，犹未见。”公曰：“若得欧阳推官一词，当为偿汝。”欧即席云：“柳外轻雷池上雨”（词略）。坐客皆称善。遂命妓满酌觞欧，而令公库偿钗。咸谓欧当少戢，不惟不恤，翻以为怨。后修《五代史·十国世家》，痛毁吴越。又于《归田录》中说先文僖数事，皆非美谈。",
+    "source": "宋钱世昭《钱氏私志》",
+    "headword": null
+   },
+   {
+    "text": "钱文僖即钱惟演。曾任西京留守，明道二年因阿附刘太后罢留守任，景祐元年七月卒。欧阳修于天圣九年（1031）任西京留守推官，景祐元年（1034）三月任满。是此词应作于天圣九年抵任洛阳后，至明道二年（1033）钱惟演罢西京留守前。故系于明道二年。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   },
+   {
+    "text": "欧公词：“柳外轻雷池上雨，雨声滴碎荷声”云云，末曰：“水晶双枕，旁有堕钗横。”此词甚脍炙人口。旧说谓欧公为郡幕日，因郡宴会，与一官妓荏苒，郡守得知，令妓求欧词以免过，公遂赋此词。仆观此词，正祖李商隐《偶题》诗云：“小亭闲眠微醉消，石榴海柏枝相交。水纹簟上琥珀枕，旁有堕钗双翠翘。”又“柳外轻雷”亦用商隐“芙蓉塘外有轻雷”之语，“好风微动帘旌”，用唐《花间集》中语。欧词又曰：“栏干敧遍不应人，分明窗下闻裁剪。”此语见韩偓《香奁集》。",
+    "source": "宋王楙《野客丛书》",
+    "headword": "欧公词"
+   },
+   {
+    "text": "雨忽虹，虹忽月，夏景尔尔，拈笔不同。玩末句风韵直当凌厉秦黄，一金钗曷足以偿之。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "（煞拍三句）不借雕饰，自成绝唱。",
+    "source": "清许昂霄《词综偶评》",
+    "headword": null
+   },
+   {
+    "text": "于叙完本事后说：举座击节叹赏。",
+    "source": "清叶申芗《本事词》",
+    "headword": "于叙完本事后说"
+   },
+   {
+    "text": "遣词大雅，宜为文僖所赏。",
+    "source": "清陈廷焯《闲情集》",
+    "headword": null
+   },
+   {
+    "text": "原钞作“窥画栋”，垂帘矣，何得始窥？且此写闺人睡景，非狎语也，岂有自嘲自状之人？因垂帘不能归栋，故窥也。",
+    "source": "王闿运《湘绮楼评词》",
+    "headword": null
+   },
+   {
+    "text": "后三句善写丽情，未乖贞则，自是雅奏。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_125.html"
+ },
+ {
+  "id": "ouyang-xiu/0127-lin-jiang-xian",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 127,
+  "tune": "临江仙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "记得金銮同唱第，春风上国繁华。如今薄宦老天涯。十年岐路，空负曲江花。"
+   ],
+   [
+    "闻说阆山通阆苑，楼高不见君家。孤城寒日等闲斜。离愁难尽，红树远连霞。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "阆山：即阆中山，在今四川省阆中市南。",
+    "source": null,
+    "headword": "阆山"
+   },
+   {
+    "text": "阆苑，唐时鲁王灵夔、滕王元婴以衙宇卑陋，遂修饰宏大之，拟于宫苑，由是谓之隆苑。其后以明星讳隆基改谓之。",
+    "source": "宋王象之《舆地纪胜·利东路阆州》。阆苑：故址在今四川省阆中市城西。",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧阳公顷谪滁州，一同年（忘其人）将赴阆倅，因访之，即席为一曲歌以送，曰：“记得金銮同唱第（略）。”其飘逸清远，皆（李）白之品流也。公不幸晚为憸人构淫艳数曲射之，以成其毁。予皇祐中，都下已闻此阕，歌于人口者二十年矣。嗟哉！不能为之力辨。",
+    "source": "宋释文莹《湘山野录》",
+    "headword": null
+   },
+   {
+    "text": "欧阳修于庆历五年（1045）十月知滁州，八年（1048）闰正月，转起居舍人知扬州。据《湘山野录》，此词乃作于滁州任上。然《湘山野录》称“皇祐中，都下已闻此阕，歌于人口者二十年矣”，自庆历六年（1046）至皇祐六年（1054）犹不足十年，皇祐或为嘉祐之误。天圣八年（1030）榜，欧阳修为省元，王拱辰为状元，是科进士二百四十九人，诸科五百七十三人。此词所赠为天圣八年榜同年，时知阆州者，然究为何人，已不可详考矣。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_126.html"
+ },
+ {
+  "id": "ouyang-xiu/0128-sheng-wu-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 128,
+  "tune": "圣无忧",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "世路风波险，十年一别须臾。人生聚散长如此，相见且欢娱。"
+   ],
+   [
+    "好酒能消光景，春风不染髭须。为公一醉花前倒，红袖莫来扶。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "作者自宋仁宗庆历五年（1045）贬谪滁州，至仁宗至和元年（1055）返回汴京充任史馆修撰止，整是十年期间。",
+    "source": "黄畬《欧阳修词笺注》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_127.html"
+ },
+ {
+  "id": "ouyang-xiu/0129-lang-tao-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 129,
+  "tune": "浪淘沙",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒祝东风，且共从容。垂杨紫陌洛城东。总是当时携手处，游遍芳丛。"
+   ],
+   [
+    "聚散苦匆匆，此恨无穷。今年花胜去年红。可惜明年花更好，知与谁同？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "黄昏把酒祝东风，且从容。",
+    "source": "唐司空图《酒泉子》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "天圣九年（1031），欧阳修任西京留守推官，与尹洙、梅尧臣、谢绛等游，娶胥氏偃女为妻。明道元年（1032），尹洙、梅尧臣等相继离去；二年妻胥氏病逝。此词悼亡惜别，当作于明道二年之后。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   },
+   {
+    "text": "意自“明年此会知谁健”中来。",
+    "source": "明李攀龙《草堂诗馀隽》",
+    "headword": null
+   },
+   {
+    "text": "末三句，虽少含蕴，不失为情语。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "《柳塘词话》曰：欧阳公云：“把酒祝东风，且共从容。”与东坡《虞美人》云：“持杯邀劝天边月，愿月圆无缺。”同一意致。",
+    "source": "清沈雄《古今词话·词话》",
+    "headword": "《柳塘词话》曰"
+   },
+   {
+    "text": "按末二句，忧盛危明之意，持盈保泰之心，在天道则亏盈益谦之理，俱可悟得。大有理趣，却不庸腐。粹然儒者之言，令人玩味不尽。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   },
+   {
+    "text": "因惜花而怀友，前欢寂寂，后会悠悠，至情语以一气挥写，可谓深情如水，行气如虹矣。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_128.html"
+ },
+ {
+  "id": "ouyang-xiu/0130-lang-tao-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 130,
+  "tune": "浪淘沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "花外倒金翘，饮散无聊。柔桑蔽日柳迷条。此地年时曾一醉，还是春朝。"
+   ],
+   [
+    "今日举轻桡，帆影飘飘。长亭回首短亭遥。过尽长亭人更远，特地魂销。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "金翘：金制的一种妇女首饰，形如鸟尾上的长羽。",
+    "source": null,
+    "headword": "金翘"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_129.html"
+ },
+ {
+  "id": "ouyang-xiu/0131-lang-tao-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 131,
+  "tune": "浪淘沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "五岭麦秋残，荔子初丹。绛纱囊里水晶丸。可惜天教生处远，不近长安。"
+   ],
+   [
+    "往事忆开元，妃子偏怜。一从魂散马嵬关。只有红尘无驿使，满眼骊山。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "大庾领一也，桂阳骑田领二也，九贞都庞领三也，临贺萌渚领四也，始安越城领五也。",
+    "source": "《汉书·张耳传》颜师古注引邓德明《南康记》。领，同“岭”。",
+    "headword": null
+   },
+   {
+    "text": "杨贵妃生于蜀，好食荔枝。南海所生，尤胜蜀者，故每岁飞驰以进。然方暑而熟，经宿则败，后人皆不知之。",
+    "source": "唐李肇《唐国史补》",
+    "headword": null
+   },
+   {
+    "text": "玄宗幸蜀，至马嵬驿，命高力士缢贵妃于佛堂前梨树下。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "一骑红尘妃子笑，无人知是荔枝来。",
+    "source": "唐杜牧《华清宫》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "《荔枝香》，《唐史·礼乐志》云：“帝幸骊山，杨贵妃生日，命小部张乐长生殿，奏新曲，未有名。会南方进荔枝，因名曰《荔枝香》。”《脞说》云：“太真妃好食荔枝，每岁忠州置急递上进，五日至都。天宝四年夏，荔枝滋甚，比开笼时，香满一室，供奉李龟年撰此曲进之，宣赐甚厚。”《杨妃外传》云：“明皇在骊山，命小部音声于长生殿奏新曲，未有名，会南海进荔枝，因名《荔枝香》。”三说虽小异，要是明皇时曲。然《史》及《杨妃外传》皆谓帝在骊山，故杜牧之《华清》绝句云：“长安回望绣成堆，山顶千门次第开。一骑红尘妃子笑，无人知是荔枝来。”《遯斋闲览》非之，曰：“明皇每岁十月幸骊山，至春乃还，未尝用六月，词意虽美，而失事实。”予观小杜《华清》长篇，又有“尘埃羯鼓索，片段荔枝筐”之语，其后欧阳永叔词亦云：“一从魂散马嵬间。只有红尘无驿使，满眼骊山。”《唐史》既出永叔，宜此词亦尔也。今歇指、大石两调，皆有近拍，不知何者为本曲。",
+    "source": "宋王灼《碧鸡漫志》",
+    "headword": null
+   },
+   {
+    "text": "诗馀荔子之咏，作者既少，遂无擅长。独欧阳公《浪淘沙》一首，稍存感慨悲凉耳。",
+    "source": "清冯金伯辑《词苑萃编》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_130.html"
+ },
+ {
+  "id": "ouyang-xiu/0132-lang-tao-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 132,
+  "tune": "浪淘沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "万恨苦绵绵，旧约前欢。桃花溪畔柳阴间。几度日高春睡重，绣户深关。"
+   ],
+   [
+    "楼外夕阳闲，独自凭阑。一重水隔一重山。水阔山高人不见，有泪无言。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_131.html"
+ },
+ {
+  "id": "ouyang-xiu/0133-lang-tao-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 133,
+  "tune": "浪淘沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "今日北池游，漾漾轻舟。波光潋滟柳条柔。如此春来春又去，白了人头。"
+   ],
+   [
+    "好妓好歌喉，不醉难休。劝君满满酌金瓯。纵使花时常病酒，也是风流。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "树色参差绿，湖光潋滟明。",
+    "source": "唐卢纶《上巳日陪齐相公花楼宴》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "别病不可，病酒何妨？快甚。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_132.html"
+ },
+ {
+  "id": "ouyang-xiu/0134-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 134,
+  "tune": "定风波",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒花前欲问他，对花何吝醉颜酡。春到几人能烂赏？何况。无情风雨等闲多。"
+   ],
+   [
+    "艳树香丛都几许？朝暮，惜红愁粉奈情何。好是金船浮玉浪，相向，十分深送一声歌。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "美人既醉，朱颜酡些。",
+    "source": "战国宋玉《招魂》",
+    "headword": null
+   },
+   {
+    "text": "烂赏：随意欣赏，纵情玩赏。",
+    "source": null,
+    "headword": "烂赏"
+   },
+   {
+    "text": "金船，酒器中大者。",
+    "source": "宋叶廷珪《海录碎事》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_133.html"
+ },
+ {
+  "id": "ouyang-xiu/0135-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 135,
+  "tune": "定风波",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒花前欲问伊，忍嫌金盏负春时。红艳不能旬日看，宜算，须知开谢只相随。"
+   ],
+   [
+    "蝶去蝶来犹解恋，难见，回头还是度年期。莫候饮阑花已尽，方信，无人堪与补残枝。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_134.html"
+ },
+ {
+  "id": "ouyang-xiu/0136-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 136,
+  "tune": "定风波",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒花前欲问公，对花何事诉金钟？为问去年春甚处，虚度，莺声撩乱一场空。"
+   ],
+   [
+    "今岁春来须爱惜，难得，须知花面不长红。待得酒醒君不见，千片，不随流水即随风。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_135.html"
+ },
+ {
+  "id": "ouyang-xiu/0137-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 137,
+  "tune": "定风波",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒花前欲问君，世间何计可留春？纵使青春留得住，虚语，无情花对有情人。"
+   ],
+   [
+    "任是好花须落去，自古，红颜能得几时新？暗想浮生何时好？唯有，清歌一曲倒金尊。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "四词首句皆以“把酒花前”开篇，为一组联章。《渔家傲》“喜鹊填河”、“乞巧楼头”、“别恨长长”三首咏七夕，“九日欢游”、“青女霜前”二首咏重九，皆同此体。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_136.html"
+ },
+ {
+  "id": "ouyang-xiu/0138-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 138,
+  "tune": "定风波",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "过尽韶华不可添，小楼红日下层檐。春睡觉来情绪恶，寂寞，杨花缭乱拂珠帘。"
+   ],
+   [
+    "早是闲愁依旧在，无奈，那堪更被宿酲兼。把酒送春惆怅甚，长恁，年年三月病厌厌。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_137.html"
+ },
+ {
+  "id": "ouyang-xiu/0139-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 139,
+  "tune": "定风波",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "对酒追欢莫负春，春光归去可饶人。昨日红芳今绿树，已暮，残花飞絮两纷纷。"
+   ],
+   [
+    "粉面丽姝歌窈窕，清妙，尊前信任醉醺醺。不是狂心贪燕乐，自觉，年来白发满头新。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_138.html"
+ },
+ {
+  "id": "ouyang-xiu/0140-mo-shan-xi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 140,
+  "tune": "蓦山溪",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "新正初破，三五银蟾满。纤手染香罗，剪红莲、满城开遍。楼台上下，歌管咽春风，驾香轮，停宝马，只待金乌晚。"
+   ],
+   [
+    "帝城今夜，罗绮谁为伴？应卜紫姑神，问归期、相思望断。天涯情绪，对酒且开颜，春宵短。春寒浅，莫待金杯暖。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "金乌：太阳。",
+    "source": null,
+    "headword": "金乌"
+   },
+   {
+    "text": "世有紫姑神，古来相传云：是人家妾，为大妇所嫉，每以秽事相次役。正月十五日，感激而死，故世人以其日作其形，夜于厕间或猪栏边迎之，祝曰：子胥不在，是其婿名也。曹姑亦归曹，即其大妇也。小姑可出戏，投者觉重，便是神来。奠设酒果，亦觉貌辉辉有色，即跳躞不住，能占众事，卜未来、蚕桑。又善射钩，好则大㒇，恶便仰眠。平昌孟氏恒不信，躬试往投，便自跃茅屋而去，永失所在也。",
+    "source": "南朝刘敬叔《异苑》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_139.html"
+ },
+ {
+  "id": "ouyang-xiu/0141-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 141,
+  "tune": "浣溪沙",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "云曳香绵彩柱高，绛旗风飐出花梢。一梭红带往来抛。"
+   ],
+   [
+    "束素美人羞不打，却嫌裙慢褪纤腰。日斜深院影空摇。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "实粘秋千，迂回换眩。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_140.html"
+ },
+ {
+  "id": "ouyang-xiu/0142-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 142,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "堤上游人逐画船，拍堤春水四垂天。绿杨楼外出秋千。"
+   ],
+   [
+    "白发戴花君莫笑，六么催拍盏频传。人生何处似尊前？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "欧阳永叔《浣溪沙》云：“堤上游人逐画船，拍堤春水四垂天。绿杨楼外出秋千。”此篇语甚妙绝，只一“出”字，是后人着意道不到处。",
+    "source": "宋赵德麟《侯鲭录》引晁补之《评本朝乐章》",
+    "headword": null
+   },
+   {
+    "text": "（引晁无咎评，同上。）余按，唐王摩诘《寒食城东即事》诗云：“蹴鞠屡过飞鸟上，秋千竞出垂杨里。”欧阳公用“出”字，盖本此。",
+    "source": "宋吴曾《能改斋漫录》",
+    "headword": null
+   },
+   {
+    "text": "不惟调句宛藻，而造理甚微，足唤醒人。",
+    "source": "明杨慎评《草堂诗馀》",
+    "headword": null
+   },
+   {
+    "text": "“出”字亦后人着意道不到处，未苟达人之言。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "“楼上晴天碧四垂”本韩侍郎“泪眼倚楼天四垂”，不妨并佳。欧文忠“拍堤春水四垂天”，柳员外“目断四天垂”，皆本韩句，而意致少减。",
+    "source": "清王士禛《花草蒙拾》",
+    "headword": null
+   },
+   {
+    "text": "按第一阕，写世上儿女多少欢娱。第二阕“白发”句，写老成意趣，自在众人喧嚣之外。末句写得无限凄怆沉郁，妙在含蓄不尽。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": null
+   },
+   {
+    "text": "风流自赏。",
+    "source": "清陈廷焯《别调集》",
+    "headword": null
+   },
+   {
+    "text": "欧九《浣溪沙》词“绿杨楼外出秋千”，晁补之谓只一“出”字，便后人所不能道。余谓此本于正中《上行杯》词“柳外秋千出画墙”，但欧语尤工耳。",
+    "source": "王国维《人间词话》",
+    "headword": null
+   },
+   {
+    "text": "此首记泛舟之乐。起记堤上游人之乐；次记堤下春水之盛；“绿杨”句，记临水人家之富丽。下片，触景生感，寓有及时行乐之意。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_141.html"
+ },
+ {
+  "id": "ouyang-xiu/0143-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 143,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "湖上朱桥响画轮，溶溶春水浸春云。碧琉璃滑净无尘。"
+   ],
+   [
+    "当路游丝萦醉客，隔花啼鸟唤行人。日斜归去奈何春。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "永叔、长公，极不能作丽语，而亦有之。永叔如“当路游丝萦醉客，隔花啼鸟唤行人”，长公如“彩索身轻常趁燕，红窗睡重不闻驾”，胜人百倍。",
+    "source": "明王世贞《弇州词评》",
+    "headword": null
+   },
+   {
+    "text": "“奈何春”三字，新而远。",
+    "source": "明杨慎评《草堂诗馀》",
+    "headword": null
+   },
+   {
+    "text": "汤若士“良辰美景奈何天”本此。",
+    "source": "明卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "触景赋诗，古人胸次何等活泼泼地。",
+    "source": "明董其昌《便读草堂诗馀》",
+    "headword": null
+   },
+   {
+    "text": "“隔花”句丽，“奈何”字，春色无边。",
+    "source": "明潘游龙《古今诗馀醉》",
+    "headword": null
+   },
+   {
+    "text": "“奈何”二字，春色撩人。",
+    "source": "明沈际飞《草堂诗馀正集》",
+    "headword": null
+   },
+   {
+    "text": "沈际飞曰：人谓永叔不能作丽语，如“隔花”句，“海棠经”两句，非丽语耶。按“奈何春”三字，从“萦”字“唤”字生来。“萦”字“唤”字，下得有情，而“奈何”字，自然脱口而出，不拘是比是赋，读之娓娓情长。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": "沈际飞曰"
+   },
+   {
+    "text": "上阕写水畔春光明媚，风景宛然。下阕嬉春之“醉客”“行人”，营营扰扰，而“游丝”“啼鸟”，复作意撩人，在冷眼观之，徒唤奈何，唯有“日斜归去”耳。",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   },
+   {
+    "text": "此首写湖上景色。起记桥上车马之繁。“溶溶”两句，写足湖水之美，一碧无尘，春云浸影，此景诚足令人忘返。下片，言游丝萦客，啼鸟唤人，更有无限情味。末句，点明日斜不得不归，又颇有惆怅之意。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_142.html"
+ },
+ {
+  "id": "ouyang-xiu/0144-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 144,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "叶底青青杏子垂，枝头薄薄柳绵飞。日高深院晚莺啼。"
+   ],
+   [
+    "堪恨风流成薄幸，断无消息道归期。托腮无语翠眉低。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "魏宫人好画长眉，今多作翠眉警鹤髻。",
+    "source": "晋崔豹《古今注·杂注》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_143.html"
+ },
+ {
+  "id": "ouyang-xiu/0145-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 145,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "青杏园林煮酒香，佳人初着薄罗裳。柳丝摇曳燕飞忙。"
+   ],
+   [
+    "乍雨乍晴花自落，闲愁闲闷昼偏长。为谁消瘦损容光。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_144.html"
+ },
+ {
+  "id": "ouyang-xiu/0146-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 146,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红粉佳人白玉杯，木兰船稳棹歌催。绿荷风里笑声来。"
+   ],
+   [
+    "细雨轻烟笼草树，斜桥曲水绕楼台。夕阳高处画屏开。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_145.html"
+ },
+ {
+  "id": "ouyang-xiu/0147-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 147,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "翠袖娇鬟舞《石州》，两行红粉一时羞。新声难逐管弦愁。"
+   ],
+   [
+    "白发主人年未老，清时贤相望偏优。一尊风月为公留。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "《石州》，商调曲也，又有舞《石州》。",
+    "source": "宋郭茂倩《乐府诗集·近代曲辞·石州》题解",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "熙宁五年（1072）赵概自睢阳来访颍州时作。“白发主人”为欧阳修自指，“清时贤相”指赵概，时二人皆已致仕。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_146.html"
+ },
+ {
+  "id": "ouyang-xiu/0148-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 148,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "灯烬垂花月似霜，薄帘映月两交光。酒醺红粉自生香。"
+   ],
+   [
+    "双手舞馀拖翠袖，一声歌已釂金觞。休回娇眼断人肠。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_147.html"
+ },
+ {
+  "id": "ouyang-xiu/0149-huan-xi-sha",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 149,
+  "tune": "浣溪沙",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十载相逢酒一卮，故人才见便开眉。老来游旧更同谁？"
+   ],
+   [
+    "浮世歌欢真易失，宦途离合信难期。尊前莫惜醉如泥。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_148.html"
+ },
+ {
+  "id": "ouyang-xiu/0150-yu-dai-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 150,
+  "tune": "御带花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "青春何处风光好，帝里偏爱元夕。万重缯彩，构一屏峰岭，半空金碧。宝檠银釭，耀绛幕、龙虎腾掷。沙堤远、雕轮绣毂，争走五王宅。"
+   ],
+   [
+    "雍容熙熙作昼，会乐府神姬，海洞仙客。拽香摇翠，称执手行歌，锦街天陌。月淡寒轻，渐向晓、漏声寂寂。当年少、狂心未已，不醉怎归得。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "凡拜相，礼绝班行，府县载沙填路。自私第至于子城东街，名曰沙堤。",
+    "source": "唐李肇《唐国史补》",
+    "headword": null
+   },
+   {
+    "text": "初，玄宗兄弟圣历初出阁，列第于东都积善坊，五人分院同居，号“五王宅”。大足元年，从幸西京，赐宅于兴庆坊，亦号“五王宅”。",
+    "source": "《旧唐书·睿宗诸子传》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_149.html"
+ },
+ {
+  "id": "ouyang-xiu/0151-yu-mei-ren",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 151,
+  "tune": "虞美人",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "炉香昼永龙烟白，风动金鸾额。画屏寒掩小山川，睡容初起枕痕圆，坠花钿。"
+   ],
+   [
+    "楼高不及烟霄半，望尽相思眼。艳阳刚爱挫愁人，故生芳草碧连云，怨王孙。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "王孙游兮不归，春草生兮萋萋。",
+    "source": "汉刘安《招隐士》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_150.html"
+ },
+ {
+  "id": "ouyang-xiu/0152-he-chong-tian",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 152,
+  "tune": "鹤冲天",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "梅谢粉，柳拖金，香满旧园林。养花天气半晴阴，花好却愁深。"
+   ],
+   [
+    "花无数，愁无数，花好却愁春去。戴花持酒祝东风，千万莫匆匆。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "黄昏把酒祝东风，且从容。",
+    "source": "唐司空图《酒泉子》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_151.html"
+ },
+ {
+  "id": "ouyang-xiu/0153-ye-xing-chuan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 153,
+  "tune": "夜行船",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "忆昔西都欢纵，自别后、有谁能共？伊川山水洛川花，细寻思、旧游如梦。"
+   ],
+   [
+    "今日相逢情愈重，愁闻唱、画楼钟动。白发天涯逢此景，倒金尊、殢谁相送？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_152.html"
+ },
+ {
+  "id": "ouyang-xiu/0154-ye-xing-chuan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 154,
+  "tune": "夜行船",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "满眼东风飞絮，催行色、短亭春暮。落花流水草连云，看看是、断肠南浦。"
+   ],
+   [
+    "檀板未终人去去，扁舟在、绿杨深处。手把金尊难为别，更那听、乱莺疏雨。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春草碧色，春水渌波，送君南浦，伤如之何。",
+    "source": "南朝江淹《别赋》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_153.html"
+ },
+ {
+  "id": "ouyang-xiu/0155-luo-yang-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 155,
+  "tune": "洛阳春",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红纱未晓黄鹂语，蕙炉销兰炷。锦屏罗幕护春寒，昨夜三更雨。"
+   ],
+   [
+    "绣帘闲倚吹轻絮，敛眉山无绪。看花拭泪向归鸿，问来处、逢郎否？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_154.html"
+ },
+ {
+  "id": "ouyang-xiu/0156-yu-zhong-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 156,
+  "tune": "雨中花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "千古都门行路，能使离歌声苦。送尽行人，花残春晚，又到君东去。"
+   ],
+   [
+    "醉藉落花吹暖絮，多少曲堤芳树。且携手留连，良辰美景，留作相思处。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_155.html"
+ },
+ {
+  "id": "ouyang-xiu/0157-yue-xi-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 157,
+  "tune": "越溪春",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "三月十三寒食日，春色遍天涯。越溪阆苑繁华地，傍禁垣、珠翠烟霞。红粉墙头，秋千影里，临水人家。"
+   ],
+   [
+    "归来晚驻香车，银箭透窗纱。有时三点两点雨霁，朱门柳细风斜。沉麝不烧金鸭冷，笼月照梨花。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_156.html"
+ },
+ {
+  "id": "ouyang-xiu/0158-he-sheng-chao-ying",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 158,
+  "tune": "贺圣朝影",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "白雪梨花红粉桃，露华高。垂杨慢舞绿丝絛，草如袍。"
+   ],
+   [
+    "风过小池轻浪起，似江皋。千金莫惜买香醪，且陶陶。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春风拂槛露华浓。",
+    "source": "唐李白《清平调》",
+    "headword": null
+   },
+   {
+    "text": "缓歌慢舞凝丝竹。",
+    "source": "唐白居易《长恨歌》",
+    "headword": null
+   },
+   {
+    "text": "秋霜似鬓年空长，春草如袍位尚卑。",
+    "source": "唐白居易《和谈校书秋夜感怀呈朝中亲友》",
+    "headword": null
+   },
+   {
+    "text": "好驾觥船去，陶陶入醉乡。",
+    "source": "唐李咸用《晓望》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "绿絛青袍，一副春色。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_157.html"
+ },
+ {
+  "id": "ouyang-xiu/0159-dong-tian-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 159,
+  "tune": "洞天春",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "莺啼绿树声早，槛外残红未扫。露点真珠遍芳草，正帘帏清晓。"
+   ],
+   [
+    "秋千宅院悄悄，又是清明过了。燕蝶轻狂，柳丝撩乱，春心多少？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_158.html"
+ },
+ {
+  "id": "ouyang-xiu/0160-yi-han-yue",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 160,
+  "tune": "忆汉月",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红艳几枝轻袅，新被东风开了。倚烟啼露为谁娇？故惹蝶怜蜂恼。"
+   ],
+   [
+    "多情游赏处，留恋向、绿丛千绕。酒阑欢罢不成归，肠断月斜春老。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_159.html"
+ },
+ {
+  "id": "ouyang-xiu/0161-qing-ping-le",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 161,
+  "tune": "清平乐",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "小庭春老，碧砌红萱草。长忆小阑闲共绕，携手绿丛含笑。"
+   ],
+   [
+    "别来音信全乖，旧期前事堪猜。门掩日斜人静，落花愁点青苔。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_160.html"
+ },
+ {
+  "id": "ouyang-xiu/0162-liang-zhou-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 162,
+  "tune": "凉州令",
+  "tuneRepeated": false,
+  "title": "东堂石榴",
+  "preface": null,
+  "stanzas": [
+   [
+    "翠树芳条飐，的的裙腰初染。佳人携手弄芳菲，绿阴红影，共展双纹簟。插花照影窥鸾鉴。只恐芳容减。不堪零落春晚，青苔雨后深红点。"
+   ],
+   [
+    "一去门闲掩。重来却寻朱槛。离离秋实弄轻霜，娇红脉脉，似见胭脂脸。人非事往眉空敛，谁把佳期赚？芳心只愿长依旧，春风更放明年艳。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "风卷蒲桃带，日照石榴裙。",
+    "source": "南朝何思澄《南苑逢美人》",
+    "headword": null
+   },
+   {
+    "text": "颠倒苍苔落绛英。",
+    "source": "唐韩愈《咏榴花》",
+    "headword": null
+   },
+   {
+    "text": "泪痕裛损燕支脸，剪刀裁破红绡巾。",
+    "source": "唐白居易《山石榴》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "始终详婉，不以为纤。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_161.html"
+ },
+ {
+  "id": "ouyang-xiu/0163-nan-xiang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 163,
+  "tune": "南乡子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "翠密红繁，水国凉生未是寒。雨打荷花珠不定，轻翻，冷泼鸳鸯锦翅斑。"
+   ],
+   [
+    "尽日凭阑，弄蕊拈花仔细看。偷得褭蹄新铸样，无端，藏在红房艳粉间。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "武帝欲表祥瑞，故普改铸为麟足马蹄之形以易旧法耳。今人往往于地中得马蹄金，金甚精好，而形制巧妙。",
+    "source": "《汉书·武帝纪》“今更黄金为麟趾褭蹄以协瑞焉”颜师古注。后因借指褭蹄为金银。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_162.html"
+ },
+ {
+  "id": "ouyang-xiu/0164-nan-xiang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 164,
+  "tune": "南乡子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "雨后斜阳，细细风来细细香。风定波平花映水，休藏，照出轻盈半面妆。"
+   ],
+   [
+    "路隔秋江，莲子深深隐翠房。意在莲心无问处，难忘，泪裛红腮不记行。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "（徐）妃以帝眇一目，每知帝将至，必为半面妆以俟，帝见则大怒而出。",
+    "source": "《南史·后妃传下》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "诗中有双关二意，其法乃比之变。比本用事，一变而用意，再变而用声。或有比事比意更比声者。此比事比意若何？曰藕几时莲，更比声。",
+    "source": "明沈际飞《草堂诗馀续集》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_163.html"
+ },
+ {
+  "id": "ouyang-xiu/0165-que-qiao-xian",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 165,
+  "tune": "鹊桥仙",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "月波清霁，烟容明淡，灵汉旧期还至。鹊迎桥路接天津，映夹岸、星榆点缀。"
+   ],
+   [
+    "云屏未卷，仙鸡催晓，肠断去年情味。多应天意不教长，恁恐把、欢娱容易。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "天津：银河。",
+    "source": null,
+    "headword": "天津"
+   },
+   {
+    "text": "天上何所有，历历种白榆。",
+    "source": "《玉台新咏·古乐府·陇西行》。星榆：繁星。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_164.html"
+ },
+ {
+  "id": "ouyang-xiu/0166-sheng-wu-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 166,
+  "tune": "圣无忧",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "珠帘卷，暮云愁，垂杨暗锁青楼。烟雨濛濛如画，轻风吹旋收。"
+   ],
+   [
+    "香断锦屏新别，人闲玉簟初秋。多少旧欢新恨，书杳杳、梦悠悠。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_165.html"
+ },
+ {
+  "id": "ouyang-xiu/0167-mo-yu-er",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 167,
+  "tune": "摸鱼儿",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "卷绣帘、梧桐秋院落，一霎雨添新绿。对小池闲立残妆浅，向晚水纹如縠。"
+   ],
+   [
+    "凝远目。恨人去寂寂，凤枕孤难宿。倚阑不足。看燕拂风檐，蝶翻露草，两两长相逐。"
+   ],
+   [
+    "双眉促。可惜年华婉娩，西风初弄庭菊。况伊家年少，多情未已难拘束。那堪更趁凉景，追寻甚处垂杨曲。佳期过尽，但不说归来，多应忘了，云屏去时祝。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "水纹如縠燕参差。",
+    "source": "唐杜牧《江上偶见绝句》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_166.html"
+ },
+ {
+  "id": "ouyang-xiu/0168-shao-nian-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 168,
+  "tune": "少年游",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "去年秋晚此园中，携手玩芳丛。拈花嗅蕊，恼烟撩雾，拚醉倚西风。"
+   ],
+   [
+    "今年重对芳丛处，追往事、又成空。敲遍阑干，向人无语，惆怅满枝红。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_167.html"
+ },
+ {
+  "id": "ouyang-xiu/0169-shao-nian-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 169,
+  "tune": "少年游",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "肉红圆样浅心黄，枝上巧如装。雨轻烟重，无聊天气，啼破晓来妆。"
+   ],
+   [
+    "寒轻贴体风头冷，忍抛弃、向秋光。不会深心，为谁惆怅，回面恨斜阳。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "风入罗衣贴体寒。",
+    "source": "南唐冯延巳《抛球乐》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_168.html"
+ },
+ {
+  "id": "ouyang-xiu/0170-shao-nian-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 170,
+  "tune": "少年游",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "玉壶冰莹兽炉灰，人起绣帘开。春丛一夜，六花开尽，不待剪刀催。"
+   ],
+   [
+    "洛阳城阙中天起，高下遍楼台。絮乱风轻，拂鞍沾袖，归路似章街。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "砚寒金井水，檐动玉壶冰。",
+    "source": "唐杜甫《赠特进汝阳王二十韵》",
+    "headword": null
+   },
+   {
+    "text": "六花：雪花。",
+    "source": null,
+    "headword": "六花"
+   },
+   {
+    "text": "柳絮章台街里飞。",
+    "source": "唐李商隐《对雪》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_169.html"
+ },
+ {
+  "id": "ouyang-xiu/0171-zhe-gu-tian",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 171,
+  "tune": "鹧鸪天",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "学画宫眉细细长，芙蓉出水斗新妆。只知一笑能倾国，不信相看有断肠。"
+   ],
+   [
+    "双黄鹄，两鸳鸯，迢迢云水恨难忘。早知今日长相忆，不及从初莫作双。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "（李）夫人兄延年性知音，善歌舞，武帝爱之。每为新声变曲，闻者莫不感动。延年侍上，起舞歌曰：“北方有佳人，绝世而独立。一顾倾人城，再顾倾人国。宁不知倾城与倾国？佳人难再得！”",
+    "source": "《汉书·外戚传》",
+    "headword": null
+   },
+   {
+    "text": "愿为双黄鹄，送子俱远飞。",
+    "source": "汉苏武《古诗》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_170.html"
+ },
+ {
+  "id": "ouyang-xiu/0172-qian-qiu-sui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 172,
+  "tune": "千秋岁",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "罗衫满袖，尽是忆伊泪。残妆粉，馀香被。手把金尊酒，未饮先如醉。但向道，厌厌成病皆因你。"
+   ],
+   [
+    "离思迢迢远，一似长江水。去不断，来无际。红笺着意写，不尽相思意。为个甚，相思只在心儿里。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "红笺写寄表情深。",
+    "source": "五代顾夐《荷叶杯》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_171.html"
+ },
+ {
+  "id": "ouyang-xiu/0173-qian-qiu-sui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 173,
+  "tune": "千秋岁",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "画堂人静，翡翠帘前月。鸾帷凤枕虚铺设，风流难管束，一去音书歇。到而今，高梧冷落西风切。"
+   ],
+   [
+    "未语先垂泪，滴尽相思血。魂欲断，情难绝。都来些子事，更与何人说？为个甚，心头见底多离别。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_172.html"
+ },
+ {
+  "id": "ouyang-xiu/0174-zui-peng-lai",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 174,
+  "tune": "醉蓬莱",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "见羞容敛翠，嫩脸匀红，素腰袅娜。红药阑边，恼不教伊过。半掩娇羞，语声低颤，问道有人知么？强整罗裙，偷回波眼，佯行佯坐。"
+   ],
+   [
+    "更问假如，事还成后，乱了云鬟，被娘猜破。我且归家，你而今休呵。更为娘行，有些针线，诮未曾收啰。却待更阑，庭花影下，重来则个。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "仁宗景祐中，欧阳修为馆阁校理。两宫之隙，奏事帘前，复主濮议，举朝倚重。后知贡举，为下第刘辉等所忌，以《醉蓬莱》、《望江南》诬之。",
+    "source": "清沈雄《古今词话·词评》引《名臣录》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_173.html"
+ },
+ {
+  "id": "ouyang-xiu/0175-yu-fei-le",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 175,
+  "tune": "于飞乐",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "宝奁开，美鉴静，一掬清蟾。新妆脸，旋学花添。蜀红衫，双绣蝶、裙缕鹣鹣。寻思前事，小屏风、仍画江南。"
+   ],
+   [
+    "怎空教、草解宜男，柔桑密、又过春蚕。正阴晴天气，更瞑色相兼。佳期消息，曲房西、碎月筛帘。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "南方有比翼鸟焉，不比不飞，其名谓之鹣鹣。",
+    "source": "《尔雅·释地》",
+    "headword": null
+   },
+   {
+    "text": "宜男，草也，高六尺，花如莲。怀姙人带佩，必生男。",
+    "source": "《齐民要术·鹿葱》引晋周处《风土记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_174.html"
+ },
+ {
+  "id": "ouyang-xiu/0176-gu-di-man",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 176,
+  "tune": "鼓笛慢",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "缕金裙窣轻纱，透红莹玉真堪爱。多情更把，眼儿斜盼，眉儿敛黛。舞态歌阑，困偎香脸，酒红微带。便直饶、更有丹青妙手，应难写、天然态。"
+   ],
+   [
+    "长恐有时不见，每饶伊、百般娇騃。眼穿肠断，如今千种，思量无奈。花谢春归，梦回云散，欲寻难再。暗消魂，但觉鸳衾凤枕，有馀香在。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_175.html"
+ },
+ {
+  "id": "ouyang-xiu/0177-kan-hua-hui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 177,
+  "tune": "看花回",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "晓色初透东窗，醉魂方觉。恋恋绣衾半拥，动万感脉脉，春思无托。追想少年，何处青楼贪欢乐？当媚景，恨月愁花，算伊全妄凤帏约。"
+   ],
+   [
+    "空泪滴、真珠暗落。又被谁、连宵留着。不晓高天甚意，既付与风流，却恁情薄。细把身心自解，只与猛拚却。又及生、见来了，怎生教人恶。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "醉魂：醉梦。",
+    "source": null,
+    "headword": "醉魂"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_176.html"
+ },
+ {
+  "id": "ouyang-xiu/0178-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 178,
+  "tune": "蝶恋花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "几度兰房听禁漏，臂上残妆，印得香盈袖。酒力融融香汗透，春娇入眼横波溜。"
+   ],
+   [
+    "不见些时眉已皱，水阔山遥，乍向分飞后。大抵有情须感旧，肌肤拚为伊销瘦。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "委兰房兮繁华，袭穷泉兮朽壤。",
+    "source": "《文选·潘岳〈哀永逝文〉》。吕延济注：“兰房，妻尝所居室也。”",
+    "headword": null
+   },
+   {
+    "text": "臂留檀印齿痕香。",
+    "source": "五代阎选《虞美人》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_177.html"
+ },
+ {
+  "id": "ouyang-xiu/0179-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 179,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": "咏枕儿",
+  "preface": null,
+  "stanzas": [
+   [
+    "宝琢珊瑚山样瘦，缓髻轻拢，一朵云生袖。昨夜佳人初命偶，论情旋旋移相就。"
+   ],
+   [
+    "几叠鸳衾红浪皱，暗觉金钗，磔磔声相扣。一自楚台人梦后，凄凉暮雨沾裀绣。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "昔者楚襄王与宋玉游于云梦之台，望高唐之观，其上独有云气……王问玉曰：“此何气也？”玉对曰：“所谓朝云者也。”王曰：“何谓朝云？”玉曰：“昔者先王尝游高唐，怠而昼寝，梦见一妇人曰：妾巫山之女也，为高唐之客，闻君游高唐，愿荐枕席。王因幸之。去而辞曰：‘妾在巫山之阳，高丘之岨，旦为朝云，暮为行雨。朝朝暮暮，阳台之下。’”",
+    "source": "《文选·宋玉〈高唐赋〉序》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_178.html"
+ },
+ {
+  "id": "ouyang-xiu/0180-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 180,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "一掬天和金粉腻，莲子心中，自有深深意。意密莲深秋正媚，将花寄恨无人会。"
+   ],
+   [
+    "桥上少年桥下水，小棹归时，不语牵红袂。浪浅荷心圆又碎，无端欲伴相思泪。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_179.html"
+ },
+ {
+  "id": "ouyang-xiu/0181-die-lian-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 181,
+  "tune": "蝶恋花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "百种相思千种恨，早是伤春，那更春醪困。薄倖辜人终不忿，何时枕畔分明问。"
+   ],
+   [
+    "懊恼风流心一寸，强醉偷眠，也即依前闷。此意为君君不信，泪珠滴尽愁难尽。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "不忿：不服气。",
+    "source": null,
+    "headword": "不忿"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_180.html"
+ },
+ {
+  "id": "ouyang-xiu/0182-wu-ling-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 182,
+  "tune": "武陵春",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "宝幄华灯相见夜，妆脸小桃红。斗帐香檀翡翠笼，携手恨匆匆。"
+   ],
+   [
+    "金泥双结同心带，留与记情浓。却望行云十二峰，肠断月斜钟。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_181.html"
+ },
+ {
+  "id": "ouyang-xiu/0183-liang-zhou-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 183,
+  "tune": "梁州令",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红杏墙头树，紫萼香心初吐。新年花发旧时枝，徘徊千绕，独共东风语。阳台一梦如云雨，为问今何处？离情别恨多少，条条结向垂杨缕。"
+   ],
+   [
+    "此事难分付。初心本谁先许。窃香解佩两沉沉，知他而今，记得当初否？谁教薄倖轻相误。不信道、相思苦。如今却恁空追悔，元来也会忆人去。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "阳台：见前《蝶恋花》（宝琢珊瑚山样瘦）注。",
+    "source": null,
+    "headword": "阳台"
+   },
+   {
+    "text": "窃香：见前《望江南》（心如韩寿爱偷香）注。",
+    "source": null,
+    "headword": "窃香"
+   },
+   {
+    "text": "解佩：见前《玉楼春》（燕鸿过后春归去）注。",
+    "source": null,
+    "headword": "解佩"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_182.html"
+ },
+ {
+  "id": "ouyang-xiu/0184-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 184,
+  "tune": "渔家傲",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "为爱莲房都一柄，双苞双蕊双红影。雨势断来风色定。秋水静，仙郎彩女临鸾镜。"
+   ],
+   [
+    "妾有容华君不省，花无恩爱犹相并。花却有情人薄倖。心耿耿，因花又染相思病。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_183.html"
+ },
+ {
+  "id": "ouyang-xiu/0185-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 185,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "昨日采花花欲尽，隔花闻道潮来近。风猎紫荷声又紧。低难奔，莲茎刺惹香腮损。"
+   ],
+   [
+    "一缕艳痕红隐隐，新霞点破秋蟾晕。罗袖挹残心不稳。羞人问，归来剩把胭脂衬。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_184.html"
+ },
+ {
+  "id": "ouyang-xiu/0186-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 186,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "一夜越溪秋水满，荷花开过溪南岸。贪采嫩香星眼慢。疏回眄，郎船不觉来自畔。"
+   ],
+   [
+    "罢采金英收玉腕，回身急打船头转。荷叶又浓波又浅。无方便，教人只得抬娇面。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_185.html"
+ },
+ {
+  "id": "ouyang-xiu/0187-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 187,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "近日门前溪水涨，郎船几度偷相访。船小难开红斗帐。无计向，合欢影里空惆怅。"
+   ],
+   [
+    "愿妾身为红菡萏，年年生在秋江上。重愿郎为花底浪。无隔障，随风逐雨长来往。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_186.html"
+ },
+ {
+  "id": "ouyang-xiu/0188-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 188,
+  "tune": "渔家傲",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "妾解清歌并巧笑，郎多才俊兼年少。何事抛儿行远道。无音耗，江头又绿王孙草。"
+   ],
+   [
+    "昔日采花呈窈窕，玉容长笑花枝老。今日采花添懊恼。伤怀抱，玉容不及花枝好。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "《渔家傲》五首，皆咏荷。与前录《渔家傲》八首咏荷同一体调，亦为用于歌舞之鼓子词。",
+    "source": "《唐宋词汇评》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_187.html"
+ },
+ {
+  "id": "ouyang-xiu/0189-yi-hu-zhu",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 189,
+  "tune": "一斛珠",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "今朝祖宴，可怜明夜孤灯馆。酒醒明月空床满，翠被重重，不似香肌暖。"
+   ],
+   [
+    "愁肠恰似沉香篆，千回万转萦还断。梦中若得相寻见，却愿春宵，一夜如年远。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_188.html"
+ },
+ {
+  "id": "ouyang-xiu/0190-xi-fang-shi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 190,
+  "tune": "惜芳时",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "因倚兰台翠云亸，睡未足、双眉尚锁。潜身走向伊行坐，孜孜地、告他梳裹。"
+   ],
+   [
+    "发妆酒冷重温过，道要饮、除非伴我。丁香嚼碎偎人睡，犹记恨、夜来些个。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_189.html"
+ },
+ {
+  "id": "ouyang-xiu/0191-dong-xian-ge-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 191,
+  "tune": "洞仙歌令",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "楼前乱草，是离人方寸。倚遍阑干意无尽。罗巾掩，宿粉残眉、香未减，人与天涯共远。"
+   ],
+   [
+    "香闺知人否，长是厌厌，拟写相思寄归信。未写了，泪成行、早满香笺。相思字、一时滴损。便直饶、伊家总无情，也拚了一生，为伊成病。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_190.html"
+ },
+ {
+  "id": "ouyang-xiu/0192-dong-xian-ge-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 192,
+  "tune": "洞仙歌令",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "情知须病，奈自家先肯。天甚教伊恁端正。忆年时、兰棹独倚春风，相怜处、月影花光相映。"
+   ],
+   [
+    "别来凭谁诉？空寄香笺，拟问前欢甚时更。后约与新期，易失难寻，空肠断、损风流心性。除只把、芳尊强开颜，奈酒到愁肠，醉了还醒。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_191.html"
+ },
+ {
+  "id": "ouyang-xiu/0193-que-ta-zhi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 193,
+  "tune": "鹊踏枝",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "一曲尊前开画扇，暂近还遥，不语仍低面。直至情多缘少见，千金不直双回眄。"
+   ],
+   [
+    "苦恨行云容易散，过尽佳期，争向年芳晚。百种寻思千万遍，愁肠不似情难断。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_192.html"
+ },
+ {
+  "id": "ouyang-xiu/0194-pin-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 194,
+  "tune": "品令",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "渐素景，金风劲，早是凄凉孤冷。那堪闻、蛩吟穿金井，唤愁绪难整。"
+   ],
+   [
+    "懊恼人人薄倖，负云期雨信。终日望伊来，无凭准，闷损我、也不定。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_193.html"
+ },
+ {
+  "id": "ouyang-xiu/0195-yan-gui-liang",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 195,
+  "tune": "燕归梁",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "风摆红藤卷绣帘，宝鉴慵拈。日高梳洗几时忺？金盆水，弄纤纤。"
+   ],
+   [
+    "髻云谩亸残花淡，和娇媚、瘦嵓嵓。离情更被宿酲兼，空惹得、病厌厌。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "嵓嵓：形容瘦削柔弱。",
+    "source": null,
+    "headword": "嵓嵓"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_194.html"
+ },
+ {
+  "id": "ouyang-xiu/0196-yan-gui-liang",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 196,
+  "tune": "燕归梁",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "屏里金炉帐外灯，掩春睡腾腾。绿云堆枕乱鬅鬙，犹依约、那回曾。"
+   ],
+   [
+    "人生少有，相怜到老，宁不被天憎？而今前事总无凭，空赢得、瘦棱棱。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "鬅鬙：头发散乱貌。",
+    "source": null,
+    "headword": "鬅鬙"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_195.html"
+ },
+ {
+  "id": "ouyang-xiu/0197-sheng-wu-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 197,
+  "tune": "圣无忧",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "相别重相遇，恬如一梦须臾。尊前今日欢娱事，放盏旋成虚。"
+   ],
+   [
+    "莫惜斗量珠玉，随他雪白髭须。人间长久身难得，斗在不如吾。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "世上争先从尽汝，人间斗在不如吾。",
+    "source": "唐白居易《代梦得吟诗》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_196.html"
+ },
+ {
+  "id": "ouyang-xiu/0198-jin-xiang-nang",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 198,
+  "tune": "锦香囊",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "一寸相思无着处，甚夜长难度。灯花前、几转寒更，桐叶上、数声秋雨。"
+   ],
+   [
+    "真个此心终难负。况少年情绪。已交共、春茧缠绵，终不学、钿筝移柱。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "春心莫共花争发，一寸相思一寸灰。",
+    "source": "唐李商隐《无题》",
+    "headword": null
+   },
+   {
+    "text": "莫言春茧薄，犹有万重思。",
+    "source": "唐皮日休《和鲁望风人》",
+    "headword": "莫言春茧薄"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_197.html"
+ },
+ {
+  "id": "ouyang-xiu/0199-xi-qun-yao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 199,
+  "tune": "系裙腰",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "水轩檐幕透薰风，银塘外、柳烟浓。方床遍展鱼鳞簟，碧纱笼。小墀面，对芙蓉。"
+   ],
+   [
+    "玉人共处双鸳枕，和娇困、睡朦胧。起来意懒含羞态，汗香融。素裙腰，映酥胸。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_198.html"
+ },
+ {
+  "id": "ouyang-xiu/0200-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 200,
+  "tune": "阮郎归",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "浓香搓粉细腰肢，青螺深画眉。玉钗撩乱挽人衣，娇多常睡迟。"
+   ],
+   [
+    "绣帘角，月痕低，仙郎东路归。泪红满面湿胭脂，兰芳怨别离。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_199.html"
+ },
+ {
+  "id": "ouyang-xiu/0201-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 201,
+  "tune": "阮郎归",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "去年今日落花时，依前又见伊。淡匀双脸浅匀眉，青衫透玉肌。"
+   ],
+   [
+    "才会面，便相思，相思无尽期。这回相见好相知，相知已是迟。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_200.html"
+ },
+ {
+  "id": "ouyang-xiu/0202-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 202,
+  "tune": "阮郎归",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "玉肌花脸柳腰肢。红妆浅黛眉。翠鬟斜亸语声低。娇羞云雨时。"
+   ],
+   [
+    "伊怜我，我怜伊。心儿与眼儿。绣屏深处说深期。幽情谁得知。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_201.html"
+ },
+ {
+  "id": "ouyang-xiu/0203-yuan-chun-lang",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 203,
+  "tune": "怨春郎",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "为伊家，终日闷，受尽凄惶谁问？不知不觉上心头，悄一霎身心顿也没处顿。"
+   ],
+   [
+    "恼愁肠，成寸寸，已恁莫把人萦损。奈每每人前道着伊，空把相思泪眼和衣揾。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_202.html"
+ },
+ {
+  "id": "ouyang-xiu/0204-di-di-jin",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 204,
+  "tune": "滴滴金",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "尊前一把横波溜，彼此心儿有。曲屏深幌解香罗，花灯微透。"
+   ],
+   [
+    "偎人欲语眉先皱，红玉困春酒。为问鸳衾这回后，几时重又？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "赵后体轻腰弱，善行步进退，女弟昭仪，不能及也。但昭仪弱骨丰肌，尤工笑语。二人并色如红玉。",
+    "source": "《西京杂记》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_203.html"
+ },
+ {
+  "id": "ouyang-xiu/0205-bu-suan-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 205,
+  "tune": "卜算子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "极得醉中眠，迤逦翻成病。莫是前生负你来，今世里、教孤冷。"
+   ],
+   [
+    "言约全无定，是谁先薄倖？不惯孤眠惯成双，奈奴子、心肠硬。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_204.html"
+ },
+ {
+  "id": "ouyang-xiu/0206-gan-ting-qiu",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 206,
+  "tune": "感庭秋",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红笺封了还重拆，这添追忆。且教伊见我，别来翠减，香销端的。"
+   ],
+   [
+    "渌波平远，暮山重叠，算难凭鳞翼。倚危楼极目，无情细草长天色。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_205.html"
+ },
+ {
+  "id": "ouyang-xiu/0207-man-lu-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 207,
+  "tune": "满路花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "铜荷融烛泪，金兽啮扉环。兰堂春夜疑，惜更残。落花风雨，向晓作轻寒。金龟朝早，香衾馀暖，殢娇由自慵眠。"
+   ],
+   [
+    "小鬟无事须来唤，呵破点唇檀。回身还、却背屏山。春禽飞下，帘外日三竿。起来云鬓乱，不妆红粉，下阶且上秋千。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "铜荷承烛泪，铁铗染浮烟。",
+    "source": "北朝庾信《对烛赋》",
+    "headword": null
+   },
+   {
+    "text": "无端嫁得金龟壻，辜负香衾事早朝。",
+    "source": "唐李商隐《为有》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_206.html"
+ },
+ {
+  "id": "ouyang-xiu/0208-hao-n-er-ling",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 208,
+  "tune": "好女儿令",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "眼细眉长，宫样梳妆。靸鞋儿走向花下立着。一身绣出，两同心字，浅浅金黄。"
+   ],
+   [
+    "早是肌肤轻渺，抱着了、暖仍香。姿姿媚媚端正好，怎教人别后，从头仔细，断得思量。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "靸鞋：拖鞋。",
+    "source": null,
+    "headword": "靸鞋"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_207.html"
+ },
+ {
+  "id": "ouyang-xiu/0209-nan-xiang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 209,
+  "tune": "南乡子",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "浅浅画双眉，取次梳妆也便宜。洒着胭脂红扑面，须知，更有何人得似伊？"
+   ],
+   [
+    "宝帐烛残时，好个温柔模样儿。月里仙郎清似玉，相期，些子精神更与谁？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_208.html"
+ },
+ {
+  "id": "ouyang-xiu/0210-nan-xiang-zi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 210,
+  "tune": "南乡子",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "好个人人，深点唇儿淡抹腮。花下相逢，忙走怕人猜，遗下弓弓小绣鞋。"
+   ],
+   [
+    "刬袜重来，半亸乌云金凤钗。行笑行行连抱得，相挨，一向娇痴不下怀。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "刬袜步香苔，手提金缕鞋。",
+    "source": "南唐李煜《菩萨蛮》。刬袜：只穿着袜子着地。",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_209.html"
+ },
+ {
+  "id": "ouyang-xiu/0211-ta-sha-xing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 211,
+  "tune": "踏莎行",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "碧藓回廊，绿杨深院，偷期夜入帘犹卷。照人无奈月华明，潜身欲恨花深浅。"
+   ],
+   [
+    "密约如沉，前欢未便，看看掷尽金壶箭。阑干敲遍不应人，分明帘下闻裁剪。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "分明窗下闻裁剪，敲遍栏杆唤不应。",
+    "source": "唐韩偓《倚醉》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧词又曰：“栏干敲遍不应人，分明窗下闻裁剪。”此语见韩偓《香奁集》。",
+    "source": "宋王楙《野客丛书》",
+    "headword": "欧词又曰"
+   }
+  ],
+  "sourceFile": "text/part0197_split_210.html"
+ },
+ {
+  "id": "ouyang-xiu/0212-ta-sha-xing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 212,
+  "tune": "踏莎行",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "云母屏低，流苏帐小，矮床薄被秋将晓。乍凉天气未寒时，平明窗外闻啼鸟。"
+   ],
+   [
+    "困殢榴花，香添蕙草，佳期须及朱颜好。莫言多病为多情，此身甘向情中老。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_211.html"
+ },
+ {
+  "id": "ouyang-xiu/0213-su-zhong-qing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 213,
+  "tune": "诉衷情",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "歌时眉黛舞时腰，无处不妖饶。初剪菊、欲登高，天气怯鲛绡。"
+   ],
+   [
+    "紫丝障，绿杨桥，路迢迢。酒阑歌罢，一度归时，一度魂消。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_212.html"
+ },
+ {
+  "id": "ouyang-xiu/0214-su-zhong-qing",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 214,
+  "tune": "诉衷情",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "离怀酒病两忡忡，欹枕梦无踪。可怜有人今夜，胆小怯房空。"
+   ],
+   [
+    "杨柳绿，杏梢红，负春风。迢迢别恨，脉脉归心，付与征鸿。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "未见君子，忧心忡忡。",
+    "source": "《诗经·召南·草虫》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_213.html"
+ },
+ {
+  "id": "ouyang-xiu/0215-hen-chun-chi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 215,
+  "tune": "恨春迟",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "欲借江梅荐饮，望陇驿、音息沉沉。住在柳州东，彼此相思，梦回云去难寻。"
+   ],
+   [
+    "归燕来时花期浸，淡月坠、将晓还阴。争奈多情易感，风信无凭，如何消遣初心。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_214.html"
+ },
+ {
+  "id": "ouyang-xiu/0216-yan-jiao-er",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 216,
+  "tune": "盐角儿",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "增之太长，减之太短，出群风格。施朱太赤，施粉太白，倾城颜色。"
+   ],
+   [
+    "慧多多，娇的的。天付与、教谁怜惜。除非我、偎着抱着，更有何人消得？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "天下之佳人，莫若楚国；楚国之丽者，莫若臣里；臣里之美者，莫若臣东家之子。东家之子，增之一分则太长，减之一分则太短；着粉则太白，施朱则太赤。",
+    "source": "战国宋玉《登徒子好色赋》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_215.html"
+ },
+ {
+  "id": "ouyang-xiu/0217-yan-jiao-er",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 217,
+  "tune": "盐角儿",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "人生最苦，少年不得，鸳帏相守。西风时节，那堪话别，双蛾频皱。"
+   ],
+   [
+    "暗消魂，重回首。奈心儿里、彼此皆有。后时我、两个相见，管取一双清瘦。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "《盐角儿》，《嘉祐杂志》云：梅圣俞说：“始教坊家人市盐，于纸角中得一曲谱，翻之，遂以名。”今双调《盐角儿令》是也。欧阳永叔尝制词。",
+    "source": "宋王灼《碧鸡漫志》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_216.html"
+ },
+ {
+  "id": "ouyang-xiu/0218-yi-qin-e",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 218,
+  "tune": "忆秦娥",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "十五六，脱罗裳，长恁黛眉蹙。红玉暖，入人怀，春困熟。"
+   ],
+   [
+    "展香裀，帐前明画烛。眼波长，斜浸鬓云绿，看不足，苦残宵，更漏促。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_217.html"
+ },
+ {
+  "id": "ouyang-xiu/0219-shao-nian-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 219,
+  "tune": "少年游",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "绿云双亸插金翘，年纪正妖饶。汉妃束素，小蛮垂柳，都占洛城腰。"
+   ],
+   [
+    "锦屏春过衣初减，香雪暖凝消。试问当筵眼波恨，滴滴为谁娇？"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "樱桃樊素口，杨柳小蛮腰。",
+    "source": "唐白居易",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_218.html"
+ },
+ {
+  "id": "ouyang-xiu/0220-ta-sha-xing-man",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 220,
+  "tune": "踏莎行慢",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "独自上孤舟，倚危樯目断。难成暮雨，更朝云散。凉劲残叶乱，新月照、澄波浅。今夜里，厌厌离绪难销遣。"
+   ],
+   [
+    "强来就枕，灯残漏水，合相思眼。分明梦见如花面，依前是、旧庭院。新月照，罗幕挂，珠帘卷。渐向晓，脉然睡觉如天远。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_219.html"
+ },
+ {
+  "id": "ouyang-xiu/0221-hui-xiang-nang",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 221,
+  "tune": "蕙香囊",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "身作琵琶，调全宫羽，佳人自然用意。宝檀槽在雪胸前，倚香脐、横枕琼臂。"
+   ],
+   [
+    "组带金钩，背垂红绶，纤指转弦韵细。愿伊只恁拨《梁州》，且多时、得在怀里。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_220.html"
+ },
+ {
+  "id": "ouyang-xiu/0222-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 222,
+  "tune": "玉楼春",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "艳冶风情天与措，清瘦肌肤冰雪妒。百年心事一宵同，愁听鸡声窗外度。"
+   ],
+   [
+    "信阻青禽云雨暮，海月空惊人两处。强将离恨倚江楼，江水不能流恨去。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "藐姑射之山有神人焉，肌肤若冰雪，绰约若处子。",
+    "source": "《庄子·逍遥游》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "按：司马槱有《赠妓》一词，名《蝶恋花》也，云：“妾本钱塘江上住，花开花落，不受流年度。燕子衔将春色去，纱窗几阵黄梅雨。斜插犀梳云半吐，檀板轻敲，唱彻黄金缕。望断行云无去处，梦回明月在南浦。”又，毛泽民有赠钱塘妓《惜分飞》词云：“泪湿栏杆花着露，愁到眉峰碧，聚此恨，平分取，更无言语，空相觑。断云残雨无章绪，寂寞朝朝暮暮。今夜山深处，断魂分付朝回去。”大为东坡赞赏。泽民由此得名。此二词话语皆祖六一翁词意。",
+    "source": "《草堂诗馀》后集",
+    "headword": "按"
+   },
+   {
+    "text": "此词未见新警，而为时人传诵。司马槱“妾本钱唐江上住”词、毛泽民“泪湿阑干花着露”词，《草堂诗馀》云：“此二词皆祖六一翁《玉楼春》词意。”",
+    "source": "俞陛云《唐五代两宋词选释》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_221.html"
+ },
+ {
+  "id": "ouyang-xiu/0223-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 223,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": "印眉",
+  "preface": null,
+  "stanzas": [
+   [
+    "半辐霜绡亲手剪，香染青蛾和泪卷。画时横接媚霞长，印处双沾愁黛浅。"
+   ],
+   [
+    "当时付我情何限？欲使妆痕长在眼。一回忆着一拈看，便似花前重见面。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "小雁斜侵眉柳去，媚霞横接眼波来。",
+    "source": "唐韩偓《席上有赠》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_222.html"
+ },
+ {
+  "id": "ouyang-xiu/0224-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 224,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "红楼昨夜相将饮，月近珠帘花近枕。银缸照客酒方酣，玉漏催人街已禁。"
+   ],
+   [
+    "晚潮去棹浮清浸，古岸平芜萧索甚。大都薄宦足离愁，不放双鸳长恁恁。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_223.html"
+ },
+ {
+  "id": "ouyang-xiu/0225-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 225,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "金雀双鬟年纪小，学画蛾眉红淡扫。尽人言语尽人怜，不解此情惟解笑。"
+   ],
+   [
+    "稳着舞衣行动俏，走向绮筵呈曲妙。刘郎大有惜花心，只恨寻花来较早。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_224.html"
+ },
+ {
+  "id": "ouyang-xiu/0226-yu-lou-chun",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 226,
+  "tune": "玉楼春",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "夜来枕上争闲事，推倒屏山褰绣被。尽人求守不应人，走向碧纱窗下睡。"
+   ],
+   [
+    "直到起来由自殢，向道夜来真个醉。大家恶发大家休，毕竟到头谁不是。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "“恶发”，嗔怒也。陆游《老学庵笔记》卷八“北方民族吉凶”条：“‘恶发’，犹云‘怒’也。”唐宋诗词即不乏其例。欧阳修《玉楼春》：“大家恶发大家休，毕竟到头谁不是。”",
+    "source": "钱锺书《管锥编》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_225.html"
+ },
+ {
+  "id": "ouyang-xiu/0227-ding-feng-bo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 227,
+  "tune": "定风波",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "把酒花前欲问伊，问伊还记那回时。黯淡梨花笼月影，人静，画堂东畔药阑西。"
+   ],
+   [
+    "及至如今都不认，难问，有情谁道不相思。何事碧窗春睡觉，偷照，粉痕匀却湿胭脂。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_226.html"
+ },
+ {
+  "id": "ouyang-xiu/0228-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 228,
+  "tune": "减字木兰花",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "去年残腊，曾折梅花相对插。人面而今，空有花开无处寻。"
+   ],
+   [
+    "天天不远，把酒拈花重发愿。愿得和伊，偎雪眠香似旧时。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_227.html"
+ },
+ {
+  "id": "ouyang-xiu/0229-jian-zi-mu-lan-hua",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 229,
+  "tune": "减字木兰花",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "年来方寸，十日幽欢千日恨。未会此情，白尽人头可得平。"
+   ],
+   [
+    "区区堪比，水趁浮萍风趁水。试望瑶京，芳草随人上古城。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_228.html"
+ },
+ {
+  "id": "ouyang-xiu/0230-ying-chun-le",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 230,
+  "tune": "迎春乐",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "薄纱衫子初腰匝，步轻轻、小罗靸。人前爱把眼儿札，香汗透、胭脂蜡。"
+   ],
+   [
+    "良夜永、幽期欢则洽，约重会、玉纤频插。执手临归，犹且更待留时霎。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_229.html"
+ },
+ {
+  "id": "ouyang-xiu/0231-yi-luo-suo",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 231,
+  "tune": "一落索",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "小桃风撼香红碎，满帘笼花气。看花何事却成愁，悄不会、春风意。"
+   ],
+   [
+    "窗在梧桐叶底，更黄昏雨细。枕前前事上心来，独自个、怎生睡？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_230.html"
+ },
+ {
+  "id": "ouyang-xiu/0232-ye-xing-chuan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 232,
+  "tune": "夜行船",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "闲把鸳衾横枕，损眉尖、泪痕红沁。花时良夜不归来，忍频听、漏移清禁。"
+   ],
+   [
+    "一饷无言都未寝，忆当初、是谁先恁？及至如今，教人成病，风流万般徒甚。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_231.html"
+ },
+ {
+  "id": "ouyang-xiu/0233-ye-xing-chuan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 233,
+  "tune": "夜行船",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "轻捧香腮低枕，眼波媚、向人相浸。佯娇佯醉索如今，这风情、怎教人禁？"
+   ],
+   [
+    "却与和衣推未寝，低声地、告人休恁。月夕花朝，不成虚过，芳年嫁君徒甚。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_232.html"
+ },
+ {
+  "id": "ouyang-xiu/0234-wang-jiang-nan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 234,
+  "tune": "望江南",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "江南柳，花柳两个柔。花片落时黏酒盏，柳条低处拂人头。各自是风流。"
+   ],
+   [
+    "江南月，如镜复如钩。似镜不侵红粉面，似钩不挂画帘头。长是照离愁。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "多谢长条似相识，强垂烟穗拂人头。",
+    "source": "南唐李煜《柳枝》",
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_233.html"
+ },
+ {
+  "id": "ouyang-xiu/0235-wang-jiang-nan",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 235,
+  "tune": "望江南",
+  "tuneRepeated": true,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "江南柳，叶小未成阴。人为丝轻那忍折，莺嫌枝嫩不胜吟。留着待春深。"
+   ],
+   [
+    "十四五，闲抱琵琶寻。阶上簸钱阶下走，恁时相见早留心。何况到如今。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "簸钱：古代一种以掷钱赌输赢的游戏。",
+    "source": null,
+    "headword": "簸钱"
+   }
+  ],
+  "commentary": [
+   {
+    "text": "欧后为人言其盗甥，表云：“丧厥夫而无托，携孤女以来归。张氏此时，年方七岁。”内翰伯见而笑云：“年方七岁，正是学簸钱时也。”欧词云：“江南柳（词略）。”",
+    "source": "宋钱世昭《钱氏私记》",
+    "headword": null
+   },
+   {
+    "text": "安知非谗夫捏为此词，如《周秦行纪》之出于赞皇客耶？",
+    "source": "清卓人月《古今词统》",
+    "headword": null
+   },
+   {
+    "text": "按此词极佳，当别有寄托，盖以尝为人口实，故编集去之。然缘情绮靡之作，必欲附会秽事，则凡在词人，皆无全行，正不必为欧公辩也。",
+    "source": "清宋翔凤《乐府馀论》",
+    "headword": null
+   },
+   {
+    "text": "王銍《默记》载欧阳公为《望江南》双调云“江南柳（词略）”。初，欧公有盗甥之疑，上表自白云：“丧厥夫而无托，携幼女以来归。张氏此时，年方七岁。”钱穆父素恨公，笑曰：“正是学簸钱时也。”欧知贡举，下第人复作《醉蓬莱》词讥之。愚按，欧公词出《钱氏私志》，盖钱世昭因公《五代史》中多毁吴越，故诋之。此词不信也。",
+    "source": "清徐釚《词苑丛谈》",
+    "headword": null
+   },
+   {
+    "text": "案，《欧阳文忠公全集》九十三，载乞根究蒋之奇弹疏札子十馀篇，有“闺门内事”“禽兽不为之丑行”等语，虽不及此词与钱穆父所诮语，想即为此事作。时在治平四年（1067），修年六十一矣。词人绮语，攻击之者乃资为口实；《醉翁琴趣》中艳体若《江南柳》者尚多，吾人读欧词，固不致信以为真也。",
+    "source": "夏承焘《四库全书词籍提要校议》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_234.html"
+ },
+ {
+  "id": "ouyang-xiu/0236-yan-yao-chi",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 236,
+  "tune": "宴瑶池",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "恋眼哝心终未改，向意间长在。都缘为、颜色殊常，见馀花、尽无心爱。"
+   ],
+   [
+    "都为是风流{{IMG:00223.jpeg}}，至他人，强来厮坏。从今后、若得相逢，绣帏里、痛惜娇态。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "哝：嗔怪。",
+    "source": null,
+    "headword": "哝"
+   },
+   {
+    "text": "{{IMG:00223.jpeg}}：同“煞”。",
+    "source": null,
+    "headword": null
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_235.html"
+ },
+ {
+  "id": "ouyang-xiu/0237-jie-xian-pei",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 237,
+  "tune": "解仙佩",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "有个人人牵系，泪成痕、滴尽罗衣。问海约山盟何时，镇教人、目断魂飞。"
+   ],
+   [
+    "梦里似偎人睡，肌肤依旧骨香腻。觉来但堆鸳被，想忡忡、那里争知？"
+   ]
+  ],
+  "notes": [],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_236.html"
+ },
+ {
+  "id": "ouyang-xiu/0238-shao-nian-you",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 238,
+  "tune": "少年游",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "栏杆十二独凭春，晴碧远连云。千里万里，二月三月，行色苦愁人。"
+   ],
+   [
+    "谢家池上，江淹浦畔，吟魄与离魂。那堪疏雨滴黄昏？更特地、忆王孙。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "（谢灵运）每有篇章，对惠连辄得佳语。尝于永嘉西堂思诗，竟日不就，忽梦见惠连，即得“池塘生春草”，大以为工。常云“此语有神功，非吾语也”。",
+    "source": "《南史·谢灵运传》",
+    "headword": null
+   },
+   {
+    "text": "春草碧色，春水渌波，送君南浦，伤如之何！",
+    "source": "南朝江淹《别赋》",
+    "headword": null
+   }
+  ],
+  "commentary": [
+   {
+    "text": "此首见吴曾《能改斋漫录》卷十七。",
+    "source": null,
+    "headword": null
+   },
+   {
+    "text": "梅圣俞在欧阳公坐，有以林逋草词“金谷年年，乱生青草谁为主”为美者，梅圣俞别为《苏幕遮》一阕云：“露堤平（略）。”欧公击节赏之，又自为一词云：“阑干十二独凭春（略）。”盖《少年游令》也。不惟前二公所不及，虽置诸唐人温、李集中，殆与之为一矣。今集不载此一篇，惜哉！",
+    "source": "宋吴曾《能改斋漫录》",
+    "headword": null
+   },
+   {
+    "text": "拙处已是工处，与“金谷年年”一调又别。“千里万里，二月三月”，此数字甚不易下。",
+    "source": "清先著、程洪《词洁》",
+    "headword": null
+   },
+   {
+    "text": "清劲。",
+    "source": "清许昂霄《词综偶评》",
+    "headword": null
+   },
+   {
+    "text": "人知和靖《点绛唇》、圣俞《苏幕遮》、永叔《少年游》三阕为咏春草绝调。不知先有正中“细雨湿流光”五字，皆能摄春草之魂者也。",
+    "source": "王国维《人间词话》",
+    "headword": null
+   },
+   {
+    "text": "即以一人一词论，如欧阳公《少年游》咏春草上半阕云：“阑干十二独凭春，晴碧远连云。二月三月，千里万里，行色苦愁人。”语语都在目前，便是不隔。至云“谢家池上，江淹浦畔”，则隔矣。",
+    "source": "同上",
+    "headword": null
+   },
+   {
+    "text": "余按公词以此（候馆梅残）为最婉转。以《少年游》咏草为最工切超脱。当亦百世之公论也。",
+    "source": "吴梅《词学通论》",
+    "headword": null
+   },
+   {
+    "text": "此首咏草词，吴虎臣谓“君复、圣俞二词，皆不及也”。首从凭栏写起。“碧晴”一句，实写草色无际。“千里”句，就空间说；“二月”句，就时间说；“行色”句，点出愁人之意。换头，用谢灵运、江淹咏草故实。“那堪”两句，深入一层，添出黄昏疏雨，更令人苦忆王孙游冶也。",
+    "source": "唐圭璋《唐宋词简释》",
+    "headword": null
+   },
+   {
+    "text": "此咏春草之词也。上半阕前四句，言草生之地与时，结句联系行人。后半阕，三用春草故事，吟魄指谢诗，离魂指江赋，以见谢池、江浦之草虽亦感人，不如疏雨黄昏中之草，使人更特别思念王孙，隐喻时衰则思贤更切也。",
+    "source": "刘永济《唐五代两宋词简析》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_237.html"
+ },
+ {
+  "id": "ouyang-xiu/0239-tao-yuan-yi-gu-ren",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 239,
+  "tune": "桃源忆故人",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "碧纱影弄东风晓，一夜海棠开了。枝上数声啼鸟，妆点愁多少？"
+   ],
+   [
+    "妒风恨雨腰支袅，眉黛不忺重扫。薄倖不来春老，羞带宜男草。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "宜男草：见前《于飞乐》（宝奁开）注。",
+    "source": null,
+    "headword": "宜男草"
+   }
+  ],
+  "commentary": [
+   {
+    "text": "沈际飞曰：“海棠开了”下，转出“啼鸟”、“妆点”，趣溢不穷，奇笔。按第一阕言春色明艳，动闺中春思耳。次阕言抑郁无聊，青春已老，羞望恩泽耳。托兴自娟秀。",
+    "source": "清黄苏《蓼园词选》",
+    "headword": "沈际飞曰"
+   }
+  ],
+  "sourceFile": "text/part0197_split_238.html"
+ },
+ {
+  "id": "ouyang-xiu/0240-ruan-lang-gui",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 240,
+  "tune": "阮郎归",
+  "tuneRepeated": false,
+  "title": null,
+  "preface": null,
+  "stanzas": [
+   [
+    "雪霜林际见依稀，清香已暗期。前村已遍倚南枝，群芳犹未知。"
+   ],
+   [
+    "情似旧，赏休迟，看看陇上吹。便从今日赏芳菲，韶花取次归。"
+   ]
+  ],
+  "notes": [
+   {
+    "text": "南枝：见前《玉楼春》（雪云乍变春云簇）注。",
+    "source": null,
+    "headword": "南枝"
+   }
+  ],
+  "commentary": [],
+  "sourceFile": "text/part0197_split_239.html"
+ },
+ {
+  "id": "ouyang-xiu/0241-yu-jia-ao",
+  "volumeId": "ouyang-xiu",
+  "poetId": "ouyang-xiu",
+  "poet": "欧阳修",
+  "juan": "欧阳修词集",
+  "order": 241,
+  "tune": "渔家傲",
+  "tuneRepeated": false,
+  "title": "（断句）",
+  "preface": null,
+  "stanzas": [
+   [
+    "战胜归来飞捷奏。倾贺酒，玉阶遥献南山寿。"
+   ]
+  ],
+  "notes": [],
+  "commentary": [
+   {
+    "text": "范文正公守边日，作《渔家傲》乐歌数阕，皆以“塞下秋来”为首句，颇述边镇之劳苦，欧阳公尝呼为“穷塞主之词”。及王尚书素出守平凉，文忠亦作《渔家傲》一词以送之，其断章曰：“战胜归来飞捷奏。倾贺酒，玉阶遥献南山寿。”顾王曰：“真元帅之事。”",
+    "source": "宋魏泰《东轩笔录》",
+    "headword": null
+   }
+  ],
+  "sourceFile": "text/part0197_split_240.html"
+ }
+]

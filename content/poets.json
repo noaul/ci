@@ -1,0 +1,192 @@
+[
+ {
+  "id": "wen-tingyun",
+  "name": "温庭筠",
+  "dynasty": "唐",
+  "lifespan": "约812—约866",
+  "volumeIds": [
+   "wen-wei"
+  ],
+  "poemCount": 69
+ },
+ {
+  "id": "wei-zhuang",
+  "name": "韦庄",
+  "dynasty": "唐末五代",
+  "lifespan": "约836—910",
+  "volumeIds": [
+   "wen-wei"
+  ],
+  "poemCount": 57
+ },
+ {
+  "id": "li-yu",
+  "name": "李煜",
+  "dynasty": "五代·南唐",
+  "lifespan": "937—978",
+  "volumeIds": [
+   "li-yu"
+  ],
+  "poemCount": 40
+ },
+ {
+  "id": "li-jing",
+  "name": "李璟",
+  "dynasty": "五代·南唐",
+  "lifespan": "916—961",
+  "volumeIds": [
+   "li-yu"
+  ],
+  "poemCount": 4
+ },
+ {
+  "id": "feng-yansi",
+  "name": "冯延巳",
+  "dynasty": "五代·南唐",
+  "lifespan": "903—960",
+  "volumeIds": [
+   "li-yu"
+  ],
+  "poemCount": 111
+ },
+ {
+  "id": "liu-yong",
+  "name": "柳永",
+  "dynasty": "北宋",
+  "lifespan": "约984—约1053",
+  "volumeIds": [
+   "liu-yong"
+  ],
+  "poemCount": 217
+ },
+ {
+  "id": "yan-shu",
+  "name": "晏殊",
+  "dynasty": "北宋",
+  "lifespan": "991—1055",
+  "volumeIds": [
+   "er-yan"
+  ],
+  "poemCount": 138
+ },
+ {
+  "id": "yan-jidao",
+  "name": "晏幾道",
+  "dynasty": "北宋",
+  "lifespan": "约1038—约1110",
+  "volumeIds": [
+   "er-yan"
+  ],
+  "poemCount": 260
+ },
+ {
+  "id": "ouyang-xiu",
+  "name": "欧阳修",
+  "dynasty": "北宋",
+  "lifespan": "1007—1072",
+  "volumeIds": [
+   "ouyang-xiu"
+  ],
+  "poemCount": 241
+ },
+ {
+  "id": "su-shi",
+  "name": "苏轼",
+  "dynasty": "北宋",
+  "lifespan": "1037—1101",
+  "volumeIds": [
+   "su-shi"
+  ],
+  "poemCount": 344
+ },
+ {
+  "id": "huang-tingjian",
+  "name": "黄庭坚",
+  "dynasty": "北宋",
+  "lifespan": "1045—1105",
+  "volumeIds": [
+   "huang-tingjian"
+  ],
+  "poemCount": 188
+ },
+ {
+  "id": "qin-guan",
+  "name": "秦观",
+  "dynasty": "北宋",
+  "lifespan": "1049—1100",
+  "volumeIds": [
+   "qin-guan"
+  ],
+  "poemCount": 96
+ },
+ {
+  "id": "he-zhu",
+  "name": "贺铸",
+  "dynasty": "北宋",
+  "lifespan": "1052—1125",
+  "volumeIds": [
+   "he-zhu"
+  ],
+  "poemCount": 284
+ },
+ {
+  "id": "zhou-bangyan",
+  "name": "周邦彦",
+  "dynasty": "北宋",
+  "lifespan": "1056—1121",
+  "volumeIds": [
+   "zhou-bangyan"
+  ],
+  "poemCount": 187
+ },
+ {
+  "id": "li-qingzhao",
+  "name": "李清照",
+  "dynasty": "两宋之交",
+  "lifespan": "1084—约1155",
+  "volumeIds": [
+   "li-qingzhao"
+  ],
+  "poemCount": 66
+ },
+ {
+  "id": "lu-you",
+  "name": "陆游",
+  "dynasty": "南宋",
+  "lifespan": "1125—1210",
+  "volumeIds": [
+   "lu-you"
+  ],
+  "poemCount": 145
+ },
+ {
+  "id": "jiang-kui",
+  "name": "姜夔",
+  "dynasty": "南宋",
+  "lifespan": "约1155—约1221",
+  "volumeIds": [
+   "jiang-kui"
+  ],
+  "poemCount": 84
+ },
+ {
+  "id": "xin-qiji",
+  "name": "辛弃疾",
+  "dynasty": "南宋",
+  "lifespan": "1140—1207",
+  "volumeIds": [
+   "xin-qiji"
+  ],
+  "poemCount": 629
+ },
+ {
+  "id": "nalan-xingde",
+  "name": "纳兰性德",
+  "dynasty": "清",
+  "lifespan": "1655—1685",
+  "volumeIds": [
+   "nalan"
+  ],
+  "poemCount": 348
+ }
+]

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
+
+# The source ebook is a commercial edition and is not redistributed here.
+# Only the derived content/ JSON is committed; re-run `npm run etl` to rebuild it.
+source/
+*.epub
