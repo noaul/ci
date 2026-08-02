@@ -25,12 +25,12 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="-mt-4">
+    <div className="-mt-4 sm:-mt-10">
       <h1 className="sr-only">历代名家词集精华录</h1>
 
       <PoeticStage themes={themes} metrics={stageMetrics(themes)} />
 
-      <div className="mt-6 space-y-14">
+      <div className="mt-6 space-y-14 sm:mt-0">
         <section aria-labelledby="collection">
           <h2 id="collection" className="sr-only">
             全书概况

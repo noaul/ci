@@ -284,6 +284,10 @@
   }
 
   @media (min-width: 640px) {
+    .ci-stage {
+      padding-block: 1rem;
+    }
+
     .ci-stage-picture {
       inset-inline-start: 28%;
       opacity: 0.36;
