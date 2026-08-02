@@ -33,7 +33,7 @@ export default async function FirstLineGroupPage({ params }: { params: Promise<P
         </Link>
       </nav>
 
-      <h1 className="mt-3 text-2xl tracking-wide">
+      <h1 className="mt-3 text-2xl">
         {initial}
         <span className="ml-3 text-sm text-ink-faint">{entries.length} 首</span>
       </h1>
@@ -52,7 +52,7 @@ export default async function FirstLineGroupPage({ params }: { params: Promise<P
 
       <ul className="mt-8 grid gap-x-8 sm:grid-cols-2">
         {entries.map((entry) => (
-          <li key={entry.id} className="min-w-0">
+          <li key={entry.id} className="deferred-list-item min-w-0">
             <Link
               href={`/poems/${entry.id}/`}
               className="group flex items-baseline gap-2 py-1 text-sm"

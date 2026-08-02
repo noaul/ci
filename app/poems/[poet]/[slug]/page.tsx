@@ -64,7 +64,7 @@ export default async function PoemPage({ params }: { params: Promise<Params> }) 
       </nav>
 
       <header className="mt-4">
-        <h1 className="font-kai text-3xl tracking-wide sm:text-4xl">
+        <h1 className="font-kai text-3xl sm:text-4xl">
           {tune ? (
             <Link href={`/tunes/${tune.id}/`} className="hover:text-cinnabar">
               {poem.tune}

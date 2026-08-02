@@ -17,7 +17,7 @@ export default function FirstLinesPage() {
 
   return (
     <div>
-      <h1 className="text-2xl tracking-wide">首句索引</h1>
+      <h1 className="text-2xl">首句索引</h1>
       <p className="mt-2 text-sm text-ink-faint">
         共 {total.toLocaleString()} 首，按首句首字拼音分部。
       </p>

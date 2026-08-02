@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import type { CihuaEntry } from "./profiles/cihua.js";
 import { type BaixiangEntry, type GelvEntry, TONE_MARKS, baixiangCharCount } from "./profiles/cipu.js";
@@ -97,14 +97,15 @@ check(
 
 // ---- rare-character tokens --------------------------------------------------
 const tokens = new Set<string>();
-for (const p of poems) {
-  const haystack = [
-    ...p.stanzas.flat(),
-    p.preface ?? "",
-    ...p.notes.map((n) => n.text),
-    ...p.commentary.map((c) => c.text),
-  ].join("\n");
+for (const file of jsonFiles(OUT_DIR)) {
+  const haystack = readFileSync(file, "utf8");
   for (const m of haystack.matchAll(IMAGE_TOKEN_RE)) tokens.add(m[1]!);
+}
+const unsafeTokens = [...tokens].filter((file) => !/^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(file));
+check(unsafeTokens.length === 0, `unsafe rare-character filenames: ${unsafeTokens.join(", ")}`);
+const missingGlyphs = [...tokens].filter((file) => !existsSync(join("public", "glyphs", file)));
+if (missingGlyphs.length > 0) {
+  notes.push(`  ${missingGlyphs.length} rare-character assets unavailable; site renders □ fallbacks`);
 }
 
 // ---- golden files -----------------------------------------------------------
@@ -319,7 +320,10 @@ console.log(`词谱             ${gelv.length} 唐宋词格律 + ${baixiang.leng
 console.log(
   `词话             ${cihua.length} entries — ${linkedQuotes.length}/${quotes.length} quotes linked to poems`,
 );
-console.log(`rare-char images ${tokens.size} referenced`);
+console.log(
+  `rare-char images ${tokens.size} referenced — ${tokens.size - missingGlyphs.length} assets, ` +
+    `${missingGlyphs.length} fallbacks`,
+);
 for (const n of notes) console.log(n);
 
 if (failures.length) {
@@ -331,4 +335,12 @@ console.log("\nAll checks passed.");
 
 function readJson<T>(rel: string): T {
   return JSON.parse(readFileSync(join(OUT_DIR, rel), "utf8")) as T;
+}
+
+function jsonFiles(dir: string): string[] {
+  return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const path = join(dir, entry.name);
+    if (entry.isDirectory()) return jsonFiles(path);
+    return entry.isFile() && entry.name.endsWith(".json") ? [path] : [];
+  });
 }

@@ -8,7 +8,14 @@
     "etl:validate": "tsx pipeline/src/validate.ts",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "serve out --listen 3000",
+    "typecheck": "next typegen && tsc --noEmit --pretty false",
+    "test": "tsx --test tests/regressions.test.tsx tests/corpus.test.ts",
+    "check": "npm run typecheck && npm test && npm run etl:validate",
+    "validate:site": "tsx pipeline/src/validate-site.ts"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
@@ -19,6 +26,7 @@
     "adm-zip": "^0.6.0",
     "cheerio": "^1.0.0",
     "pinyin-pro": "^3.28.2",
+    "serve": "14.2.6",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
@@ -27,5 +35,12 @@
     "next": "^16.2.12",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
+  },
+  "overrides": {
+    "postcss": "^8.5.25",
+    "sharp": "^0.35.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
   }
 }

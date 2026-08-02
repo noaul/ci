@@ -25,7 +25,7 @@ export default function HomePage() {
   return (
     <div className="space-y-16">
       <section>
-        <h1 className="text-2xl tracking-wide">历代名家词集精华录</h1>
+        <h1 className="text-2xl">历代名家词集精华录</h1>
         <p className="mt-3 max-w-2xl leading-8 text-ink-soft">
           自温庭筠、韦庄以迄纳兰性德，共 {poems.length.toLocaleString()} 首词，
           {annotations.toLocaleString()} 条注释与历代辑评；另附《白香词谱》《唐宋词格律》所载

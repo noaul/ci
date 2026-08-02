@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Element } from "domhandler";
-import { extractText, normalize } from "../text.js";
+import { countHanGlyphs, extractText, normalize } from "../text.js";
 
 export type ToneExample = {
   label: string;
@@ -193,7 +193,7 @@ export type BaixiangEntry = {
 export function baixiangCharCount(entry: BaixiangEntry): number | null {
   const main = entry.variants[0];
   if (!main) return null;
-  return main.stanzas.flat().filter((c) => /[一-鿿]/.test(c.ch)).length;
+  return main.stanzas.flat().reduce((total, c) => total + countHanGlyphs(c.ch), 0);
 }
 
 /**

@@ -9,7 +9,7 @@ export default function AboutPage() {
 
   return (
     <div className="max-w-2xl space-y-6 leading-8 text-ink-soft">
-      <h1 className="text-2xl tracking-wide text-ink">版权与出处说明</h1>
+      <h1 className="text-2xl text-ink">版权与出处说明</h1>
 
       <section>
         <h2 className="text-lg text-ink">底本</h2>

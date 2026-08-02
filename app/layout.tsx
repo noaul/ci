@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
 
@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   },
   description:
     "《历代名家词集精华录》全二十二册的在线读本：三千五百余首词，附历代辑评、注释、词谱格律与词话。",
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f7f2e8" },
+    { media: "(prefers-color-scheme: dark)", color: "#16130f" },
+  ],
 };
 
 const NAV = [
@@ -23,12 +30,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-Hans">
       <body className="min-h-screen antialiased">
+        <a
+          href="#main-content"
+          className="sr-only fixed left-4 top-4 z-50 bg-paper-raised px-3 py-2 text-sm text-ink shadow focus:not-sr-only"
+        >
+          跳至正文
+        </a>
         <header className="border-b border-rule">
           <div className="mx-auto flex max-w-5xl flex-wrap items-baseline gap-x-6 gap-y-2 px-5 py-4">
-            <Link href="/" className="text-lg tracking-wide text-ink hover:text-cinnabar">
+            <Link href="/" className="text-lg text-ink hover:text-cinnabar">
               历代名家词集精华录
             </Link>
-            <nav className="flex gap-5 text-sm text-ink-soft">
+            <nav aria-label="主导航" className="flex gap-5 text-sm text-ink-soft">
               {NAV.map((item) => (
                 <Link key={item.href} href={item.href} className="hover:text-cinnabar">
                   {item.label}
@@ -38,7 +51,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main className="mx-auto max-w-5xl px-5 py-10">{children}</main>
+        <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl px-5 py-10">
+          {children}
+        </main>
 
         <footer className="mt-16 border-t border-rule">
           <div className="mx-auto max-w-5xl px-5 py-8 text-xs leading-relaxed text-ink-faint">

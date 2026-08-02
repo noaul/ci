@@ -47,7 +47,7 @@ export default async function PoetPage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl tracking-wide">{poet.name}</h1>
+        <h1 className="font-kai text-3xl">{poet.name}</h1>
         <p className="mt-2 text-sm text-ink-faint">
           {poet.dynasty}
           {poet.lifespan ? ` · ${poet.lifespan}` : ""} · 收词 {poet.poemCount} 首
@@ -59,7 +59,7 @@ export default async function PoetPage({ params }: { params: Promise<Params> }) 
           <SectionHeading>{juan}</SectionHeading>
           <ul className="mt-4 grid gap-x-8 gap-y-1 sm:grid-cols-2">
             {(byJuan.get(juan) ?? []).map((poem) => (
-              <li key={poem.id} className="min-w-0">
+              <li key={poem.id} className="deferred-list-item min-w-0">
                 <Link
                   href={poemHref(poem)}
                   className="group flex items-baseline gap-2 py-1 text-[0.9375rem]"

@@ -14,16 +14,19 @@ export default function VolumesPage() {
   const volumes = getVolumes();
   return (
     <div>
-      <h1 className="text-2xl tracking-wide">丛书总目</h1>
+      <h1 className="text-2xl">丛书总目</h1>
       <p className="mt-2 text-sm text-ink-faint">全二十二册，上海古籍出版社。</p>
       <ol className="mt-8 divide-y divide-rule">
         {volumes.map((volume, i) => {
           const poets = volume.poetIds.map(getPoet).filter((p) => p !== undefined);
+          const href = volume.kind === "cihua" ? `/books/${volume.id}/` : `/volumes/${volume.id}/`;
           return (
             <li key={volume.id} className="flex items-baseline gap-4 py-3.5">
               <span className="w-6 shrink-0 text-xs text-ink-faint">{i + 1}</span>
               <span className="min-w-0 flex-1">
-                <span className="font-kai text-lg">{volume.title}</span>
+                <Link href={href} className="font-kai text-lg hover:text-cinnabar">
+                  {volume.title}
+                </Link>
                 <span className="ml-2 text-xs text-ink-faint">
                   {KIND_LABEL[volume.kind] ?? volume.kind}
                 </span>

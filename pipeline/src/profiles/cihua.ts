@@ -119,5 +119,5 @@ export function parseCihua(html: string, section: string, sourceFile: string): D
 
 /** Strip punctuation so a quoted opening line can be matched against the corpus. */
 export function normalizeLine(s: string): string {
-  return s.replace(/\{\{IMG:[^}]+\}\}/g, "").replace(/[^一-鿿]/g, "");
+  return s.replace(/\{\{IMG:[^}]+\}\}/g, "").replace(/[^\p{Script=Han}]/gu, "");
 }

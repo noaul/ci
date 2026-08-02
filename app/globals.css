@@ -6,7 +6,7 @@
   --color-paper-raised: #fffdf8;
   --color-ink: #1c1917;
   --color-ink-soft: #57534e;
-  --color-ink-faint: #8a8178;
+  --color-ink-faint: #756d64;
   --color-rule: #e0d8c8;
   --color-cinnabar: #9d2933;
   --color-cinnabar-soft: #c0574f;
@@ -49,6 +49,16 @@
   a {
     text-underline-offset: 0.2em;
   }
+
+  :focus-visible {
+    border-radius: 2px;
+    outline: 2px solid var(--color-cinnabar);
+    outline-offset: 3px;
+  }
+
+  main:focus {
+    outline: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,4 +87,15 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   max-height: 70vh;
+}
+
+/* Keep large indexes responsive without changing their document order. */
+.deferred-list-item {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 3.5rem;
+}
+
+.deferred-prose-entry {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 18rem;
 }

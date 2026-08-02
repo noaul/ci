@@ -52,12 +52,16 @@ export default async function BookSectionPage({ params }: { params: Promise<Para
         </Link>
       </nav>
 
-      <h1 className="mt-3 font-kai text-2xl tracking-wide">{section}</h1>
+      <h1 className="mt-3 font-kai text-2xl">{section}</h1>
       <p className="mt-1 text-sm text-ink-faint">{entries.length} 则</p>
 
       <div className="mt-10 space-y-8">
         {entries.map((entry) => (
-          <article key={entry.id} id={entry.id.split("/")[1]}>
+          <article
+            key={entry.id}
+            id={entry.id.split("/")[1]}
+            className="deferred-prose-entry"
+          >
             {(entry.ordinal || entry.heading) && (
               <h2 className="font-kai text-lg">
                 {entry.ordinal && <span className="text-cinnabar">【{entry.ordinal}】</span>}

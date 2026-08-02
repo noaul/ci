@@ -17,6 +17,15 @@ export function imageToken(file: string): string {
 }
 
 export const IMAGE_TOKEN_RE = /\{\{IMG:([^}]+)\}\}/g;
+const HAN_CHARACTER_RE = /\p{Script=Han}/gu;
+const HAS_HAN_RE = /\p{Script=Han}/u;
+
+/** Count Han characters, treating each unresolved image token as one character. */
+export function countHanGlyphs(s: string): number {
+  const images = [...s.matchAll(IMAGE_TOKEN_RE)].length;
+  const text = s.replace(IMAGE_TOKEN_RE, "");
+  return images + (text.match(HAN_CHARACTER_RE)?.length ?? 0);
+}
 
 /**
  * Text content of a node, with inline character images preserved as tokens.
@@ -101,11 +110,9 @@ export function stripMarker(s: string): string {
   return s.replace(/^[◎◆]\s*/, "");
 }
 
-const HAN = "\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF";
-
 /** True when the string contains at least one Han character. */
 export function hasHan(s: string): boolean {
-  return new RegExp(`[${HAN}]`).test(s);
+  return HAS_HAN_RE.test(s);
 }
 
 /** Characters used by the corpus — drives font subsetting later. */

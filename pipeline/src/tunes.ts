@@ -5,6 +5,7 @@ import {
   baixiangCharCount,
 } from "./profiles/cipu.js";
 import type { Poem } from "./types.js";
+import { countHanGlyphs } from "./text.js";
 import { slugify } from "./volumes.js";
 
 export type Tune = {
@@ -97,7 +98,7 @@ export function buildTunes(
     if (!list) poemIdsByTune.set(p.tune, (list = []));
     list.push(p.id);
 
-    const n = p.stanzas.flat().join("").replace(/[^一-鿿]/g, "").length;
+    const n = countHanGlyphs(p.stanzas.flat().join(""));
     let lens = lengthsByTune.get(p.tune);
     if (!lens) lengthsByTune.set(p.tune, (lens = []));
     lens.push(n);

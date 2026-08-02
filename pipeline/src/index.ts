@@ -26,6 +26,7 @@ import {
 
 const EPUB_PATH = "source/corpus.epub";
 const OUT_DIR = "content";
+const SAFE_GLYPH_FILE = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
 
 /** 又 means "same tune as the poem above" and is not itself a 词牌. */
 const REPEAT_TUNE = "又";
@@ -381,10 +382,15 @@ function main(): void {
   for (const blob of [
     JSON.stringify([...poemsByVolume.values()]),
     JSON.stringify([...proseByVolume.values()]),
+    JSON.stringify([...cihuaByVolume.values()]),
     JSON.stringify(gelvEntries),
     JSON.stringify(baixiangEntries),
   ]) {
-    for (const m of blob.matchAll(IMAGE_TOKEN_RE)) referenced.add(m[1]!);
+    for (const m of blob.matchAll(IMAGE_TOKEN_RE)) {
+      const file = m[1]!;
+      if (!SAFE_GLYPH_FILE.test(file)) throw new Error(`Unsafe glyph filename: ${file}`);
+      referenced.add(file);
+    }
   }
   const glyphDir = join("public", "glyphs");
   mkdirSync(glyphDir, { recursive: true });

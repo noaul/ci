@@ -67,7 +67,7 @@ export function CommentaryList({ commentary }: { commentary: Annotation[] }) {
 
 export function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="flex items-center gap-3 text-sm tracking-[0.25em] text-ink-faint">
+    <h2 className="flex items-center gap-3 text-sm text-ink-faint">
       <span>{children}</span>
       <span aria-hidden className="h-px flex-1 bg-rule" />
     </h2>

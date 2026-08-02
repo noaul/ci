@@ -17,7 +17,7 @@ export default function BooksPage() {
   const volumes = getBookVolumes();
   return (
     <div>
-      <h1 className="text-2xl tracking-wide">词话·词论</h1>
+      <h1 className="text-2xl">词话·词论</h1>
       <p className="mt-2 max-w-2xl text-sm leading-7 text-ink-faint">
         丛书所收五种词学论著。所引词作凡见于本书者，皆已系联至该首词页。
       </p>

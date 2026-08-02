@@ -93,7 +93,9 @@ export function isProseEntry(label: string): boolean {
  * (rare-character images, punctuation). Drives the 首句索引 grouping.
  */
 export function pinyinInitial(s: string): string {
-  const first = [...s.replace(/\{\{IMG:[^}]+\}\}/g, "")][0];
+  const text = s.trimStart();
+  if (text.startsWith("{{IMG:")) return "#";
+  const first = [...text][0];
   if (!first) return "#";
   const [roman] = pinyin(first, { toneType: "none", type: "array", nonZh: "removed" });
   const letter = roman?.[0]?.toUpperCase() ?? "";

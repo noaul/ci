@@ -28,7 +28,7 @@ export default async function VolumePage({ params }: { params: Promise<Params> }
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl tracking-wide">{volume.title}</h1>
+        <h1 className="font-kai text-3xl">{volume.title}</h1>
         {volume.label !== volume.title && (
           <p className="mt-1 text-sm text-ink-faint">{volume.label}</p>
         )}

@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import type { CihuaEntry } from "@/pipeline/src/profiles/cihua";
+import { countHanGlyphs } from "@/pipeline/src/text";
 import type { Poem, Poet, ProseDoc, Volume } from "@/pipeline/src/types";
 import type { Tune } from "@/pipeline/src/tunes";
 
@@ -145,8 +146,5 @@ export function firstLine(poem: Poem): string {
 
 /** Han-character count of the poem body. */
 export function charCount(poem: Poem): number {
-  return poem.stanzas
-    .flat()
-    .join("")
-    .replace(/[^一-鿿]/g, "").length;
+  return countHanGlyphs(poem.stanzas.flat().join(""));
 }

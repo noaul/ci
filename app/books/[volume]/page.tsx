@@ -35,7 +35,7 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl tracking-wide">{volume.title}</h1>
+        <h1 className="font-kai text-3xl">{volume.title}</h1>
         <p className="mt-2 text-sm text-ink-faint">
           {sections.length} 卷 ·{" "}
           {sections.reduce((n, s) => n + getCihuaEntriesBySection(volume.id, s).length, 0)} 则

@@ -32,7 +32,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
   return (
     <div>
       <header>
-        <h1 className="font-kai text-3xl tracking-wide">{tune.name}</h1>
+        <h1 className="font-kai text-3xl">{tune.name}</h1>
         <p className="mt-2 text-sm text-ink-faint">
           {tune.charCount && <>{tune.charCount}字 · </>}
           本书收录 {tune.poemCount} 首
@@ -64,7 +64,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
           <div className="mt-5 space-y-8">
             {tune.patterns.map((pattern, i) => (
               <div key={i}>
-                <h3 className="text-sm tracking-widest text-seal">{pattern.label}</h3>
+                <h3 className="text-sm text-seal">{pattern.label}</h3>
                 <p className="mt-2 break-all font-kai text-lg leading-9 text-ink-soft">
                   {pattern.tones}
                 </p>
@@ -134,7 +134,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
           )}
           {tune.baixiang.analysis && (
             <div className="mt-6">
-              <h3 className="text-sm tracking-widest text-seal">评析</h3>
+              <h3 className="text-sm text-seal">评析</h3>
               <p className="mt-2 leading-8 text-ink-soft">
                 <RareText>{tune.baixiang.analysis}</RareText>
               </p>
@@ -142,7 +142,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
           )}
           {tune.baixiang.remark && (
             <div className="mt-6">
-              <h3 className="text-sm tracking-widest text-seal">说明</h3>
+              <h3 className="text-sm text-seal">说明</h3>
               <p className="mt-2 leading-8 text-ink-soft">
                 <RareText>{tune.baixiang.remark}</RareText>
               </p>
@@ -156,7 +156,7 @@ export default async function TunePage({ params }: { params: Promise<Params> }) 
           <SectionHeading>本书所收（{poems.length} 首）</SectionHeading>
           <ul className="mt-4 divide-y divide-rule">
             {poems.map((poem) => (
-              <li key={poem.id}>
+              <li key={poem.id} className="deferred-list-item">
                 <Link href={poemHref(poem)} className="group flex items-baseline gap-3 py-2.5">
                   <span className="w-16 shrink-0 text-sm text-ink-faint">{poem.poet}</span>
                   {poem.title && (

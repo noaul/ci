@@ -8,11 +8,11 @@ export default function PoetsPage() {
   const poets = getPoets();
   return (
     <div>
-      <h1 className="text-2xl tracking-wide">词人</h1>
+      <h1 className="text-2xl">词人</h1>
       <p className="mt-2 text-sm text-ink-faint">按丛书次第排列，自晚唐迄清。</p>
       <ul className="mt-8 divide-y divide-rule">
         {poets.map((poet) => (
-          <li key={poet.id}>
+          <li key={poet.id} className="deferred-list-item">
             <Link
               href={`/poets/${poet.id}/`}
               className="group flex items-baseline justify-between gap-4 py-3.5"
