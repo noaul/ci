@@ -58,23 +58,3 @@ export type StageTheme = {
   /** ◆ 历代辑评 waiting on the poem page. */
   commentaryCount: number;
 };
-
-/**
- * What the closed screen is allowed to say. The collection's own measure and
- * nothing else — naming the poem waiting behind it would give the opening away.
- */
-export type StageHint = {
-  poems: number;
-  volumes: number;
-};
-
-/**
- * Space the stage reserves, measured from the themes themselves so a long 慢词
- * and a short 小令 occupy the same frame and switching never moves the page.
- */
-export type StageMetrics = {
-  /** Display lines of the longest theme. */
-  rows: number;
-  /** 片 breaks of the theme that has the most. */
-  stanzaBreaks: number;
-};

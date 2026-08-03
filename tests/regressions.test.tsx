@@ -52,8 +52,27 @@ test("the volume index links collections and critical works to useful destinatio
 });
 
 test("the root layout exposes a keyboard skip link and main landmark target", () => {
-  const source = readFileSync(new URL("../app/layout.tsx", import.meta.url), "utf8");
+  const layout = readFileSync(new URL("../app/layout.tsx", import.meta.url), "utf8");
+  const shell = readFileSync(new URL("../app/_components/SiteShell.tsx", import.meta.url), "utf8");
+  const journey = readFileSync(
+    new URL("../app/_components/journey/PoeticJourney.tsx", import.meta.url),
+    "utf8",
+  );
 
-  assert.match(source, /href="#main-content"/);
-  assert.match(source, /<main[^>]*id="main-content"/);
+  assert.match(layout, /href="#main-content"/);
+  assert.match(`${shell}\n${journey}`, /<main[\s\S]*?id="main-content"/);
+});
+
+test("the enhancement bootstrap is managed before hydration instead of rendered as a raw script", () => {
+  const source = readFileSync(new URL("../app/layout.tsx", import.meta.url), "utf8");
+  assert.match(source, /<Script[\s\S]*?strategy="beforeInteractive"/);
+  assert.doesNotMatch(source, /<script\s+dangerouslySetInnerHTML/);
+});
+
+test("long mobile poems can grow the stage while an open drawer locks the page", () => {
+  const css = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(css, /html\[data-drawer-open\]\s*{[^}]*overflow:\s*hidden/s);
+  assert.match(css, /\.ci-stage\s*{[^}]*overflow:\s*visible/s);
+  assert.match(css, /\.js \.ci-stage\s*{[^}]*align-content:\s*safe center/s);
+  assert.match(css, /\.ci-drawer\[open\] \.ci-drawer-trigger\s*{[^}]*position:\s*fixed/s);
 });

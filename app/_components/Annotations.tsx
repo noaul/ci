@@ -1,3 +1,4 @@
+import { COMMENTARY_ANCHOR, NOTES_ANCHOR } from "@/lib/library";
 import type { Annotation } from "@/pipeline/src/types";
 import { RareText } from "./RareText";
 
@@ -10,7 +11,7 @@ import { RareText } from "./RareText";
 export function NoteList({ notes }: { notes: Annotation[] }) {
   if (notes.length === 0) return null;
   return (
-    <section className="mt-10">
+    <section id={NOTES_ANCHOR} className="mt-10 scroll-mt-20">
       <SectionHeading>注释</SectionHeading>
       <ul className="mt-3 space-y-2.5">
         {notes.map((note, i) => (
@@ -42,7 +43,7 @@ export function NoteList({ notes }: { notes: Annotation[] }) {
 export function CommentaryList({ commentary }: { commentary: Annotation[] }) {
   if (commentary.length === 0) return null;
   return (
-    <section className="mt-10">
+    <section id={COMMENTARY_ANCHOR} className="mt-10 scroll-mt-20">
       <SectionHeading>辑评</SectionHeading>
       <div className="mt-3 space-y-4">
         {commentary.map((c, i) => (

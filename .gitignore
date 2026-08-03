@@ -1,6 +1,11 @@
 node_modules/
 .next/
 out/
+
+# Derived from content/ at build time: the corpus the reading journey fetches
+# a shard at a time. Rebuilt by `npm run corpus:shards`.
+public/corpus/
+
 .DS_Store
 *.log
 tsconfig.tsbuildinfo

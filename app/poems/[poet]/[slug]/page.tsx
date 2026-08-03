@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "@/app/_components/StaticLink";
 import { notFound } from "next/navigation";
 import { CommentaryList, NoteList } from "@/app/_components/Annotations";
+import { PublishWork } from "@/app/_components/library/LibraryContext";
 import { Numeral } from "@/app/_components/Numeral";
 import { PoemBody } from "@/app/_components/PoemBody";
 import { RareText, stripTokens } from "@/app/_components/RareText";
@@ -48,6 +49,23 @@ export default async function PoemPage({ params }: { params: Promise<Params> }) 
 
   return (
     <article>
+      {/* Tells the drawer's 本阕 group which poem the reader is holding. */}
+      <PublishWork
+        work={{
+          title: `${poem.tune}${poem.title ? `·${stripTokens(poem.title)}` : ""}`,
+          href: poemHref(poem),
+          poet: poem.poet,
+          poetHref: `/poets/${poem.poetId}/`,
+          dynasty: poet?.dynasty ?? "",
+          tune: poem.tune,
+          tuneHref: tune ? `/tunes/${tune.id}/` : null,
+          volume: volume?.title ?? null,
+          volumeHref: volume ? `/volumes/${volume.id}/` : null,
+          notes: poem.notes.length,
+          commentary: poem.commentary.length,
+        }}
+      />
+
       <nav className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-faint">
         <Link href={`/poets/${poem.poetId}/`} className="hover:text-cinnabar">
           {poem.poet}
