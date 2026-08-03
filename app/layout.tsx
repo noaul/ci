@@ -3,6 +3,7 @@ import { Numeral } from "@/app/_components/Numeral";
 import { SiteNav } from "@/app/_components/SiteNav";
 import Link from "@/app/_components/StaticLink";
 import { getSiteStats } from "@/lib/content";
+import { SCREEN_FAIL_OPEN_MS } from "@/lib/stage/screen";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -29,7 +30,7 @@ export const viewport: Viewport = {
  * scripts is served the plain, complete document and never a curtain that
  * will not rise.
  */
-const MARK_SCRIPTED = 'document.documentElement.classList.add("js")';
+const MARK_SCRIPTED = `document.documentElement.classList.add("js");document.documentElement.style.setProperty("--ci-stage-fail-delay","${SCREEN_FAIL_OPEN_MS}ms");window.__ciStageFailedOpen=new WeakSet;document.addEventListener("animationstart",function(e){if(e.animationName==="ci-screen-failopen"){var s=e.target.closest&&e.target.closest(".ci-stage");if(s)window.__ciStageFailedOpen.add(s)}},true)`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const stats = getSiteStats();

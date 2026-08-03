@@ -60,6 +60,15 @@ export type StageTheme = {
 };
 
 /**
+ * What the closed screen is allowed to say. The collection's own measure and
+ * nothing else — naming the poem waiting behind it would give the opening away.
+ */
+export type StageHint = {
+  poems: number;
+  volumes: number;
+};
+
+/**
  * Space the stage reserves, measured from the themes themselves so a long 慢词
  * and a short 小令 occupy the same frame and switching never moves the page.
  */

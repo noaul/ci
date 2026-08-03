@@ -90,6 +90,23 @@ export function buildContinuationChoices(
   return shuffle([answer, ...picked], random);
 }
 
+/** Where the reading stands against the 转, and nothing else. */
+export type StageEvent = "reading" | "turn" | "turned";
+
+/**
+ * The 转 marker.
+ *
+ * Derived only from the reveal against the 转 — never from whether the poem is
+ * finished. 辛弃疾's 元夕 and 李清照's 如梦令 both *end* on their 转, so folding
+ * completion into this would mean their climax never happened at all: supplying
+ * the last line would jump the stage straight to its closing state.
+ */
+export function stageEvent(revealCount: number, turnIndex: number): StageEvent {
+  if (revealCount > turnIndex) return "turned";
+  if (revealCount === turnIndex) return "turn";
+  return "reading";
+}
+
 /** The tallest frame any of the themes needs, so the stage can reserve it once. */
 export function stageMetrics(themes: readonly StageTheme[]): StageMetrics {
   return {

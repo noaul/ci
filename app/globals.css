@@ -73,6 +73,15 @@
   }
 
   /*
+   * The stage takes focus for the moment 换一阕 has the poem inert, so focus is
+   * parked somewhere meaningful rather than on the document — it is a holding
+   * place, not a control, and should not be ringed like one.
+   */
+  .ci-stage:focus {
+    outline: none;
+  }
+
+  /*
    * Counts carry no type of their own: size, weight, colour and leading come
    * from the sentence or the column they sit in, so a number never breaks the
    * line it is set on. Only the figures themselves are asked for — lining, and
@@ -196,11 +205,43 @@
     --scene-ease: ease-out;
     --scene-wash: color-mix(in srgb, var(--scene-accent) 4%, var(--color-paper));
     --scene-art: none;
+    --art-filter: brightness(1);
+    --art-opacity: 0.4;
+    --art-position: 76% center;
     --art-anim: ci-art-drift;
+    /* Where the picture begins: text left of it, scene right. */
+    --art-start: 12%;
+    /*
+     * Where a scene's one climax happens, given in the picture's own frame so a
+     * light lands on what the artwork already painted there.
+     */
+    --event-x: 50%;
+    --event-y: 50%;
+    --event-glow: var(--scene-accent);
+    /*
+     * The screen. Its swing is timed by the component, which writes both
+     * durations in as custom properties; the values here only cover the frames
+     * before hydration, when nothing is swinging yet.
+     */
+    --screen-open-dur: 900ms;
+    --screen-close-dur: 700ms;
+    --screen-dur: 0ms;
+    --screen-ease: cubic-bezier(0.32, 0.06, 0.16, 1);
+    --screen-rail: 0.5rem;
 
     position: relative;
     isolation: isolate;
     overflow: hidden;
+    /*
+     * The screen stands across the first view, and the collection shows under
+     * its lower edge, so the 余韵 is promised before the reader reaches it. This
+     * is a floor only — the poem's own reserve below still fixes the height, so
+     * all four scenes go on occupying exactly the same frame.
+     */
+    --stage-floor: calc(100svh - 11rem);
+    min-block-size: min(var(--stage-floor), 44rem);
+    display: grid;
+    align-content: center;
     border-block: 1px solid color-mix(in srgb, var(--scene-accent) 24%, transparent);
     background-color: var(--scene-wash);
     padding-block: clamp(1rem, 2.5vw, 1.5rem);
@@ -220,6 +261,10 @@
     --art-anim: ci-art-rain;
     --scene-dur: 1200ms;
     --scene-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+    /* The moon the artwork already washed into its upper right. */
+    --event-x: 77%;
+    --event-y: 24%;
+    --event-glow: #7d97a8;
   }
 
   .ci-stage[data-scene="lantern"] {
@@ -229,15 +274,26 @@
     --art-anim: ci-art-lantern;
     --scene-dur: 1000ms;
     --scene-ease: cubic-bezier(0.33, 0, 0.2, 1);
+    /*
+     * Off centre, and out where the artwork's lanterns have already thinned to
+     * nothing — 灯火阑珊处 is a place in the picture, not a place on the screen.
+     */
+    --event-x: 34%;
+    --event-y: 62%;
+    --event-glow: #c8623f;
   }
 
   .ci-stage[data-scene="lotus-dusk"] {
     --scene-accent: #40684f;
-    --scene-art: url("/stage/lotus-dusk.webp");
+    --scene-art: url("/stage/lotus-dusk-v2.webp");
     --scene-anim: ci-startle;
     --art-anim: ci-art-lotus;
     --scene-dur: 780ms;
     --scene-ease: cubic-bezier(0.16, 0.9, 0.3, 1);
+    /* The lotus bed the boat blunders into, low on the water. */
+    --event-x: 62%;
+    --event-y: 82%;
+    --event-glow: #4c8367;
   }
 
   .ci-stage[data-scene="plum-rain"] {
@@ -247,6 +303,9 @@
     --art-anim: ci-art-mist;
     --scene-dur: 1300ms;
     --scene-ease: cubic-bezier(0.25, 0.6, 0.3, 1);
+    --event-x: 58%;
+    --event-y: 70%;
+    --event-glow: #6d8f8c;
   }
 
   /*
@@ -268,16 +327,46 @@
     inset: 0;
     overflow: hidden;
     pointer-events: none;
+    transition: opacity 1200ms ease;
+  }
+
+  /* 合 — once the poem stands whole the picture yields to the words. */
+  .js .ci-stage[data-screen="open"][data-complete] .ci-stage-art {
+    opacity: 0.82;
+  }
+
+  /*
+   * The picture keeps its own slow drift; the frame around it carries the one
+   * climax, so a scene can move without two animations fighting over the same
+   * transform.
+   */
+  .ci-scene-frame {
+    position: absolute;
+    inset: 0;
+    transform-origin: var(--event-x) var(--event-y);
+  }
+
+  /*
+   * Two more layers, sharing the picture's exact box so a mask or a light lands
+   * on what the artwork already painted there. Both stay dark until a scene
+   * gives them something to do.
+   */
+  .ci-scene-atmosphere,
+  .ci-scene-event {
+    position: absolute;
+    inset: -5% -5% -7% var(--art-start);
+    opacity: 0;
+    transform-origin: var(--event-x) var(--event-y);
   }
 
   .ci-stage-picture {
     position: absolute;
-    inset: -5% -5% -7% 12%;
+    inset: -5% -5% -7% var(--art-start);
     background-image: var(--scene-art);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: var(--art-position);
     background-size: cover;
-    opacity: 0.28;
+    opacity: var(--art-opacity);
     filter: var(--art-filter, none);
     transform-origin: 70% 55%;
     animation: var(--art-anim) 15s ease-in-out both infinite alternate;
@@ -286,17 +375,18 @@
   @media (min-width: 640px) {
     .ci-stage {
       padding-block: 1rem;
-    }
-
-    .ci-stage-picture {
-      inset-inline-start: 28%;
-      opacity: 0.36;
+      --stage-floor: calc(100svh - 8.5rem);
+      --art-start: 28%;
+      --art-opacity: 0.46;
+      --art-position: center;
+      --screen-rail: 0.75rem;
     }
   }
 
   .js .ci-stage[data-phase="initial"] .ci-veil {
     opacity: 0;
-    animation: ci-veil-lift 500ms ease 2400ms forwards;
+    visibility: hidden;
+    animation: ci-veil-lift 500ms ease var(--ci-stage-fail-delay, 2400ms) forwards;
   }
 
   .ci-scene {
@@ -449,26 +539,29 @@
    */
   .ci-choices {
     position: absolute;
+    z-index: 2;
     inset-inline: 0;
     top: 0;
     visibility: visible;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.25em;
+    gap: 0.12em;
     font-size: 0.8em;
-    line-height: 1.65;
+    line-height: 1.4;
   }
 
   .ci-choices-label {
     color: var(--scene-accent);
     font-family: var(--font-song);
-    font-size: 0.85em;
+    font-size: 0.8em;
+    line-height: 1.3;
     letter-spacing: 0;
   }
 
   .ci-choice {
     font: inherit;
+    min-height: 1.5625rem;
     text-align: start;
     color: var(--color-ink-soft);
     border-bottom: 1px solid color-mix(in srgb, var(--scene-accent) 32%, transparent);
@@ -486,6 +579,30 @@
     color: var(--color-ink-faint);
     border-bottom-color: transparent;
     opacity: 0.5;
+  }
+
+  @media (max-width: 639px) {
+    .ci-choices {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: stretch;
+      gap: 0.3rem;
+      font-size: 0.8em;
+      line-height: 1.35;
+    }
+
+    .ci-choices-label {
+      grid-column: 1 / -1;
+    }
+
+    .ci-choice {
+      min-width: 0;
+      min-height: 2.75rem;
+      padding: 0.3rem 0.25rem;
+      text-align: center;
+      overflow-wrap: anywhere;
+      border: 1px solid color-mix(in srgb, var(--scene-accent) 32%, transparent);
+    }
   }
 
   .ci-aftertaste {
@@ -568,6 +685,32 @@
     text-decoration: underline;
   }
 
+  @media (max-width: 639px) {
+    .ci-controls,
+    .ci-control-group {
+      flex-wrap: nowrap;
+    }
+
+    .ci-controls {
+      gap: 0.5rem;
+    }
+
+    .ci-control-group {
+      gap: 0.25rem;
+    }
+
+    .ci-button {
+      padding-inline: 0.35rem;
+      font-size: 0.8125rem;
+    }
+
+    .ci-stage-read {
+      flex-shrink: 0;
+      white-space: nowrap;
+      font-size: 0.75rem;
+    }
+  }
+
   .ci-provenance {
     margin-top: clamp(0.4rem, 1.5vw, 0.8rem);
     font-size: 0.8125rem;
@@ -617,6 +760,587 @@
   .ci-provenance a:hover {
     color: var(--scene-accent);
     border-bottom-color: var(--scene-accent);
+  }
+
+  /* ------------------------------------------------------------------ *
+   * 屏风 — the four leaves standing across the first view
+   * ------------------------------------------------------------------ */
+
+  /*
+   * Scripts raise the screen; without them there is no door at all and the poem
+   * the server sent simply stands there. The face is drawn in paper and ink
+   * alone: a leaf tinted with the scene's own colour would give away which of
+   * the four is waiting behind it.
+   */
+  .ci-screen {
+    display: none;
+  }
+
+  .js .ci-screen {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    perspective: 90rem;
+    perspective-origin: 50% 45%;
+    /* The door never takes a pointer; the entry button in front of it does. */
+    pointer-events: none;
+  }
+
+  .ci-stage[data-screen="opening"] {
+    --screen-dur: var(--screen-open-dur);
+  }
+
+  .ci-stage[data-screen="closing"] {
+    --screen-dur: var(--screen-close-dur);
+  }
+
+  /*
+   * Four leaves, each turning on its own hinge inside one shared perspective.
+   * Keeping each leaf in that shared plane means the clipping and stacking
+   * context the stage already establishes cannot flatten the fold. The overlap
+   * closes the hairlines between them; where each leaf's dark edge meets the
+   * next one's light edge is the seam, so the fold needs no rule drawn on it.
+   */
+  .ci-screen-panel {
+    position: absolute;
+    inset-block: 0;
+    width: 25.5%;
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 3px,
+        color-mix(in srgb, var(--color-ink) 2.5%, transparent) 3px 4px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0 7px,
+        color-mix(in srgb, var(--color-ink) 1.8%, transparent) 7px 8px
+      ),
+      linear-gradient(
+        100deg,
+        color-mix(in srgb, var(--color-paper-raised) 90%, var(--color-ink)) 0%,
+        var(--color-paper-raised) 36%,
+        color-mix(in srgb, var(--color-paper) 86%, var(--color-ink)) 100%
+      );
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--color-rule) 60%, transparent),
+      0 0 2.5rem color-mix(in srgb, var(--color-ink) 10%, transparent);
+    backface-visibility: hidden;
+    transition:
+      transform var(--screen-dur) var(--screen-ease),
+      opacity var(--screen-dur) ease-in;
+  }
+
+  /*
+   * A screen is never quite flat. Each leaf sits at its own angle to the light,
+   * which is what gives the shut face its depth before anything has moved.
+   */
+  .ci-screen-panel[data-screen-panel="outer-left"] {
+    inset-inline-start: 0;
+    transform-origin: left center;
+    filter: brightness(0.962);
+    --panel-open: translateX(-90%) rotateY(-78deg);
+  }
+
+  .ci-screen-panel[data-screen-panel="inner-left"] {
+    inset-inline-start: 25%;
+    transform-origin: right center;
+    filter: brightness(1.014);
+    --panel-open: translateX(-194%) rotateY(78deg);
+  }
+
+  .ci-screen-panel[data-screen-panel="inner-right"] {
+    inset-inline-start: 50%;
+    transform-origin: left center;
+    filter: brightness(0.986);
+    --panel-open: translateX(194%) rotateY(-78deg);
+  }
+
+  .ci-screen-panel[data-screen-panel="outer-right"] {
+    inset-inline-start: 75%;
+    transform-origin: right center;
+    filter: brightness(0.936);
+    --panel-open: translateX(90%) rotateY(78deg);
+  }
+
+  .js .ci-stage[data-screen="opening"] .ci-screen-panel[data-screen-panel^="outer"] {
+    transition-delay: 90ms;
+    transition-duration: calc(var(--screen-dur) - 90ms);
+  }
+
+  .js .ci-stage[data-screen="closing"] .ci-screen-panel[data-screen-panel^="inner"] {
+    transition-delay: 60ms;
+    transition-duration: calc(var(--screen-dur) - 60ms);
+  }
+
+  /*
+   * Opening and open share one transform, so the swing is simply the transition
+   * between the two resting states — and closing runs the same thing backwards
+   * without a rule of its own.
+   */
+  .js .ci-stage[data-screen="opening"] .ci-screen-panel,
+  .js .ci-stage[data-screen="open"] .ci-screen-panel {
+    transform: var(--panel-open);
+    opacity: 0.08;
+  }
+
+  /* A hairline of light makes the closed screen read as a doorway. */
+  .js .ci-screen::before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    inset-block: 5%;
+    inset-inline-start: 50%;
+    width: 1px;
+    background-image: linear-gradient(
+      to bottom,
+      transparent,
+      color-mix(in srgb, var(--color-ink) 32%, var(--color-paper-raised)) 18% 82%,
+      transparent
+    );
+    box-shadow: 0 0 1rem color-mix(in srgb, var(--color-paper-raised) 50%, transparent);
+    opacity: 0.72;
+    transition: opacity calc(var(--screen-dur) * 0.35) ease;
+  }
+
+  .js .ci-stage[data-screen="opening"] .ci-screen::before,
+  .js .ci-stage[data-screen="open"] .ci-screen::before {
+    opacity: 0;
+  }
+
+  /*
+   * What is left of the screen once the leaves have folded away: a rail at each
+   * far edge, so the stage keeps its doorway. Held to half a rem — narrower than
+   * the page gutter at every width — so it can never reach the poem or its
+   * controls, and it takes no pointer.
+   */
+  .ci-screen-rail {
+    position: absolute;
+    z-index: 1;
+    inset-block: 0;
+    width: var(--screen-rail);
+    opacity: 0;
+    background-image: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-ink) 18%, var(--color-paper-raised)) 0%,
+      var(--color-paper-raised) 58%,
+      color-mix(in srgb, var(--color-ink) 8%, var(--color-paper-raised)) 100%
+    );
+    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--color-ink) 13%, transparent);
+    transition: opacity var(--screen-dur) ease;
+  }
+
+  .ci-screen-rail[data-screen-rail="left"] {
+    inset-inline-start: 0;
+  }
+
+  .ci-screen-rail[data-screen-rail="right"] {
+    inset-inline-end: 0;
+    transform: scaleX(-1);
+  }
+
+  .js .ci-stage[data-screen="opening"] .ci-screen-rail,
+  .js .ci-stage[data-screen="open"] .ci-screen-rail {
+    opacity: 1;
+  }
+
+  /*
+   * The face says the collection and its measure — the 余韵 promised before the
+   * screen has opened — and never the 词, the poet or the scene behind it.
+   */
+  .ci-screen-inscription {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    padding-inline: max(
+      var(--page-gutter),
+      calc(50vw - var(--page-max) / 2 + var(--page-gutter))
+    );
+    transition: opacity calc(var(--screen-dur) * 0.45) ease;
+  }
+
+  .ci-screen-brand {
+    position: relative;
+    padding-block-start: 1.15rem;
+    font-family: var(--font-kai);
+    font-size: 1.375rem;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: var(--color-ink);
+  }
+
+  /* The one mark the face carries: a hairline, the length of two characters. */
+  .ci-screen-brand::before {
+    content: "";
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    width: 2.75rem;
+    height: 1px;
+    background-color: color-mix(in srgb, var(--color-ink) 42%, transparent);
+  }
+
+  .ci-screen-measure {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--color-ink-faint);
+  }
+
+  @media (min-width: 640px) {
+    .ci-screen-brand {
+      font-size: 1.75rem;
+    }
+  }
+
+  .js .ci-stage[data-screen="opening"] .ci-screen-inscription,
+  .js .ci-stage[data-screen="open"] .ci-screen-inscription {
+    opacity: 0;
+  }
+
+  /* The title belongs to a shut screen, not to the old poem beneath a moving
+     one. It returns only as the closing leaves reach each other. */
+  .js .ci-stage[data-screen="closing"] .ci-screen-inscription {
+    transition-delay: calc(var(--screen-dur) * 0.55);
+  }
+
+  .ci-screen-trigger {
+    display: none;
+  }
+
+  /*
+   * The door is the control: one real button across the whole screen, so a
+   * pointer opens it anywhere on the face and Enter or Space opens it from the
+   * keyboard without a handler of our own. It only answers while the screen is
+   * actually shut — a reopen after 换一阕 is the stage's to make, not the
+   * reader's to repeat.
+   */
+  .js .ci-screen-trigger {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    inset: 0;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-block-end: clamp(2.5rem, 9vh, 5.5rem);
+    padding-inline: max(
+      var(--page-gutter),
+      calc(50vw - var(--page-max) / 2 + var(--page-gutter))
+    );
+    background: none;
+    border: 0;
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+  /* The trigger reaches every stage edge, so the global outside outline would
+     be clipped by the stage. Draw its keyboard ring inward instead. */
+  .js .ci-screen-trigger:focus-visible {
+    outline: none;
+    box-shadow:
+      inset 0 0 0 2px var(--color-cinnabar),
+      inset 0 0 0 5px color-mix(in srgb, var(--color-paper-raised) 74%, transparent);
+  }
+
+  .js .ci-stage[data-screen="closed"] .ci-screen-trigger {
+    pointer-events: auto;
+  }
+
+  .ci-screen-enter {
+    padding-block: 0.35rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: var(--color-ink-soft);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 32%, transparent);
+    opacity: 0;
+    transition: color 200ms ease, border-color 200ms ease, opacity 320ms ease;
+  }
+
+  .js .ci-stage[data-screen="closed"] .ci-screen-enter {
+    opacity: 1;
+  }
+
+  .js .ci-screen-trigger:hover .ci-screen-enter {
+    color: var(--color-ink);
+    border-bottom-color: var(--color-ink);
+  }
+
+  /*
+   * Scripted, but not yet hydrated. The screen stands from the first paint, so
+   * the reader never meets the served scene before it has been redrawn — and if
+   * the bundle never arrives it folds away by itself, on the same clock that
+   * lifts the veil behind it, rather than leaving a door that will not open.
+   */
+  .js .ci-stage[data-phase="initial"] .ci-screen-panel {
+    animation: ci-screen-failopen 600ms ease var(--ci-stage-fail-delay, 2400ms) both;
+  }
+
+  .js .ci-stage[data-phase="initial"] .ci-screen-rail {
+    animation: ci-screen-stand 600ms ease var(--ci-stage-fail-delay, 2400ms) both;
+  }
+
+  .js .ci-stage[data-phase="initial"] .ci-screen-inscription,
+  .js .ci-stage[data-phase="initial"] .ci-screen-enter,
+  .js .ci-stage[data-phase="initial"] .ci-screen::before {
+    animation: ci-screen-recede 400ms ease var(--ci-stage-fail-delay, 2400ms) both;
+  }
+
+  /* ------------------------------------------------------------------ *
+   * 转 — one climax to a scene, and only one
+   * ------------------------------------------------------------------ */
+
+  /*
+   * Every climax hangs off `[data-event="turned"]`, which is derived from the
+   * reveal against the 转 and never from whether the poem has finished: 元夕 and
+   * 如梦令 both *end* on their 转, and folding the two together would mean their
+   * climax never happened. It fires when the selector starts matching, holds its
+   * finished state, and plays again on 重读 because the layers are remounted.
+   */
+
+  /* 柳永 — 今宵酒醒何处，杨柳岸、晓风残月。 */
+  .ci-stage[data-scene="cold-cicada"] .ci-scene-atmosphere {
+    opacity: 0.34;
+    background-image: linear-gradient(
+      72deg,
+      transparent 0 42%,
+      color-mix(in srgb, var(--scene-accent) 34%, transparent) 42% 47%,
+      transparent 47% 100%
+    );
+    background-size: 26px 26px;
+    mask-image: linear-gradient(to right, transparent, #000 20%, #000 88%, transparent);
+    animation: ci-rain-fall 900ms linear infinite;
+  }
+
+  .ci-stage[data-scene="cold-cicada"] .ci-scene-event {
+    background-image:
+      radial-gradient(
+        circle at var(--event-x) var(--event-y),
+        color-mix(in srgb, var(--event-glow) 42%, transparent) 0%,
+        transparent 30%
+      ),
+      var(--scene-art);
+    background-repeat: no-repeat;
+    background-position: center, var(--art-position);
+    background-size: auto, cover;
+    filter: var(--art-filter);
+    mask-image: radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      #000 0 15%,
+      transparent 30%
+    );
+  }
+
+  /* The cold moon belongs to the 转, so the base scene leaves its place dark. */
+  .ci-stage[data-scene="cold-cicada"] .ci-stage-picture {
+    mask-image: radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      transparent 0 12%,
+      #000 27%
+    );
+  }
+
+  /* The rain thins to nothing rather than stopping dead — 骤雨初歇. */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="cold-cicada"]
+    .ci-scene-atmosphere {
+    animation: ci-rain-fall 900ms linear infinite, ci-rain-still 1400ms ease-out both;
+  }
+
+  /* The bank slides away from the boat, and the moon is what is left. */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="cold-cicada"]
+    .ci-scene-frame {
+    animation: ci-shore-depart 2600ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="cold-cicada"]
+    .ci-scene-event {
+    animation: ci-moon-rise 2200ms ease-out 400ms both;
+  }
+
+  /* 辛弃疾 — 众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。 */
+  .ci-stage[data-scene="lantern"] .ci-scene-frame {
+    mask-image: radial-gradient(circle, #000 0 40%, transparent 74%);
+    mask-repeat: no-repeat;
+    mask-position: var(--event-x) var(--event-y);
+    mask-size: 400% 400%;
+  }
+
+  .ci-stage[data-scene="lantern"] .ci-scene-event {
+    background: none;
+  }
+
+  /* One small, legible lantern remains after the crowd has gone. */
+  .ci-stage[data-scene="lantern"] .ci-scene-event::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--event-x) - 0.6rem);
+    top: calc(var(--event-y) - 0.85rem);
+    width: 1.2rem;
+    height: 1.55rem;
+    border: 1px solid color-mix(in srgb, var(--event-glow) 88%, transparent);
+    border-radius: 2px;
+    background-color: color-mix(in srgb, var(--event-glow) 58%, transparent);
+    box-shadow: 0 0 0.8rem color-mix(in srgb, var(--event-glow) 24%, transparent);
+  }
+
+  .ci-stage[data-scene="lantern"] .ci-scene-event::after {
+    content: "";
+    position: absolute;
+    left: var(--event-x);
+    top: calc(var(--event-y) + 0.7rem);
+    width: 1px;
+    height: 0.75rem;
+    background-color: color-mix(in srgb, var(--event-glow) 72%, transparent);
+  }
+
+  /*
+   * The whole crowd of lights pulls in toward the one that is left, losing its
+   * colour as it goes; the mask closes on the same point, so the thousand times
+   * of looking end where the picture has almost nothing left in it.
+   */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lantern"]
+    .ci-scene-frame {
+    animation: ci-crowd-retreat 1900ms cubic-bezier(0.33, 0, 0.2, 1) both;
+  }
+
+  /* 蓦然回首 — the light arrives after the crowd has gone, not with it. */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lantern"]
+    .ci-scene-event {
+    animation: ci-one-light 1900ms ease-out 620ms both;
+  }
+
+  /* 李清照 — 惊起一行鸥鹭。 */
+
+  /* The egrets live on their own transparent plate, so the base remains a
+     complete pond after every bird has left the frame. */
+  .ci-stage[data-scene="lotus-dusk"] .ci-scene-atmosphere {
+    opacity: 0.72;
+    background-image: url("/stage/lotus-birds-v2.webp");
+    background-repeat: no-repeat;
+    background-position: var(--art-position);
+    background-size: cover;
+    filter: var(--art-filter, none);
+  }
+
+  .ci-stage[data-scene="lotus-dusk"] .ci-scene-event {
+    background-image: repeating-radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      transparent 0 11px,
+      color-mix(in srgb, var(--event-glow) 32%, transparent) 11px 13px,
+      transparent 13px 25px
+    );
+    mask-image: radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      #000 0 7%,
+      transparent 44%
+    );
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lotus-dusk"]
+    .ci-scene-event {
+    animation: ci-ripple-out 1500ms cubic-bezier(0.16, 0.9, 0.3, 1) both;
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lotus-dusk"]
+    .ci-scene-frame {
+    animation: ci-water-settle 1400ms cubic-bezier(0.16, 0.9, 0.3, 1) both;
+  }
+
+  /* The birds go up faster than the boat came in. */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lotus-dusk"]
+    .ci-scene-atmosphere {
+    animation: ci-egrets-lift 1500ms cubic-bezier(0.16, 0.9, 0.3, 1) 240ms both;
+  }
+
+  /*
+   * 贺铸 — 一川烟草，满城风絮，梅子黄时雨。 Three depths, and the answer is all
+   * three at once: the grass furthest off and blurred, the catkins crossing the
+   * middle on the wind, the rain nearest and sharpest. They arrive in the order
+   * the line names them.
+   */
+  .ci-stage[data-scene="plum-rain"] .ci-scene-atmosphere {
+    --layer-opacity: 0.62;
+    background-image:
+      repeating-linear-gradient(
+        96deg,
+        transparent 0 11px,
+        color-mix(in srgb, var(--event-glow) 58%, transparent) 11px 12.5px,
+        transparent 12.5px 19px
+      ),
+      linear-gradient(
+        to top,
+        color-mix(in srgb, var(--event-glow) 30%, transparent),
+        color-mix(in srgb, var(--event-glow) 12%, transparent) 46%,
+        transparent 74%
+      );
+    background-size: 100% 100%;
+    filter: blur(1.4px);
+    mask-image: linear-gradient(to top, #000 0 46%, transparent 75%);
+  }
+
+  .ci-stage[data-scene="plum-rain"] .ci-scene-event {
+    opacity: 1;
+  }
+
+  .ci-stage[data-scene="plum-rain"] .ci-scene-event::before,
+  .ci-stage[data-scene="plum-rain"] .ci-scene-event::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+  }
+
+  /* 满城风絮 */
+  .ci-stage[data-scene="plum-rain"] .ci-scene-event::before {
+    --layer-opacity: 0.7;
+    background-image:
+      radial-gradient(circle at 11% 24%, var(--event-glow) 0 1.6px, transparent 2.2px),
+      radial-gradient(circle at 38% 61%, var(--event-glow) 0 1.2px, transparent 1.8px),
+      radial-gradient(circle at 62% 17%, var(--event-glow) 0 1.7px, transparent 2.3px),
+      radial-gradient(circle at 79% 78%, var(--event-glow) 0 1.3px, transparent 1.9px),
+      radial-gradient(circle at 91% 41%, var(--event-glow) 0 1.5px, transparent 2.1px),
+      radial-gradient(circle at 26% 88%, var(--event-glow) 0 1.4px, transparent 2px);
+    background-size: 240px 176px;
+    filter: blur(0.7px);
+    mask-image: linear-gradient(to right, transparent, #000 18%, #000 90%, transparent);
+  }
+
+  /* 梅子黄时雨 */
+  .ci-stage[data-scene="plum-rain"] .ci-scene-event::after {
+    --layer-opacity: 0.5;
+    background-image: linear-gradient(
+      79deg,
+      transparent 0 44%,
+      color-mix(in srgb, var(--scene-accent) 38%, transparent) 44% 48%,
+      transparent 48% 100%
+    );
+    background-size: 22px 34px;
+    mask-image: linear-gradient(to right, transparent, #000 16%, #000 92%, transparent);
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="plum-rain"]
+    .ci-scene-atmosphere {
+    animation:
+      ci-layer-in 1100ms ease-out both,
+      ci-grass-drift 20s ease-in-out infinite alternate;
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="plum-rain"]
+    .ci-scene-event::before {
+    animation:
+      ci-layer-in 1100ms ease-out 280ms both,
+      ci-catkin-drift 11s linear 280ms infinite;
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="plum-rain"]
+    .ci-scene-event::after {
+    animation:
+      ci-layer-in 1100ms ease-out 560ms both,
+      ci-plum-rain-fall 760ms linear 560ms infinite;
   }
 
   /* ------------------------------------------------------------------ *
@@ -726,9 +1450,11 @@
 @keyframes ci-veil-lift {
   from {
     opacity: 0;
+    visibility: hidden;
   }
   to {
     opacity: 1;
+    visibility: visible;
   }
 }
 
@@ -851,7 +1577,198 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* ---------------------------------------------------------------- 屏风 */
+
+/*
+ * The fail-open. One rule covers all four leaves: each carries its own opened
+ * transform, so the keyframe only has to ask for it.
+ */
+@keyframes ci-screen-failopen {
+  from {
+    transform: none;
+    opacity: 1;
+  }
+  to {
+    transform: var(--panel-open);
+    opacity: 0;
+  }
+}
+
+@keyframes ci-screen-stand {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ci-screen-recede {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* ---------------------------------------------------------------- 转 */
+
+/* Exactly one tile, so the fall never seams. */
+@keyframes ci-rain-fall {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -26px 26px;
+  }
+}
+
+@keyframes ci-rain-still {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* 柳永: the bank slides away from the boat that is already moving. */
+@keyframes ci-shore-depart {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate3d(-3.5%, 0, 0) scale(1.02);
+  }
+}
+
+/* 柳永: 残月 — the cold moon comes up out of the rain that has just stopped. */
+@keyframes ci-moon-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1.6%, 0) scale(0.94);
+  }
+  62% {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 0.8;
+    transform: none;
+  }
+}
+
+/* 辛弃疾: 众里 — the whole crowd of lights pulls in and loses its colour. */
+@keyframes ci-crowd-retreat {
+  from {
+    transform: none;
+    filter: none;
+    opacity: 1;
+    mask-size: 400% 400%;
+  }
+  to {
+    transform: scale(0.955);
+    filter: saturate(0.18) brightness(1.07);
+    opacity: 0.3;
+    mask-size: 88% 88%;
+  }
+}
+
+/* 辛弃疾: 那人却在 — one light, off centre, where the lanterns had thinned out. */
+@keyframes ci-one-light {
+  from {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  58% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.88;
+    transform: none;
+  }
+}
+
+/* 李清照: the ring the boat puts across the water. */
+@keyframes ci-ripple-out {
+  from {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+  20% {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 0;
+    transform: scale(2.6);
+  }
+}
+
+@keyframes ci-water-settle {
+  from {
+    transform: none;
+  }
+  32% {
+    transform: translate3d(0, 0.9%, 0) scaleY(0.992);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* 李清照: 惊起 — the birds leave the water and do not come back to it. */
+@keyframes ci-egrets-lift {
+  from {
+    opacity: 0.34;
+    transform: none;
+  }
+  38% {
+    opacity: 0.52;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(2.5%, -9%, 0);
+  }
+}
+
+/* 贺铸: each depth arrives in the order the line names it. */
+@keyframes ci-layer-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: var(--layer-opacity, 1);
+  }
+}
+
+@keyframes ci-grass-drift {
+  from {
+    transform: scale(1.06) translate3d(-1.4%, 0, 0);
+  }
+  to {
+    transform: scale(1.06) translate3d(1.4%, 0, 0);
+  }
+}
+
+@keyframes ci-catkin-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 240px 0;
+  }
+}
+
+@keyframes ci-plum-rain-fall {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -22px 34px;
+  }
+}
+
+  @media (prefers-reduced-motion: reduce) {
   .js .ci-stage[data-phase="reading"] .ci-line[data-shown] .ci-line-text {
     animation-name: ci-plain;
     animation-duration: 160ms;
@@ -860,12 +1777,64 @@
 
   .ci-veil,
   .ci-aftertaste,
-  .ci-stage {
+  .ci-stage,
+  .ci-stage-art {
     transition-duration: 1ms;
+  }
+
+  .ci-veil {
+    animation-duration: 1ms;
   }
 
   .ci-stage-picture {
     animation: none;
+  }
+
+  /*
+   * The screen still travels through every state — the component's clock simply
+   * spends nothing on the way — so it opens at once rather than not at all. The
+   * fail-open keeps its 2,400ms wait: that is a timeout, not motion.
+   */
+  .ci-screen-panel,
+  .ci-screen-rail,
+  .ci-screen-inscription,
+  .ci-screen-enter,
+  .ci-screen::before {
+    transition-duration: 1ms;
+    animation-duration: 1ms;
+  }
+
+  /*
+   * A climax arrives already finished instead of playing out, and nothing is
+   * left running: the drifts fall back to a single 1ms pass and hold.
+   */
+  .ci-scene-frame,
+  .ci-scene-atmosphere,
+  .ci-scene-event,
+  .ci-scene-event::before,
+  .ci-scene-event::after {
+    animation-duration: 1ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+  }
+
+  /*
+   * 如梦令 is the one whose climax ends where it cannot be seen — the ring has
+   * spent itself and the birds are gone. Held part-way instead, so a reader with
+   * motion off still gets the moment rather than an empty pond.
+   */
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lotus-dusk"]
+    .ci-scene-event {
+    animation: none;
+    opacity: 0.66;
+    transform: scale(1.5);
+  }
+
+  .js .ci-stage[data-screen="open"][data-event="turned"][data-scene="lotus-dusk"]
+    .ci-scene-atmosphere {
+    animation: none;
+    opacity: 0.3;
+    transform: translate3d(2%, -7%, 0);
   }
 }
 
@@ -873,29 +1842,71 @@
   .ci-stage[data-scene="cold-cicada"] {
     --scene-accent: #93aebd;
     --art-filter: invert(0.72) saturate(0.7);
+    --event-glow: #d3e3ed;
   }
 
   .ci-stage[data-scene="lantern"] {
     --scene-accent: #e08a72;
     --art-filter: brightness(1.55) saturate(1.25);
+    --event-glow: #f4ad7d;
   }
 
   .ci-stage[data-scene="lotus-dusk"] {
     --scene-accent: #93bb9c;
     --art-filter: brightness(1.45) saturate(1.15);
+    --event-glow: #a8cfb4;
   }
 
   .ci-stage[data-scene="plum-rain"] {
     --scene-accent: #83aeaa;
     --art-filter: invert(0.68) saturate(0.65);
+    --event-glow: #aaceca;
   }
 
   .ci-stage {
     --scene-wash: color-mix(in srgb, var(--scene-accent) 7%, var(--color-paper));
+    --art-opacity: 0.46;
   }
 
   .ci-stage-picture {
-    opacity: 0.3;
+    opacity: var(--art-opacity);
+  }
+
+  /*
+   * The same folded paper, read the other way up: the light still comes from the
+   * left, so the leaves keep the angles they had.
+   */
+  .ci-screen-panel {
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 3px,
+        color-mix(in srgb, var(--color-ink) 3.5%, transparent) 3px 4px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0 7px,
+        color-mix(in srgb, var(--color-ink) 2.5%, transparent) 7px 8px
+      ),
+      linear-gradient(
+        100deg,
+        color-mix(in srgb, var(--color-paper-raised) 88%, var(--color-ink)) 0%,
+        var(--color-paper-raised) 38%,
+        color-mix(in srgb, var(--color-paper) 78%, #000) 100%
+      );
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--color-rule) 80%, transparent),
+      0 0 3rem color-mix(in srgb, #000 45%, transparent);
+  }
+
+  .ci-screen-rail {
+    background-image: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-paper-raised) 78%, #000) 0%,
+      var(--color-paper-raised) 58%,
+      color-mix(in srgb, var(--color-paper-raised) 88%, #000) 100%
+    );
+    box-shadow: 0 0 1.5rem color-mix(in srgb, #000 55%, transparent);
   }
 }
 
