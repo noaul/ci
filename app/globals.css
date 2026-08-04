@@ -368,8 +368,8 @@
   }
 
   .ci-stage {
-    --stage-leading: 1.75;
-    --stage-stanza-gap: 0.8em;
+    --stage-leading: 1.95;
+    --stage-stanza-gap: 1.25em;
     --stage-step: 85ms;
     --scene-accent: var(--color-ink-soft);
     --scene-anim: ci-plain;
@@ -396,6 +396,7 @@
     position: relative;
     isolation: isolate;
     overflow: visible;
+    inline-size: 100%;
     min-block-size: 100svh;
     min-block-size: 100dvh;
     padding-block-start: max(clamp(4.75rem, 13vh, 7.5rem), calc(env(safe-area-inset-top) + 4rem));
@@ -408,6 +409,17 @@
   .js .ci-stage {
     display: grid;
     align-content: safe center;
+  }
+
+  /* A complete poem begins near the top like an open page, while the shorter
+     preview keeps the ceremonial centre of the first reveal. */
+  .js .ci-journey[data-kind="corpus"] .ci-stage,
+  .js .ci-journey[data-event="turned"] .ci-stage {
+    align-content: start;
+    padding-block-start: max(
+      clamp(4.5rem, 8vh, 5.75rem),
+      calc(env(safe-area-inset-top) + 4rem)
+    );
   }
 
   .ci-journey[data-scene="cold-cicada"] .ci-stage {
@@ -542,6 +554,166 @@
     animation-play-state: running;
   }
 
+  /*
+   * 活墨 — two quiet, non-semantic layers that arrive with each poem and then
+   * rest. The keyed node is remounted for every turn, so these motions replay
+   * without becoming an endless distraction behind the reading.
+   */
+  .ci-living-ink {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .ci-living-ink::before,
+  .ci-living-ink::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    animation-play-state: paused;
+  }
+
+  .ci-journey:not([data-phase="threshold"]) .ci-living-ink {
+    opacity: 1;
+  }
+
+  .ci-journey[data-kind="corpus"] .ci-living-ink::before {
+    inset: 7% -12% 2% 52%;
+    background-image: radial-gradient(
+      ellipse at 72% 48%,
+      color-mix(in srgb, var(--scene-accent) 16%, transparent),
+      transparent 68%
+    );
+    filter: blur(22px);
+    opacity: 0;
+    animation: ci-ink-settle 4.2s ease-out both paused;
+  }
+
+  .ci-journey[data-kind="corpus"] .ci-living-ink::after {
+    inset: 10% -8% 8% 58%;
+    background-image: linear-gradient(
+      104deg,
+      transparent 5%,
+      color-mix(in srgb, var(--scene-accent) 7%, transparent) 48%,
+      transparent 82%
+    );
+    filter: blur(9px);
+    opacity: 0;
+    animation: ci-paper-settle 3.8s ease-out 160ms both paused;
+  }
+
+  .ci-journey[data-scene="cold-cicada"] .ci-living-ink::before {
+    inset: -8% -6% -8% max(48%, var(--art-start));
+    background-image: repeating-linear-gradient(
+      72deg,
+      transparent 0 19px,
+      color-mix(in srgb, var(--scene-accent) 24%, transparent) 19px 20px,
+      transparent 20px 33px
+    );
+    background-size: 33px 33px;
+    mask-image: linear-gradient(to right, transparent, #000 20%, #000 92%, transparent);
+    opacity: 0;
+    animation: ci-rain-clear 3.8s linear both paused;
+  }
+
+  .ci-journey[data-scene="cold-cicada"] .ci-living-ink::after {
+    inset: -3% -3% -3% max(44%, var(--art-start));
+    background-image: radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      color-mix(in srgb, var(--event-glow) 20%, transparent),
+      transparent 22%
+    );
+    opacity: 0;
+    animation: ci-light-settle 3.4s ease-out 520ms both paused;
+  }
+
+  .ci-journey[data-scene="lantern"] .ci-living-ink::before {
+    inset: -4% -4% -4% max(44%, var(--art-start));
+    background-image: radial-gradient(
+      circle at var(--event-x) var(--event-y),
+      color-mix(in srgb, var(--event-glow) 24%, transparent),
+      transparent 25%
+    );
+    opacity: 0;
+    animation: ci-light-settle 3.1s ease-out 180ms both paused;
+  }
+
+  .ci-journey[data-scene="lantern"] .ci-living-ink::after {
+    inset: 20% 4% 8% 54%;
+    background-image: linear-gradient(
+      104deg,
+      transparent,
+      color-mix(in srgb, var(--event-glow) 10%, transparent) 55%,
+      transparent 82%
+    );
+    filter: blur(12px);
+    opacity: 0;
+    animation: ci-paper-settle 3.6s ease-out 360ms both paused;
+  }
+
+  .ci-journey[data-scene="lotus-dusk"] .ci-living-ink::before,
+  .ci-journey[data-scene="lotus-dusk"] .ci-living-ink::after {
+    --wake-angle: -7deg;
+    --wake-drift: 8%;
+    inset: auto;
+    inset-block-start: 72%;
+    inset-inline-start: max(48%, var(--art-start));
+    inline-size: clamp(9rem, 27vw, 22rem);
+    block-size: clamp(3rem, 8vw, 7rem);
+    border: 1px solid color-mix(in srgb, var(--event-glow) 24%, transparent);
+    border-inline-color: transparent;
+    border-block-end-color: transparent;
+    border-radius: 50%;
+    opacity: 0;
+    transform-origin: center;
+    animation: ci-wake-arc 2.8s cubic-bezier(0.16, 0.9, 0.3, 1) both paused;
+  }
+
+  .ci-journey[data-scene="lotus-dusk"] .ci-living-ink::after {
+    --wake-angle: 5deg;
+    --wake-drift: -6%;
+    inset-block-start: 78%;
+    inset-inline-start: max(55%, var(--art-start));
+    inline-size: clamp(7rem, 22vw, 18rem);
+    animation-delay: 180ms;
+  }
+
+  .ci-journey[data-scene="plum-rain"] .ci-living-ink::before {
+    inset: -7% -7% -7% max(46%, var(--art-start));
+    background-image: linear-gradient(
+      92deg,
+      transparent,
+      color-mix(in srgb, var(--event-glow) 12%, transparent) 52%,
+      transparent 82%
+    );
+    filter: blur(16px);
+    opacity: 0;
+    animation: ci-mist-settle 4.8s ease-out both paused;
+  }
+
+  .ci-journey[data-scene="plum-rain"] .ci-living-ink::after {
+    inset: -8% -5% -8% max(50%, var(--art-start));
+    background-image: repeating-linear-gradient(
+      79deg,
+      transparent 0 24px,
+      color-mix(in srgb, var(--scene-accent) 20%, transparent) 24px 25px,
+      transparent 25px 39px
+    );
+    background-size: 39px 42px;
+    mask-image: linear-gradient(to right, transparent, #000 18%, #000 90%, transparent);
+    opacity: 0;
+    animation: ci-rain-clear 5.2s linear 220ms both paused;
+  }
+
+  /* Animation shorthands above reset play-state, so the release rule must
+     follow them. It is the single gate that keeps the threshold still. */
+  .ci-journey:not([data-phase="threshold"]) .ci-living-ink::before,
+  .ci-journey:not([data-phase="threshold"]) .ci-living-ink::after {
+    animation-play-state: running;
+  }
+
   .ci-stage-veil {
     position: relative;
     z-index: 1;
@@ -578,12 +750,31 @@
   }
 
   .ci-scene-title {
-    margin-block-start: 0.4rem;
-    font-family: var(--font-kai);
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    margin-block-start: 0.55rem;
+    padding-block-end: 0.8rem;
+    font-family: var(--font-song);
     font-size: 1.5rem;
+    font-weight: 600;
     line-height: 1.3;
     letter-spacing: 0;
     overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+
+  .ci-scene-title::after {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: 0;
+    width: clamp(2.5rem, 7vw, 4rem);
+    height: 1px;
+    background-color: var(--scene-accent);
+    opacity: 0.68;
+    transform-origin: left;
+    animation: ci-title-rule 820ms ease-out both;
   }
 
   @media (min-width: 390px) {
@@ -605,7 +796,7 @@
   }
 
   .ci-scene-byline {
-    margin-block-start: 0.25rem;
+    margin-block-start: 0.65rem;
     font-size: 0.8125rem;
     line-height: 1.6;
     color: var(--color-ink-faint);
@@ -613,7 +804,7 @@
 
   .ci-poem {
     position: relative;
-    margin-block-start: clamp(1.25rem, 3.5vh, 2rem);
+    margin-block-start: clamp(1.8rem, 4vh, 2.75rem);
     font-family: var(--font-kai);
     font-size: 1rem;
     line-height: var(--stage-leading);
@@ -673,7 +864,10 @@
 
   /* Marked 余韵 so it is never mistaken for the volume's own 注释. */
   .ci-aftertaste {
-    margin-block-start: clamp(0.9rem, 3vh, 1.5rem);
+    max-width: 34rem;
+    margin-block-start: clamp(1.6rem, 4vh, 2.4rem);
+    padding-block-start: 0.8rem;
+    border-block-start: 1px solid color-mix(in srgb, var(--scene-accent) 24%, transparent);
     font-size: 0.9375rem;
     line-height: 1.9;
     color: var(--color-ink-faint);
@@ -837,6 +1031,10 @@
     display: none;
   }
 
+  .js .ci-journey:not([data-phase="threshold"]):not([data-phase="opening"]) .ci-screen {
+    display: none;
+  }
+
   .ci-leaf-face,
   .ci-leaf-back {
     position: absolute;
@@ -853,6 +1051,16 @@
       inset 0 0 0 1px rgba(214, 185, 130, 0.22),
       inset 0 0 2.75rem rgba(0, 0, 0, 0.32),
       0 0 2.5rem rgba(0, 0, 0, 0.34);
+  }
+
+  /* The outer leaves meet the viewport itself. Their inner folds keep their
+     dark edges, but no frame is painted along the physical screen edge. */
+  .ci-screen-leaf[data-leaf="outer-left"] .ci-leaf-face {
+    border-inline-start: 0;
+  }
+
+  .ci-screen-leaf[data-leaf="outer-right"] .ci-leaf-face {
+    border-inline-end: 0;
   }
 
   .ci-leaf-art {
@@ -1042,41 +1250,6 @@
   /* It flares first, and everything else follows it. */
   .js .ci-journey:not([data-phase="threshold"]) .ci-screen-seam {
     animation: ci-seam-flare calc(var(--fold-dur) * 0.5) ease-out both;
-  }
-
-  /*
-   * What is left of the screen once the leaves have folded away: a rail at each
-   * far edge, so the reading keeps its doorway. Held to half a rem — narrower
-   * than the page gutter at every width — so it can never reach the text.
-   */
-  .ci-screen-rail {
-    position: absolute;
-    z-index: 1;
-    inset-block: 0;
-    width: 0.5rem;
-    opacity: 0;
-    background-image: linear-gradient(to right, #120e0b 0%, #35281c 58%, #17110d 100%);
-    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.38);
-    transition: opacity var(--fold-dur) ease;
-  }
-
-  .ci-screen-rail[data-rail="left"] {
-    inset-inline-start: 0;
-  }
-
-  .ci-screen-rail[data-rail="right"] {
-    inset-inline-end: 0;
-    transform: scaleX(-1);
-  }
-
-  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-rail {
-    opacity: 1;
-  }
-
-  @media (min-width: 640px) {
-    .ci-screen-rail {
-      width: 0.75rem;
-    }
   }
 
   /*
@@ -1898,6 +2071,105 @@
   }
 }
 
+@keyframes ci-title-rule {
+  from {
+    opacity: 0;
+    transform: scaleX(0.22);
+  }
+  to {
+    opacity: 0.68;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes ci-ink-settle {
+  0% {
+    opacity: 0;
+    transform: translate3d(2%, 1%, 0) scale(0.96);
+  }
+  44% {
+    opacity: 0.22;
+  }
+  100% {
+    opacity: 0.1;
+    transform: none;
+  }
+}
+
+@keyframes ci-paper-settle {
+  0% {
+    opacity: 0;
+    transform: translate3d(2%, 0, 0) skewX(-1deg);
+  }
+  48% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 0.08;
+    transform: none;
+  }
+}
+
+@keyframes ci-rain-clear {
+  0% {
+    opacity: 0;
+    background-position: 0 0;
+  }
+  16% {
+    opacity: 0.2;
+  }
+  68% {
+    opacity: 0.12;
+  }
+  100% {
+    opacity: 0;
+    background-position: -117px 126px;
+  }
+}
+
+@keyframes ci-light-settle {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  52% {
+    opacity: 0.34;
+    transform: scale(1.035);
+  }
+  100% {
+    opacity: 0.14;
+    transform: none;
+  }
+}
+
+@keyframes ci-wake-arc {
+  0% {
+    opacity: 0;
+    transform: rotate(var(--wake-angle)) translate3d(0, 8%, 0) scaleX(0.5);
+  }
+  42% {
+    opacity: 0.26;
+  }
+  100% {
+    opacity: 0.05;
+    transform: rotate(var(--wake-angle)) translate3d(var(--wake-drift), -2%, 0) scaleX(1.18);
+  }
+}
+
+@keyframes ci-mist-settle {
+  0% {
+    opacity: 0;
+    transform: translate3d(2%, 0, 0) scale(1.01);
+  }
+  46% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.09;
+    transform: none;
+  }
+}
+
 /* -------------------------------------------------------------- 行的展开 */
 
 /* 柳永: the bank slides away from the boat. */
@@ -2309,8 +2581,7 @@
    * simply spends almost nothing on the way — so the screen opens at once
    * rather than not at all, and a turn is a short crossfade instead of a fold.
    */
-  .ci-screen-leaf,
-  .ci-screen-rail {
+  .ci-screen-leaf {
     transition-duration: 1ms;
     transition-delay: 0ms;
   }
@@ -2335,6 +2606,24 @@
 
   .ci-stage-picture {
     animation: none;
+  }
+
+  .ci-living-ink,
+  .ci-living-ink::before,
+  .ci-living-ink::after {
+    animation: none;
+    transition: none;
+  }
+
+  .ci-living-ink::before,
+  .ci-living-ink::after {
+    opacity: 0.22;
+    transform: none;
+  }
+
+  .ci-scene-title::after {
+    animation: none;
+    transform: none;
   }
 
   .ci-aftertaste,
@@ -2441,16 +2730,6 @@
       color-mix(in srgb, #000000 28%, var(--color-paper)) 58%,
       color-mix(in srgb, #000000 52%, var(--color-paper)) 100%
     );
-  }
-
-  .ci-screen-rail {
-    background-image: linear-gradient(
-      to right,
-      color-mix(in srgb, var(--color-paper-raised) 78%, #000000) 0%,
-      var(--color-paper-raised) 58%,
-      color-mix(in srgb, var(--color-paper-raised) 88%, #000000) 100%
-    );
-    box-shadow: 0 0 1.5rem color-mix(in srgb, #000000 55%, transparent);
   }
 
   .ci-turn[data-family="ink"] .ci-turn-wash {

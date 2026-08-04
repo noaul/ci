@@ -421,6 +421,7 @@ export function PoeticJourney({
           </span>
           <span key={`air-${scene.key}`} className="ci-scene-atmosphere" />
           <span key={`event-${scene.key}`} className="ci-scene-event" />
+          <span key={`ink-${scene.key}`} className="ci-living-ink" aria-hidden="true" />
         </div>
 
         {enhanced && staged && (

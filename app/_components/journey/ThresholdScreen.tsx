@@ -41,8 +41,6 @@ export function ThresholdScreen() {
       ))}
 
       <span className="ci-screen-seam" />
-      <span className="ci-screen-rail" data-rail="left" />
-      <span className="ci-screen-rail" data-rail="right" />
     </div>
   );
 }
