@@ -32,8 +32,6 @@
     --page-gutter: 1.25rem;
     /* One inline rhythm for the masthead, the stage and the served reading. */
     --page-inset: max(var(--page-gutter), calc(50vw - var(--page-max) / 2 + var(--page-gutter)));
-    /* The light a folded leaf catches. */
-    --sheen: color-mix(in srgb, #ffffff 62%, transparent);
   }
 
   html {
@@ -108,7 +106,6 @@
       --color-cinnabar: #e0716a;
       --color-cinnabar-soft: #c96a63;
       --color-seal: #d9a441;
-      --sheen: color-mix(in srgb, #ffffff 22%, transparent);
     }
   }
 }
@@ -409,6 +406,19 @@
   .js .ci-stage {
     display: grid;
     align-content: safe center;
+  }
+
+  /*
+   * While the opening runs, the artwork behind the poem is resolving out of a
+   * scale, and for a few frames its transformed box reaches a handful of
+   * pixels past the foot of the viewport: the document grows, a scrollbar
+   * appears, the layout width drops with it, and the whole stage jitters
+   * sideways until the picture settles. The stage clips that overflow for
+   * exactly as long as the phase lasts — the base rule stays `visible`, so a
+   * long poem is never cut short once it is standing there to be read.
+   */
+  .js .ci-journey[data-phase="opening"] .ci-stage {
+    overflow: clip;
   }
 
   /* A complete poem begins near the top like an open page, while the shorter
@@ -928,14 +938,14 @@
   }
 
   /* ------------------------------------------------------------------ *
-   * 屏风 — four leaves across the first view
+   * 屏风 — two panels drawing apart across the first view
    * ------------------------------------------------------------------ */
 
   /*
    * Scripts raise the screen; without them there is no door at all and the
-   * served reading simply stands there. The face is drawn in paper and ink
-   * alone — a leaf tinted with a scene's colour would say which of the four is
-   * waiting behind it before it opened.
+   * served reading simply stands there. Two painted panels stand across the
+   * poem and draw apart to the walls; what appears between them is the scene
+   * itself, uncovered, so the screen carries no backdrop of its own.
    */
   .ci-screen {
     display: none;
@@ -946,225 +956,163 @@
     position: absolute;
     z-index: 3;
     inset: 0;
-    perspective: 92rem;
-    perspective-origin: 50% 46%;
-    /* The leaves never take a pointer; the entry button in front of them does. */
+    overflow: hidden;
     pointer-events: none;
-  }
-
-  .ci-screen-leaf {
-    position: absolute;
-    inset-block: 0;
-    width: 25.4%;
-    transform-style: preserve-3d;
-    transition: transform var(--fold-dur) var(--fold-ease);
-  }
-
-  .js .ci-journey[data-phase="opening"] .ci-screen-leaf {
-    will-change: transform;
+    /* Nothing of its own to show: the panels are the only opaque thing here,
+       and everything they leave is the poem already standing behind them. */
+    background-color: transparent;
   }
 
   /*
-   * Four hinges. The outer pair turn on the walls; the inner pair are hung from
-   * the outer pair's free edges, so they carry that hinge inward as they go and
-   * pass ninety degrees on the way — which is the moment their backs come into
-   * view. A screen is never quite flat, so each leaf meets the light at its own
-   * angle before anything has moved.
+   * The light that opens at the parting. It is a wash laid over the uncovered
+   * scene, never a surface in front of it, and its colour is fixed rather than
+   * mixed from the paper token — a themed paper resolves to near-black in the
+   * dark scheme, which is the one thing this may never be.
    */
-  .ci-screen-leaf[data-leaf="outer-left"] {
+  .ci-screen-glow {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background-image: radial-gradient(
+      ellipse 38% 64% at 50% 48%,
+      rgba(255, 241, 214, 0.6) 0%,
+      rgba(255, 227, 180, 0.32) 42%,
+      rgba(255, 214, 156, 0.11) 72%,
+      transparent 100%
+    );
+    pointer-events: none;
+  }
+
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-glow {
+    animation: ci-glow-open var(--fold-dur) var(--fold-ease) both;
+  }
+
+  /*
+   * The two panels. They overlap a little at the middle so the join is a seam
+   * and never a gap, and one animation each carries them off to their own wall.
+   */
+  .ci-screen-curtain {
+    position: absolute;
+    inset-block: 0;
+    width: 50.2%;
+    overflow: hidden;
+    /* The ground under the painting, for the moment before it arrives. */
+    background-color: #6d5b45;
+  }
+
+  .ci-screen-curtain[data-side="left"] {
     inset-inline-start: 0;
-    transform-origin: left center;
-    --leaf-near: 13%;
-    --leaf-far: 3%;
-    --leaf-lag: calc(var(--fold-dur) * 0.16);
-    --leaf-open: rotateY(84deg);
-    --leaf-art-x: 0%;
   }
 
-  .ci-screen-leaf[data-leaf="inner-left"] {
-    inset-inline-start: 25%;
-    transform-origin: left center;
-    --leaf-near: 4%;
-    --leaf-far: 1%;
-    --leaf-lag: 40ms;
-    --leaf-open: translate3d(-89%, 0, 0) rotateY(-106deg);
-    --leaf-art-x: -100%;
-  }
-
-  .ci-screen-leaf[data-leaf="inner-right"] {
-    inset-inline-end: 25%;
-    transform-origin: right center;
-    --leaf-near: 2%;
-    --leaf-far: 6%;
-    --leaf-lag: 40ms;
-    --leaf-open: translate3d(89%, 0, 0) rotateY(106deg);
-    --leaf-art-x: -200%;
-  }
-
-  .ci-screen-leaf[data-leaf="outer-right"] {
+  .ci-screen-curtain[data-side="right"] {
     inset-inline-end: 0;
-    transform-origin: right center;
-    --leaf-near: 4%;
-    --leaf-far: 16%;
-    --leaf-lag: calc(var(--fold-dur) * 0.16);
-    --leaf-open: rotateY(-84deg);
-    --leaf-art-x: -300%;
   }
 
-  /* The inner pair go first; the outer pair follow a fifth of a beat later. */
-  .ci-screen-leaf[data-leaf^="inner"] {
-    transition-delay: 40ms;
-    transition-duration: calc(var(--fold-dur) * 0.72);
+  .js .ci-journey[data-phase="opening"] .ci-screen-curtain {
+    will-change: transform;
   }
 
-  .ci-screen-leaf[data-leaf^="outer"] {
-    transition-delay: calc(var(--fold-dur) * 0.16);
-    transition-duration: calc(var(--fold-dur) * 0.8);
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-curtain[data-side="left"] {
+    animation: ci-curtain-open-left var(--fold-dur) var(--fold-ease) both;
   }
 
-  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-leaf {
-    transform: var(--leaf-open);
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-curtain[data-side="right"] {
+    animation: ci-curtain-open-right var(--fold-dur) var(--fold-ease) both;
   }
 
-  .js .ci-journey:not([data-phase="threshold"]):not([data-phase="opening"]) .ci-screen-leaf,
-  .js .ci-journey:not([data-phase="threshold"]):not([data-phase="opening"]) .ci-screen-seam {
-    display: none;
-  }
-
+  /* Once the opening is over the screen leaves the page entirely, and takes
+     its panels, its seam and its light with it. */
   .js .ci-journey:not([data-phase="threshold"]):not([data-phase="opening"]) .ci-screen {
     display: none;
   }
 
-  .ci-leaf-face,
-  .ci-leaf-back {
-    position: absolute;
-    inset: 0;
-    backface-visibility: hidden;
-  }
-
-  .ci-leaf-face {
-    overflow: hidden;
-    background-color: #171511;
-    border-block: clamp(0.5rem, 1.5vw, 1.15rem) solid #17130f;
-    border-inline: clamp(0.22rem, 0.65vw, 0.48rem) solid #211a13;
-    box-shadow:
-      inset 0 0 0 1px rgba(214, 185, 130, 0.22),
-      inset 0 0 2.75rem rgba(0, 0, 0, 0.32),
-      0 0 2.5rem rgba(0, 0, 0, 0.34);
-  }
-
-  /* The outer leaves meet the viewport itself. Their inner folds keep their
-     dark edges, but no frame is painted along the physical screen edge. */
-  .ci-screen-leaf[data-leaf="outer-left"] .ci-leaf-face {
-    border-inline-start: 0;
-  }
-
-  .ci-screen-leaf[data-leaf="outer-right"] .ci-leaf-face {
-    border-inline-end: 0;
-  }
-
-  .ci-leaf-art {
+  /*
+   * One landscape across both panels: each takes its own half of the same
+   * image, so the shut screen reads as a single painting and only the parting
+   * cuts it in two.
+   */
+  .ci-curtain-art {
     position: absolute;
     inset-block: 0;
-    inset-inline-start: var(--leaf-art-x);
-    width: 400%;
+    /*
+     * Each half carries the whole scene, not a stretched half of it: the layer
+     * is as wide as the screen itself — 100% / 0.502, the panel's own width —
+     * and the panel's overflow crops it to the side it belongs to. Both copies
+     * are therefore the same box, filled the same way, so the painting runs
+     * straight through the join, and `cover` about a shared centre keeps the
+     * landscape at its own proportions on a phone held upright as much as on a
+     * desk. Setting width and height apart is what tore it out of shape.
+     */
+    width: 199.2%;
     background-image:
-      linear-gradient(rgba(12, 11, 9, 0.3), rgba(12, 11, 9, 0.42)),
+      linear-gradient(rgba(12, 11, 9, 0.26), rgba(12, 11, 9, 0.38)),
       url("/images/threshold-song-landscape.webp");
     background-position: center;
     background-size: cover;
-    filter: saturate(0.82) contrast(1.04) brightness(0.82);
+    filter: saturate(0.85) contrast(1.02) brightness(0.88);
   }
 
-  .ci-leaf-art::after {
+  /* Each copy is pinned to its own wall, so both land on the same screen-wide
+     rectangle and the seam falls in the middle of one continuous scene. */
+  .ci-screen-curtain[data-side="left"] .ci-curtain-art {
+    inset-inline-start: 0;
+  }
+
+  .ci-screen-curtain[data-side="right"] .ci-curtain-art {
+    inset-inline-end: 0;
+  }
+
+  /* The tooth of the paper the landscape is painted on. */
+  .ci-curtain-art::after {
     content: "";
     position: absolute;
     inset: 0;
-    background-image:
-      linear-gradient(90deg, rgba(255, 244, 214, 0.05), transparent 22% 78%, rgba(0, 0, 0, 0.18)),
-      repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 4px);
-  }
-
-  /* The reverse of the same paper: unwritten, and turned away from the light. */
-  .ci-leaf-back {
-    transform: rotateY(180deg);
-    background-image: linear-gradient(
-      100deg,
-      color-mix(in srgb, var(--color-ink) 26%, var(--color-paper)) 0%,
-      color-mix(in srgb, var(--color-ink) 14%, var(--color-paper)) 58%,
-      color-mix(in srgb, var(--color-ink) 30%, var(--color-paper)) 100%
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.015) 0 1px,
+      transparent 1px 4px
     );
-    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-ink) 24%, transparent);
-  }
-
-  .ci-screen-leaf::after {
-    content: "";
-    position: absolute;
-    z-index: 3;
-    inset-block: 27% 27%;
-    width: 3px;
-    background-image: radial-gradient(circle, #9c7840 0 1px, transparent 1.5px);
-    background-size: 3px 50%;
-    opacity: 0.62;
-  }
-
-  .ci-screen-leaf[data-leaf="outer-left"]::after,
-  .ci-screen-leaf[data-leaf="inner-left"]::after {
-    inset-inline-end: -1px;
-  }
-
-  .ci-screen-leaf[data-leaf="inner-right"]::after,
-  .ci-screen-leaf[data-leaf="outer-right"]::after {
-    inset-inline-start: -1px;
-  }
-
-  /* The shade a leaf throws on itself as it turns out of the light. */
-  .ci-leaf-face::before,
-  .ci-leaf-face::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-  }
-
-  .ci-leaf-face::before {
-    background-image: linear-gradient(
-      to right,
-      transparent 0%,
-      color-mix(in srgb, var(--color-ink) 44%, transparent) 100%
-    );
-  }
-
-  /* And the highlight travelling the other way across it. */
-  .ci-leaf-face::after {
-    background-image: linear-gradient(
-      100deg,
-      transparent 0%,
-      var(--sheen) 44%,
-      color-mix(in srgb, var(--sheen) 30%, transparent) 60%,
-      transparent 100%
-    );
-  }
-
-  .js .ci-journey:not([data-phase="threshold"]) .ci-leaf-face::before {
-    animation: ci-leaf-shade calc(var(--fold-dur) * 0.8) var(--fold-ease) var(--leaf-lag, 0ms) both;
-  }
-
-  .js .ci-journey:not([data-phase="threshold"]) .ci-leaf-face::after {
-    animation: ci-leaf-sheen calc(var(--fold-dur) * 0.8) var(--fold-ease) var(--leaf-lag, 0ms) both;
   }
 
   /*
-   * The inscription belongs to the leaves. 入 is set on the inner-left leaf and
-   * 词 on the inner-right, either side of the seam, and the sentence is broken
-   * at its own comma the same way — so when the screen folds the word opens
-   * with it instead of fading out on its own. Each half is given the room of two
-   * leaves, so nothing has to be squeezed at 320px.
+   * The inner edges take the light, not a shadow. An inward shade on both
+   * panels meets itself at the middle and paints exactly the black stripe this
+   * screen is not allowed to have, so the join is lit from the seam outward.
    */
-  .ci-leaf-mark {
+  .ci-screen-curtain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .ci-screen-curtain[data-side="left"]::after {
+    background-image: linear-gradient(
+      to left,
+      rgba(255, 236, 198, 0.2) 0%,
+      rgba(255, 236, 198, 0.06) 5%,
+      transparent 16%
+    );
+  }
+
+  .ci-screen-curtain[data-side="right"]::after {
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 236, 198, 0.2) 0%,
+      rgba(255, 236, 198, 0.06) 5%,
+      transparent 16%
+    );
+  }
+
+  /*
+   * The inscription belongs to the panels: 入 on the left and 词 on the right,
+   * either side of the seam, and the sentence broken at its own comma the same
+   * way — so when the screen opens the word opens with it.
+   */
+  .ci-curtain-mark {
     position: absolute;
     inset-block: 0;
-    width: 200%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1172,19 +1120,21 @@
     padding-block-end: 7vh;
   }
 
-  .ci-screen-leaf[data-leaf="inner-left"] .ci-leaf-mark {
+  .ci-screen-curtain[data-side="left"] .ci-curtain-mark {
     inset-inline-end: 0;
     align-items: flex-end;
     text-align: end;
+    padding-inline-end: clamp(0.75rem, 3vw, 2rem);
   }
 
-  .ci-screen-leaf[data-leaf="inner-right"] .ci-leaf-mark {
+  .ci-screen-curtain[data-side="right"] .ci-curtain-mark {
     inset-inline-start: 0;
     align-items: flex-start;
     text-align: start;
+    padding-inline-start: clamp(0.75rem, 3vw, 2rem);
   }
 
-  .ci-leaf-glyph {
+  .ci-curtain-glyph {
     font-family: var(--font-kai);
     font-size: 2.5rem;
     line-height: 1.15;
@@ -1195,24 +1145,24 @@
   }
 
   @media (min-width: 390px) {
-    .ci-leaf-glyph {
+    .ci-curtain-glyph {
       font-size: 3rem;
     }
   }
 
   @media (min-width: 640px) {
-    .ci-leaf-glyph {
+    .ci-curtain-glyph {
       font-size: 4rem;
     }
   }
 
   @media (min-width: 1024px) {
-    .ci-leaf-glyph {
+    .ci-curtain-glyph {
       font-size: 4.75rem;
     }
   }
 
-  .ci-leaf-line {
+  .ci-curtain-line {
     font-size: 0.8125rem;
     line-height: 1.7;
     letter-spacing: 0;
@@ -1223,12 +1173,13 @@
   }
 
   @media (min-width: 640px) {
-    .ci-leaf-line {
+    .ci-curtain-line {
       font-size: 0.9375rem;
     }
   }
 
-  /* The hairline of light that makes the shut screen read as a doorway. */
+  /* The hairline of light that makes the shut screen read as a doorway. Warm
+     and fixed, for the same reason the glow is: it may never darken. */
   .ci-screen-seam {
     position: absolute;
     z-index: 4;
@@ -1240,16 +1191,17 @@
     background-image: linear-gradient(
       to bottom,
       transparent,
-      color-mix(in srgb, var(--color-ink) 34%, var(--color-paper-raised)) 16% 84%,
+      rgba(255, 243, 219, 0.92) 16% 84%,
       transparent
     );
-    box-shadow: 0 0 1rem color-mix(in srgb, var(--color-paper-raised) 55%, transparent);
-    opacity: 0.78;
+    box-shadow: 0 0 1.25rem rgba(255, 226, 178, 0.5);
+    opacity: 0.85;
   }
 
-  /* It flares first, and everything else follows it. */
+  /* It flares first and is spent long before the panels reach their mid
+     positions, so no hairline is left standing over the poem. */
   .js .ci-journey:not([data-phase="threshold"]) .ci-screen-seam {
-    animation: ci-seam-flare calc(var(--fold-dur) * 0.5) ease-out both;
+    animation: ci-seam-flare calc(var(--fold-dur) * 0.14) ease-out both;
   }
 
   /*
@@ -1954,45 +1906,57 @@
 
 /* ---------------------------------------------------------------- 屏风 */
 
+/*
+ * The light widens with the parting and then spends itself entirely — it ends
+ * at nothing, so it can never be left lying over a poem that is already read.
+ */
+@keyframes ci-glow-open {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  22% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.4);
+  }
+}
+
+/* Each panel goes to its own wall, and no further than its own width. */
+@keyframes ci-curtain-open-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes ci-curtain-open-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 /* The seam takes the light first; everything else answers it. */
 @keyframes ci-seam-flare {
   0% {
-    opacity: 0.78;
+    opacity: 0.85;
     transform: scaleX(1);
   }
-  26% {
+  35% {
     opacity: 1;
-    transform: scaleX(5);
+    transform: scaleX(6);
   }
   100% {
     opacity: 0;
-    transform: scaleX(1.4);
-  }
-}
-
-@keyframes ci-leaf-sheen {
-  0% {
-    opacity: 0;
-    transform: translate3d(-26%, 0, 0);
-  }
-  38% {
-    opacity: 0.72;
-  }
-  100% {
-    opacity: 0;
-    transform: translate3d(34%, 0, 0);
-  }
-}
-
-@keyframes ci-leaf-shade {
-  0% {
-    opacity: 0;
-  }
-  62% {
-    opacity: 0.55;
-  }
-  100% {
-    opacity: 0.85;
+    transform: scaleX(2);
   }
 }
 
@@ -2581,16 +2545,22 @@
    * simply spends almost nothing on the way — so the screen opens at once
    * rather than not at all, and a turn is a short crossfade instead of a fold.
    */
-  .ci-screen-leaf {
-    transition-duration: 1ms;
-    transition-delay: 0ms;
-  }
-
-  .ci-screen-seam,
-  .ci-leaf-face::before,
-  .ci-leaf-face::after {
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-curtain[data-side="left"],
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-curtain[data-side="right"] {
     animation-duration: 1ms;
     animation-delay: 0ms;
+  }
+
+  /*
+   * The panels are gone in a millisecond, but the phase they belong to runs on
+   * for a fifth of a second afterwards. Whatever is still standing then is
+   * standing over the poem — so the light does not run at all here, and the
+   * screen it runs in has no surface of its own to be left behind.
+   */
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-glow,
+  .js .ci-journey:not([data-phase="threshold"]) .ci-screen-seam {
+    animation: none;
+    opacity: 0;
   }
 
   .js .ci-journey:not([data-phase="threshold"]) .ci-stage-art,
@@ -2711,25 +2681,6 @@
   .ci-journey[data-scene] .ci-stage {
     --scene-wash: color-mix(in srgb, var(--scene-accent) 7%, var(--color-paper));
     --art-opacity: 0.46;
-  }
-
-  /*
-   * The same folded paper, read the other way up: the light still comes from
-   * the left, so the leaves keep the angles they had.
-   */
-  .ci-leaf-face {
-    box-shadow:
-      inset 0 0 0 1px color-mix(in srgb, var(--color-rule) 82%, transparent),
-      0 0 3rem color-mix(in srgb, #000000 45%, transparent);
-  }
-
-  .ci-leaf-back {
-    background-image: linear-gradient(
-      100deg,
-      color-mix(in srgb, #000000 46%, var(--color-paper)) 0%,
-      color-mix(in srgb, #000000 28%, var(--color-paper)) 58%,
-      color-mix(in srgb, #000000 52%, var(--color-paper)) 100%
-    );
   }
 
   .ci-turn[data-family="ink"] .ci-turn-wash {
